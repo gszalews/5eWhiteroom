@@ -53,6 +53,15 @@ class Save:
     ability: str
 
 @dataclass
+class Spell:
+    ave: int
+    dice: str
+    save: bool
+    throw: Save
+    attack: bool
+    hit: int
+
+@dataclass
 class Stat:
     name: str
     value: int
