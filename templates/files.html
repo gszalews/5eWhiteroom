@@ -1,0 +1,63 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Save / Load
+{% endblock %}
+
+{% block main %}
+
+<div class="title-block">
+    <div class="title">Save & Load Files</div>
+</div>
+<br>
+<br>
+<br>
+<h2 style="color:#041A2E; padding:1rem">Save</h2>
+<div class="textblock"> You can save a copy of your encounter information to reload once you return to the site.</div>
+<div class="textblock"> The file extension will tell you what information you have saved: .party, .enemies, or .encounter for both</div>
+<form class="mainform" action="/save" method="post">
+        <div class="row gy-2 gx-3 align-items-center">
+            <div class="col-auto">
+                <select class="form-select" id="save" name="save" aria-label="save options">
+                    <option selected value="encounter">Whole Encounter</option>
+                    <option value="party">Party Only</option>
+                    <option value="enemies">Enemies Only</option>
+                </select>
+                <button class="btn" type="submit" style="margin-left: 15px;">Save & Download</button>
+            </div>
+        </div>
+</form>
+<br>
+<br>
+<br>
+<h2 style="color:#041A2E; padding:1rem">Load</h2>
+<div class="textblock"> By defualt, when you load the file the app will append the information to the party / enemies you already have displayed. 
+    This can be toggled off to overwrite the existing party / enemies with the switch below.</div>
+<form class="mainform" action="/load" method="post" enctype="multipart/form-data">
+    <div class="row gy-2 gx-3 align-items-center">
+        <div class="col-auto" style="margin-left: 15px;">
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" id="append" name="append" checked>
+                <label class="form-check-label" for="append">Append</label>
+            </div>
+        </div>
+    </div>
+    <div class="row gy-2 gx-3 align-items-center">
+        <div class="col-auto">
+            <input class="btn" type="file" name="file">
+            <button class="btn" type="submit">Load File</button>
+        </div>
+    </div>
+</form>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+{% endblock %}

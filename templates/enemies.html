@@ -1,0 +1,140 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Encounter Enemies
+{% endblock %}
+
+{% block main %}
+<div class="title-block">
+    <div class="title">The Enemies</div>
+</div>
+<div>
+    <h1 class="centered" style="color:#041A2E; padding:1rem">Choose Your Foes</h1>
+</div>
+<form class="mainform" action="/enemies" method="post">
+    <h5>Select an enemy to add to the encounter along with how many of them to include.</h5>
+    <div class="row gy-2 gx-3 align-items-center">
+        <div class="col-auto">
+            <select autofocus class="form-select" id="enemy" name="enemy" aria-label="select enemy" required>
+                <option selected disabled value="">Enemy</option>
+                {% for enemy in enemy_names %}
+                    <option value="{{enemy}}">{{enemy}}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="col-auto">
+            <select class="form-select" id="count" name="count" aria-label="select number of enemies">
+                <option selected >1</option>
+                {% for i in range(2,26) %}
+                    <option value="{{i}}">{{i}}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="col-auto">
+            <button class="btn" type="submit" style="margin-left: 15px;">Add Enemy</button>
+        </div>
+    </div>
+</form>
+
+{% if enemies|length %}
+<div class="row tablecontainer align-items-center">
+    <h1 class="centered" style="color:#450920; padding:1rem">Encounter Stats</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Enemies</th>
+                <th scope="col">XP</th>
+                <th scope="col">Difficulty</th>
+                <th scope="col">Group AC</th>
+                <th scope="col">Total HP</th>
+                <th scope="col">Attacks</th>
+                <th scope="col">Average DPR</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="mb-3" style="align-items: center;">
+                <td class="pcstats">{{encounter["enemies"]["count"]}}</td>
+                <td class="pcstats">{{encounter["enemies"]["xp"]}}</td>
+                <td class="pcstats">{{encounter["enemies"]["difficulty"]}}</td>
+                <td class="pcstats">{{encounter["enemies"]["ac"]}}</td>
+                <td class="pcstats">{{encounter["enemies"]["hp"]}}</td>
+                <td class="pcstats">{{encounter["enemies"]["attacks"]}}</td>
+                <td class="pcstats">{{dpr_total}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1 class="centered" style="color:#450920; padding:1rem">Enemy List</h1>
+    <div>
+        <table class="table table-hover ">
+            <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">CR</th>
+                    <th scope="col">AC</th>
+                    <th scope="col">Hit Points</th>
+                    <th scope="col">Attacks</th>
+                    <th scope="col">Average DPR</th>
+                    <th scope="col" class="th-sm"> </th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for enemy in enemies %}
+                    {% for _ in range(enemy["count"]) %}
+                        <tr class="mb-3" style="align-items: center;">
+                            <td class="pcname">{{enemy["name"]}}</td>
+                            <td class="pcstats">{{enemy["challenge_rating"]}}</td>
+                            <td class="pcstats">{{enemy["armor_class"]}}</td>
+                            <td class="pcstats">{{enemy["hit_points"]}}</td>
+                            <td class="pcstats">{{enemy["attacks"]}}</td>
+                            <td class="pcname">{% if enemy["dpr"] == 0 %} N/A {% else %}{{enemy["dpr"]}}{% endif %}</td>
+                            <td><form action="/addenemy" method="post">
+                                <input type="hidden" id="name" name="name" value="{{enemy["name"]}}">
+                                <button class="btn" type="submit" style="border-radius: 5px; color:#041A2E;">
+                                    <img src="static/images/icons/add-icon.png" alt="Image" width="30px" height="30px" >
+                                </button>
+                                <button class="btn" type="submit" style="border-radius: 5px; color: #041A2E" formaction="/removeenemy">
+                                    <img src="static/images/icons/trash-icon.png" alt="Image" width="30px" height="30px" >
+                                </button>
+                                </form>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{%else%}
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+{% endif %}
+{% endblock %}

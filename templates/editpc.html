@@ -1,0 +1,605 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Adventuring Party
+{% endblock %}
+
+{% block main %}
+
+<div class="title-block">
+    <div class="title">The Adventuring Party</div>
+</div>
+    <h1 class="centered" style="color:#041A2E; padding:1rem">Edit {{pc["name"]}}</h1>
+<form class="mainform" action="/party" method="post">
+    <h5>Character Information</h5>
+    <div class="row gy-2 gx-3 align-items-center">
+        <div class="col-auto">
+            <input autocomplete="off" autofocus class="form-control" id="name" name="name" value="{{pc["name"]}}" type="text" required>
+        </div>
+        <div class="col-auto">
+            <select class="form-select" id="class" name="class" aria-label="character class selection" required>
+                <option selected value="{{pc["class"]}}">{{pc["class"]}}</option>
+                <option value="artificer">Artificer</option>
+                <option value="barbarian">Barbarian</option>
+                <option value="bard">Bard</option>
+                <option value="cleric">Cleric</option>
+                <option value="druid">Druid</option>
+                <option value="fighter">Fighter</option>
+                <option value="monk">Monk</option>
+                <option value="paladin">Paladin</option>
+                <option value="ranger">Ranger</option>
+                <option value="rogue">Rogue</option>
+                <option value="sorcerer">Sorcerer</option>
+                <option value="warlock">Warlock</option>
+                <option value="wizard">Wizard</option>
+            </select>
+        </div>
+        <div class="col-auto">
+            <select class="form-select" id="level" name="level" aria-label="character level" required>
+                <option selected value="{{pc["level"]}}">{{pc["level"]}}</option>
+                {% for i in range(1, 21) %}
+                    <option value="{{i}}">{{i}}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="col-auto">
+            <input autocomplete="off" class="form-control" style="margin: 1rem;" id="hp" name="hp" value="{{pc["hp"]}}" type="text" required>
+        </div>
+        <div class="col-auto">
+            <select class="form-select" id="ac" name="ac" aria-label="armor class" required>
+                <option selected value="{{pc["ac"]}}">{{pc["ac"]}}</option>
+                {% for i in range(1, 31) %}
+                    <option value="{{i}}">{{i}}</option>
+                {% endfor %}
+            </select>
+        </div>
+    </div>
+    <h5>Ability Scores</h5>
+    <div class="row gy-2 gx-3 align-items-center">
+        <div class="col-auto">
+            <select class="form-select" id="str" name="str" aria-label="strength score" required>
+                <option selected value="{{pc["scores"]["str"]}}">{{pc["scores"]["str"]}}</option>
+                {% for i in range(1, 25) %}
+                    <option value="{{i}}">{{i}}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="col-auto">
+            <select class="form-select" id="dex" name="dex" aria-label="dexterity score" required>
+                <option selected value="{{pc["scores"]["dex"]}}">{{pc["scores"]["dex"]}}</option>
+                {% for i in range(1, 25) %}
+                    <option value="{{i}}">{{i}}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="col-auto">
+            <select class="form-select" id="con" name="con" aria-label="constitution score" required>
+                <option selected value="{{pc["scores"]["con"]}}">{{pc["scores"]["con"]}}</option>
+                {% for i in range(1, 25) %}
+                    <option value="{{i}}">{{i}}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="col-auto">
+            <select class="form-select" id="int" name="int" aria-label="intelligence score" required>
+                <option selected value="{{pc["scores"]["int"]}}">{{pc["scores"]["int"]}}</option>
+                {% for i in range(1, 25) %}
+                    <option value="{{i}}">{{i}}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="col-auto">
+            <select class="form-select" id="wis" name="wis" aria-label="wisdom score" required>
+                <option selected value="{{pc["scores"]["wis"]}}">{{pc["scores"]["wis"]}}</option>
+                {% for i in range(1, 25) %}
+                    <option value="{{i}}">{{i}}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="col-auto">
+            <select class="form-select" id="cha" name="cha" aria-label="charisma score" required>
+                <option selected value="{{pc["scores"]["cha"]}}">{{pc["scores"]["cha"]}}</option>
+                {% for i in range(1, 25) %}
+                    <option value="{{i}}">{{i}}</option>
+                {% endfor %}
+            </select>
+        </div>
+    </div>
+    <h5>Primary Weapon</h5>
+    <div class="row gy-2 gx-3 align-items-center">
+        <div class="col-auto">
+                <select class="form-select" id="attacks" name="attacks" aria-label="number of attacks">
+                {% if pc["attacks"] > 0 %}
+                    <option selected value="{{pc["attacks"]}}">{{pc["attacks"]}}</option>
+                    <option disabled>Attacks</option>
+                {% else %}
+                    <option selected disabled>Attacks</option>
+                {% endif %}
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+        </div>
+        <div class="col-auto">
+            <select class="form-select" id="weapon1" name="weapon1" aria-label="weapon choice">
+                {% if pc["weapon1"]["name"] == "none" %}
+                    <option selected disabled>Weapon</option>
+                {% else %}
+                    <option selected value="{{pc["weapon1"]["name"]}}">{{pc["weapon1"]["name"]}}</option>
+                    <option disabled>Weapon</option>
+                {% endif %}
+                {% for weapon in weapons["results"] %}
+                    <option value="{{ weapon["name"] }}">{{ weapon["name"] }}: {{ weapon["damage_dice"] }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="col-auto">
+            <select class="form-select" id="magic1" name="magic1" aria-label="magical weapon">
+                {% if pc["weapon1"]["magic_bonus"] == "0" %}
+                    <option selected disabled>Magic Weapon?</option>
+                {% else %}
+                    <option selected value="{{pc["weapon1"]["magic_bonus"]}}">+{{pc["weapon1"]["magic_bonus"]}}</option>
+                    <option disabled>Magic Weapon?</option>
+                {% endif %}
+                <option value="0">No</option>
+                <option value="1">+1</option>
+                <option value="2">+2</option>
+                <option value="3">+3</option>
+                <option value="4">+4</option>
+                <option value="5">+5</option>
+            </select>
+        </div>
+        <div class="col-auto">
+            <select class="form-select" id="fighting_style" name="fighting_style" aria-label="fighting style">
+                {% if pc["fighting_style"] == "none" %}
+                    <option selected value="none">No Fighting Style</option>
+                {% else %}
+                    <option selected value="{{pc["fighting_style"]}}">{{pc["fighting_style"]}}</option>
+                    <option disabled>Fighting Style?</option>
+                {% endif %}
+                <option value="none">None</option>
+                <option value="archery">Archery</option>
+                <option value="defense">Defense</option>
+                <option value="dueling">Dueling</option>
+                <option value="great_weapon">Great Weapon Fighting</option>
+                <option value="protection">Protection</option>
+                <option value="two_weapon">Two-Weapon Fighting</option>
+            </select>
+        </div>
+        <div class="row gy-2 gx-3 align-items-center">
+            <div class="col-auto" style="margin-left: 15px;">
+                <div class="form-check form-switch">
+                    {% if pc["weapon1"]["crit"] == 0.1 %}
+                        <input class="form-check-input" type="checkbox" id="imp_crit1" name="imp_crit1" checked>
+                    {% else %}
+                        <input class="form-check-input" type="checkbox" id="imp_crit1" name="imp_crit1">
+                    {% endif %}
+                    <label class="form-check-label" for="imp_crit1">Improved Critical: 19-20</label>
+                </div>
+            </div>
+            <div class="col-auto" style="margin-left: 15px;">
+                <div class="form-check form-switch">
+                    {% if pc["weapon1"]["extra_damage_dice"] == "none" %}
+                        <input class="form-check-input" type="checkbox" id="xdmg_dice_view1" name="xdmg_dice_view1">
+                    {% else %}
+                        <input class="form-check-input" type="checkbox" id="xdmg_dice_view1" name="xdmg_dice_view1" checked>
+                    {% endif %}
+                    <label class="form-check-label" for="xdmg_dice_view1">Weapon deals extra damage dice</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="xdmg_dice_field1" style="display: none;">
+        <h5>Extra Damage Dice</h5>
+        <div class="row gy-2 gx-3 align-items-center" >
+            <div class="col-auto">
+                {% if pc["weapon1"]["extra_damage_dice"] == "none" %}
+                    <input autocomplete="off" class="form-control" id="xdmg_dice1" name="xdmg_dice1" placeholder="1d8 or 2d6 etc." type="text">
+                {% else %}
+                    <input autocomplete="off" class="form-control" id="xdmg_dice1" name="xdmg_dice1" value="{{pc["weapon1"]["extra_damage_dice"]}}" type="text">
+                {% endif %}
+            </div>
+            <div class="col-auto">
+                <select class="form-select" id="xdmg_type1" name="xdmg_type1" aria-label="magical weapon damage type">
+                    {% if pc["weapon1"]["extra_damage_type"] %}
+                        <option selected value="{{pc["weapon1"]["extra_damage_type"]}}">{{pc["weapon1"]["extra_damage_type"]}}</option>
+                        <option disabled>Damage type?</option>
+                    {% else %}
+                        <option selected disabled>Damage type?</option>
+                    {% endif %}
+                    <option value="acid">acid</option>
+                    <option value="bludgeoning">bludgeoning</option>
+                    <option value="cold">cold</option>
+                    <option value="fire">fire</option>
+                    <option value="force">force</option>
+                    <option value="lightning">lightning</option>
+                    <option value="necrotic">necrotic</option>
+                    <option value="piercing">piercing</option>
+                    <option value="poison">poison</option>
+                    <option value="psychic">psychic</option>
+                    <option value="radiant">radiant</option>
+                    <option value="slashing">slashing</option>
+                    <option value="thunder">thunder</option>
+                </select>
+            </div>
+            <div class="col-auto">
+                <select class="form-select" id="xdmg_mon1" name="xdmg_mon1" aria-label="extra damage limited to monster type">
+                    {% if pc["weapon1"]["extra_damage_monster_type"] %}
+                        <option selected value="{{pc["weapon1"]["extra_damage_monster_type"]}}">{{pc["weapon1"]["extra_damage_monster_type"]}}</option>
+                        <option disabled>Is extra damage limited to a monster type?</option>
+                    {% else %}
+                        <option selected disabled>Is extra damage limited to a monster type?</option>
+                    {% endif %}
+                    <option value="False">No</option>
+                    <option value="aberration">abberation</option>
+                    <option value="beast">beast</option>
+                    <option value="celestial">celestial</option>
+                    <option value="construct">construct</option>
+                    <option value="dragon">dragon</option>
+                    <option value="elemental">elemental</option>
+                    <option value="fey">fey</option>
+                    <option value="fiend">fiend</option>
+                    <option value="giant">giant</option>
+                    <option value="humanoid">humanoid</option>
+                    <option value="monstrosity">monstrosity</option>
+                    <option value="ooze">ooze</option>
+                    <option value="plant">plant</option>
+                    <option value="undead">undead</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="row gy-2 gx-3 align-items-center" >
+        <div class="col-auto">
+            <div class="form-check form-switch">
+                {% if pc["weapon2"]["name"] == "none" %}
+                    <input class="form-check-input" type="checkbox" id="secondary_weapon_view">
+                {% else %}
+                    <input class="form-check-input" type="checkbox" id="secondary_weapon_view" checked>
+                {% endif %}
+                <label class="form-check-label" for="secondary_weapon_view">An off-hand attack weapon is used</label>
+            </div>
+        </div>
+    </div>
+    <div id="secondary_weapon_field" style="display: none;">
+        <br>
+        <h5>Off-hand or Second Weapon</h5>
+        <div class="row gy-2 gx-3 align-items-center">
+            <div class="col-auto">
+                <select class="form-select" id="weapon2" name="weapon2" aria-label="weapon choice">
+                    {% if pc["weapon2"]["name"] == "none" %}
+                        <option selected disabled>Weapon</option>
+                    {% else %}
+                        <option selected value="{{pc["weapon2"]["name"]}}">{{pc["weapon2"]["name"]}}</option>
+                        <option disabled>Weapon</option>
+                    {% endif %}
+                    {% for weapon in weapons["results"] %}
+                        <option value={{weapon["name"]}}>{{weapon["name"]}}: {{weapon["damage_dice"]}}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="col-auto">
+                <select class="form-select" id="magic2" name="magic2" aria-label="magical weapon">
+                    {% if pc["weapon2"]["magic_bonus"] == "0" %}
+                        <option selected disabled>Magic Weapon?</option>
+                    {% else %}
+                        <option selected value="{{pc["weapon2"]["magic_bonus"]}}">+{{pc["weapon2"]["magic_bonus"]}}</option>
+                        <option disabled>Magic Weapon?</option>
+                    {% endif %}
+                    <option value="0">No</option>
+                    <option value="1">+1</option>
+                    <option value="2">+2</option>
+                    <option value="3">+3</option>
+                    <option value="4">+4</option>
+                    <option value="5">+5</option>
+                </select>
+            </div>
+            <div class="row gy-2 gx-3 align-items-center">
+                <div class="col-auto" style="margin-left: 15px;">
+                    <div class="form-check form-switch">
+                        {% if pc["weapon2"]["crit"] == 0.1 %}
+                            <input class="form-check-input" type="checkbox" id="imp_crit2" name="imp_crit2" checked>
+                        {% else %}
+                            <input class="form-check-input" type="checkbox" id="imp_crit2" name="imp_crit2">
+                        {% endif %}
+                        <label class="form-check-label" for="imp_crit2">Improved Critical: 19-20</label>
+                    </div>
+                </div>
+                <div class="col-auto" style="margin-left: 15px;">
+                    <div class="form-check form-switch">
+                        {% if pc["weapon2"]["extra_damage_dice"] == "none" %}
+                            <input class="form-check-input" type="checkbox" id="xdmg_dice_view2" name="xdmg_dice_view2">
+                        {% else %}
+                            <input class="form-check-input" type="checkbox" id="xdmg_dice_view2" name="xdmg_dice_view2" checked>
+                        {% endif %}
+                        <label class="form-check-label" for="xdmg_dice_view2">Weapon deals extra damage dice</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="xdmg_dice_field2" style="display: none;">
+            <h5>Extra Damage Dice</h5>
+            <div class="row gy-2 gx-3 align-items-center" >
+                <div class="col-auto">
+                    {% if pc["weapon2"]["extra_damage_dice"] == "none" %}
+                        <input autocomplete="off" class="form-control" id="xdmg_dice2" name="xdmg_dice2" placeholder="1d8 or 2d6 etc." type="text">
+                    {% else %}
+                        <input autocomplete="off" class="form-control" id="xdmg_dice2" name="xdmg_dice2" value="{{pc["weapon2"]["extra_damage_dice"]}}" type="text">
+                    {% endif %}
+                </div>
+                <div class="col-auto">
+                    <select class="form-select" id="xdmg_type2" name="xdmg_type2" aria-label="magical weapon damage type">
+                        {% if pc["weapon2"]["extra_damage_type"] %}
+                            <option selected value="{{pc["weapon2"]["extra_damage_type"]}}">{{pc["weapon2"]["extra_damage_type"]}}</option>
+                            <option disabled>Damage type?</option>
+                        {% else %}
+                            <option selected disabled>Damage type?</option>
+                        {% endif %}
+                        <option value="acid">acid</option>
+                        <option value="bludgeoning">bludgeoning</option>
+                        <option value="cold">cold</option>
+                        <option value="fire">fire</option>
+                        <option value="force">force</option>
+                        <option value="lightning">lightning</option>
+                        <option value="necrotic">necrotic</option>
+                        <option value="piercing">piercing</option>
+                        <option value="poison">poison</option>
+                        <option value="psychic">psychic</option>
+                        <option value="radiant">radiant</option>
+                        <option value="slashing">slashing</option>
+                        <option value="thunder">thunder</option>
+                    </select>
+                </div>
+                <div class="col-auto">
+                    <select class="form-select" id="xdmg_mon2" name="xdmg_mon2" aria-label="extra damage limited to monster type">
+                        {% if pc["weapon2"]["extra_damage_monster_type"] %}
+                            <option selected value="{{pc["weapon2"]["extra_damage_monster_type"]}}">{{pc["weapon2"]["extra_damage_monster_type"]}}</option>
+                            <option disabled>Is extra damage limited to a monster type?</option>
+                        {% else %}
+                            <option selected disabled>Is extra damage limited to a monster type?</option>
+                        {% endif %}
+                        <option value="False">No</option>
+                        <option value="aberration">abberation</option>
+                        <option value="beast">beast</option>
+                        <option value="celestial">celestial</option>
+                        <option value="construct">construct</option>
+                        <option value="dragon">dragon</option>
+                        <option value="elemental">elemental</option>
+                        <option value="fey">fey</option>
+                        <option value="fiend">fiend</option>
+                        <option value="giant">giant</option>
+                        <option value="humanoid">humanoid</option>
+                        <option value="monstrosity">monstrosity</option>
+                        <option value="ooze">ooze</option>
+                        <option value="plant">plant</option>
+                        <option value="undead">undead</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h5 style="margin-top: 35px; margin-bottom: 15px;">Spellcasting</h5>
+    <div class="row gy-2 gx-3 align-items-center">
+        <div class="col-auto">
+            <div class="form-check form-switch">
+                {% if pc["spellcaster"] == True %}
+                    <input class="form-check-input" type="checkbox" id="spellcasting" name="spellcasting" checked>
+                {% else %}
+                    <input class="form-check-input" type="checkbox" id="spellcasting" name="spellcasting">
+                {% endif %}
+                <label class="form-check-label" for="spellcasting">Character uses spells in combat encounters</label>
+            </div>
+        </div>
+    </div>
+    <div id="spells" style="display: none;">
+        <div class="row gy-2 gx-3 align-items-center">
+            <div class="col-auto">
+                <div class="form-check form-check-inline">
+                    {% if pc["caster_type"] == "none" %}
+                        <input class="form-check-input" type="radio" name="caster_type" id="none" value="none" checked>
+                    {% else %}
+                        <input class="form-check-input" type="radio" name="caster_type" id="none" value="none">
+                    {% endif %}
+                    <label class="form-check-label" for="none">None <span>&#40</span>does not use spells regularly in combat<span>&#41</span></label>
+                </div>
+                <div class="form-check form-check-inline">
+                    {% if pc["caster_type"] == "half_m" %}
+                        <input class="form-check-input" type="radio" name="caster_type" id="combatcaster" value="half_m" checked>
+                    {% else %}
+                        <input class="form-check-input" type="radio" name="caster_type" id="combatcaster" value="half_m">
+                    {% endif %}
+                    <label class="form-check-label" for="combatcaster">Half-caster Weapon Focus<span>&#40</span>commonly mixes melee or ranged attacks with some spells [ 2/3 Weapon | 1/3 Spells ]<span>&#41</span></label>
+                </div>
+                <div class="form-check form-check-inline">
+                    {% if pc["caster_type"] == "half_s" %}
+                        <input class="form-check-input" type="radio" name="caster_type" id="halfcaster" value="half_s" checked>
+                    {% else %}
+                        <input class="form-check-input" type="radio" name="caster_type" id="halfcaster" value="half_s">
+                    {% endif %}
+                    <label class="form-check-label" for="halfcaster">Half-caster Spell Focus<span>&#40</span>commonly mixes spells with some melee or ranged attacks [ 2/3 Spells | 1/3 Weapon ]<span>&#41</span></label>
+                </div>
+                <div class="form-check form-check-inline">
+                    {% if pc["caster_type"] == "full" %}
+                        <input class="form-check-input" type="radio" name="caster_type" id="fullcaster" value="full" checked>
+                    {% else %}
+                        <input class="form-check-input" type="radio" name="caster_type" id="fullcaster" value="full">
+                    {% endif %}
+                    <label class="form-check-label" for="fullcaster">Full Caster <span>&#40</span>uses only spells unless in unfortunate circumstances<span>&#41</span></label>
+                </div>
+            </div>
+        </div>
+        <div class="row gy-2 gx-3 align-items-center">
+            <div class="col-auto">
+                <h5>Spells:</h5>
+                <div>Select combat spells typically used by this character.</div>
+                <div>Please follow the suggested progression that appears in the spell selection boxes based on your own level and use</div>
+                <select class="form-select" id="spell1" name="spell1" aria-label="spell choice one">
+                    {% if pc["spells"] and pc["spells"][0] %}
+                        <option selected value="{{pc["spells"][0]["name"]}}">{{pc["spells"][0]["level"]}}: {{pc["spells"][0]["name"]}}</option>
+                        <option disabled>Spell: Cantrip</option>
+                    {% else %}
+                        <option selected disabled>Spell: Cantrip</option>
+                    {% endif %}
+                    <option value="None"> -- </option>
+                    {% for spell in spells%}
+                        {% if spell["level"] == "0" %}
+                            <option value="{{ spell["name"] }}">{{ spell["level"] }}: {{ spell["name"] }}</option>
+                        {% endif %}
+                    {% endfor %}
+                </select>
+                <select class="form-select" id="spell2" name="spell2" aria-label="spell choice two">
+                    {% if pc["spells"] and pc["spells"][1] %}
+                        <option selected value="{{pc["spells"][1]["name"]}}">{{pc["spells"][1]["level"]}}: {{pc["spells"][1]["name"]}}</option>
+                        <option disabled>Spell: Lower Level</option>
+                    {% else %}
+                        <option selected disabled>Spell: Lower Level</option>
+                    {% endif %}
+                    <option value="None"> -- </option>
+                    {% for spell in spells%}
+                        <option value="{{ spell["name"] }}">{{ spell["level"] }}: {{ spell["name"] }}</option>
+                    {% endfor %}
+                </select>
+                <select class="form-select" id="spell3" name="spell3" aria-label="spell choice three">
+                    {% if pc["spells"] and pc["spells"][2] %}
+                        <option selected value="{{pc["spells"][2]["name"]}}">{{pc["spells"][2]["level"]}}: {{pc["spells"][2]["name"]}}</option>
+                        <option disabled>Spell: Medium Level</option>
+                    {% else %}
+                        <option selected disabled>Spell: Medium Level</option>
+                    {% endif %}
+                    <option value="None"> -- </option>
+                    {% for spell in spells%}
+                        <option value="{{ spell["name"] }}">{{ spell["level"] }}: {{ spell["name"] }}</option>
+                    {% endfor %}
+                </select>
+                <select class="form-select" id="spell4" name="spell4" aria-label="spell choice four">
+                    {% if pc["spells"] and pc["spells"][3] %}
+                        <option selected value="{{pc["spells"][3]["name"]}}">{{pc["spells"][3]["level"]}}: {{pc["spells"][3]["name"]}}</option>
+                        <option disabled>Spell: Medium / High Level</option>
+                    {% else %}
+                        <option selected disabled>Spell: Medium / High Level</option>
+                    {% endif %}
+                    <option value="None"> -- </option>
+                    {% for spell in spells%}
+                        <option value="{{ spell["name"] }}">{{ spell["level"] }}: {{ spell["name"] }}</option>
+                    {% endfor %}
+                </select>
+                <select class="form-select" id="spell5" name="spell5" aria-label="spell choice five">
+                    {% if pc["spells"] and pc["spells"][4] %}
+                        <option selected value="{{pc["spells"][4]["name"]}}">{{pc["spells"][4]["level"]}}: {{pc["spells"][4]["name"]}}</option>
+                        <option disabled>Spell: High Level</option>
+                    {% else %}
+                        <option selected disabled>Spell: High Level</option>
+                    {% endif %}
+                    <option value="None"> -- </option>
+                    {% for spell in spells%}
+                        <option value="{{ spell["name"] }}">{{ spell["level"] }}: {{ spell["name"] }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+        </div>
+    </div>
+    <button class="btn" type="submit">Update Character</button>
+</form>
+
+
+
+<script>
+    const d_dice_box1 = document.getElementById('xdmg_dice_view1')
+    const div1 = document.getElementById('xdmg_dice_field1')
+    const xdd1 = document.getElementById('xdmg_dice1')
+    const xdt1 = document.getElementById('xdmg_type1')
+    const xdm1 = document.getElementById('xdmg_mon1')
+
+    const s_weapon_box = document.getElementById('secondary_weapon_view')
+    const swdiv = document.getElementById('secondary_weapon_field')
+    const s_weapon = document.getElementById('weapon2')
+    const s_magic = document.getElementById('magic2')
+
+    const d_dice_box2 = document.getElementById('xdmg_dice_view2')
+    const div2 = document.getElementById('xdmg_dice_field2')
+    const xdd2 = document.getElementById('xdmg_dice2')
+    const xdt2 = document.getElementById('xdmg_type2')
+    const xdm2 = document.getElementById('xdmg_mon2')
+
+    if (d_dice_box1.checked == true) {
+        div1.style.removeProperty ('display');
+    }
+
+    d_dice_box1.addEventListener('change', (event) => {
+        if (event.currentTarget.checked) {
+            div1.style.removeProperty ('display');
+        } else {
+            div1.style.display = "none";
+            xdd1.value= "";
+            xdt1.selectedIndex = "null";
+            xdm1.selectedIndex = "null";
+        }
+    })
+
+    if (s_weapon_box.checked == true) {
+        swdiv.style.removeProperty ('display');
+    }
+
+    s_weapon_box.addEventListener('change', (event) => {
+        if (event.currentTarget.checked) {
+            swdiv.style.removeProperty ('display');
+        } else {
+            swdiv.style.display = "none";
+            s_weapon.selectedIndex = "null";
+            s_magic.selectedIndex = "null";
+            d_dice_box2.checked = false;
+            div2.style.display = "none";
+            xdd2.value = "";
+            xdt2.selectedIndex = "null";
+            xdm2.selectedIndex = "null";
+
+        }
+    })
+
+    if (d_dice_box2.checked == true) {
+        div2.style.removeProperty ('display');
+    }
+
+    d_dice_box2.addEventListener('change', (event) => {
+        if (event.currentTarget.checked) {
+            div2.style.removeProperty ('display');
+        } else {
+            div2.style.display = "none";
+            xdd2.value = "";
+            xdt2.selectedIndex = "null";
+            xdm2.selectedIndex = "null";
+        }
+    })
+
+    const s_cast_switch = document.getElementById('spellcasting')
+    const s_cast_view = document.getElementById('spells')
+    r_half = document.getElementById('halfcaster')
+    r_full = document.getElementById('fullcaster')
+    s1 = document.getElementById('spell1')
+    s2 = document.getElementById('spell2')
+    s3 = document.getElementById('spell3')
+    s4 = document.getElementById('spell4')
+    s5 = document.getElementById('spell5')
+
+    if (s_cast_switch.checked == true) {
+        s_cast_view.style.removeProperty ('display');
+    }
+
+    s_cast_switch.addEventListener('change', (event) => {
+        if (event.currentTarget.checked) {
+            s_cast_view.style.removeProperty ('display');
+        } else {
+            s_cast_view.style.display = "none";
+            r_half.checked = false;
+            r_full.checked = false;
+            s1.selectedIndex = "null";
+            s2.selectedIndex = "null";
+            s3.selectedIndex = "null";
+            s4.selectedIndex = "null";
+            s5.selectedIndex = "null";
+        }
+    })
+</script>
+
+{% endblock %}

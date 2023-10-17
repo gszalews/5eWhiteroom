@@ -1,0 +1,14 @@
+/.DS_Store
+/.venv
+/__pycache__
+/download.encounter
+/download.enemies
+/download.party
+/download.txt
+/flask_session
+/goblin.monster
+/output.txt
+/output2.txt
+/output3.txt
+/super_goblin.monster
+/test_classes.py

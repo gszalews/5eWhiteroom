@@ -1,0 +1,155 @@
+.btn:focus {
+    border-color: #A68D67 !important;
+    box-shadow: 0 0 0 0.2rem rgba(166, 141, 103, .5) !important;
+}
+.btn {
+    background-color: #041A2E !important;
+    color: #FFFFF5 !important;
+}
+
+.boxcomp {
+    background-color: #FFFFF5;
+    opacity: .85;
+    border-style: solid;
+    border-color: #A68D67;
+    border-width: 1px;
+    border-radius: 5px;
+    max-width: 50px;
+}
+.boxhp {
+
+    background-color:#041A2E;
+    opacity: .85;
+    border-style: solid;
+    border-color: #A68D67;
+    border-width: 1px;
+    border-radius: 5px;
+    color: #A68D67;
+    text-align: center;
+    max-width: 200px;
+    font-size: 1rem;
+}
+
+.boxdmg {
+    background-color:#450920;
+    opacity: .85;
+    border-style: solid;
+    border-color: #A68D67;
+    border-width: 1px;
+    border-radius: 5px;
+    color: #A68D67;
+    text-align: center;
+    max-width: 200px;
+    font-size: 1rem;
+}
+
+
+
+.centered {
+    text-align: center;
+}
+
+.class_icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+
+}
+
+.footer {
+    margin-top: auto;
+}
+
+.form-control:focus {
+    border-color: #A68D67 !important;
+    box-shadow: 0 0 0 0.2rem rgba(166, 141, 103, .5) !important;
+}
+
+.form-check-input:checked {
+    background-color: rgba(69, 9, 32, 1);
+    border: none;
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba(69, 9, 32, 1)'/></svg>");
+}
+
+.form-select:focus {
+    border-color: #A68D67 !important;
+    box-shadow: 0 0 0 0.2rem rgba(166, 141, 103, .5) !important;
+}
+
+.form-switch {
+    margin-bottom: 10px;
+}
+
+.form-switch .form-check-input:focus {
+    border-color: #A68D67;
+    box-shadow: 0 0 0 0.2rem rgba(166, 141, 103, .5);
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba(166, 141, 103, .5)'/></svg>");
+}
+.form-switch .form-check-input:checked {
+    background-color: rgba(166, 141, 103, .5);
+    border: none;
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba(69, 9, 32, 1)'/></svg>");
+}
+
+h1 {
+    font-family: "NodestoCapsCondensed";
+    color: #450920;
+}
+
+h2 {
+    font-family: "NodestoCapsCondensed";
+    color: #450920;
+}
+
+h3 {
+    font-family: "MrEavesSmallCaps";
+    color: #450920;
+}
+
+h4 {
+    font-family: "MrEavesSmallCaps";
+    color: #450920;
+}
+
+h5 {
+    font-family: "Bookinsanity";
+    color: #450920;
+}
+
+.pcname {
+    font-family: "NodestoCapsCondensed";
+    font-size: 2rem;
+    color: #450920;
+}
+
+.pcstats {
+    font-family: "MrEavesSmallCaps";
+    font-size: 2rem;
+    color: #041A2E;
+}
+
+select {
+    margin: 1rem;
+}
+
+input {
+    margin: 1rem;
+}
+
+.tablecontainer {
+    padding: 3rem;
+}
+
+.textblock {
+    text-indent: 1rem;
+    margin: 1rem;
+}
+
+.title {
+    font-family: "NodestoCapsCondensed";
+    font-size: 4rem;
+    color: #450920;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+
+        <!-- http://getbootstrap.com/docs/5.1/ -->
+        <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" rel="stylesheet">
+        <script crossorigin="anonymous" src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"></script>
+        <!-- fontawesome icons-->
+        <script src="https://kit.fontawesome.com/158151f2c7.js" crossorigin="anonymous"></script>
+
+        <link href="/static/styles.css" rel="stylesheet">
+        <link href="/static/pagestyles.css" rel="stylesheet">
+
+
+        <title>The White Room: {% block title %}{% endblock %}</title>
+
+    </head>
+    <body>
+        <nav class="navbar">
+            <ul class="navbar-nav">
+                <li class="logo">
+                    <a href="{{ url_for('index')}}" class="nav-link">
+                    <i class="fa-solid fa-dice-d20"></i>
+                    <span class="link-text logo-text">The White Room</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ url_for('party') }}" class="nav-link">
+                        <i class="fa-solid fa-hat-wizard"></i>
+                        <span class="link-text menu-text">Party</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ url_for('enemies') }}" class="nav-link">
+                        <i class="fa-solid fa-dragon"></i>
+                        <span class="link-text menu-text">Enemies</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ url_for('encounter') }}" class="nav-link">
+                        <i class="fa-solid fa-dungeon"></i>
+                        <span class="link-text menu-text">Encounter</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ url_for('files') }}" class="nav-link">
+                        <i class="fa-solid fa-scroll"></i>
+                        <span class="link-text menu-text">Save / Load</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+            <main>
+                {% block main %}{% endblock%}
+            </main>
+
+        <div class="footer">
+            <footer class="footer mb-5 small text-center text-muted">
+                <div>
+                    Data provided by <a href="https://open5e.com/">Open 5e</a> and some spell data from <a href="https://listfist.com/list-of-dungeons-dragons-5e-spells-by-damage">George K. Franklin</a>.
+                </div>
+                <div>
+                    Class icons by <a href="https://jimemosqueda.gumroad.com/l/dndicons">Jime Mosqueda</a>. Other icons from <a href="https://fontawesome.com/">Font Awesome</a> and <a href="https://uxwing.com/">UXWing</a>.
+                </div>
+            </footer>
+        </div>
+
+    </body>

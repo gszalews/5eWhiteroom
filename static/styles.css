@@ -1,0 +1,236 @@
+    @font-face {
+        font-family: "Bookinsanity";
+        src:
+            local("Bookinsanity Remake"),
+            local("Bookinsanity"),
+            url('./fonts/Bookinsanity/Bookinsanity.otf'),
+            url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Bookinsanity/Bookinsanity.otf") format("opentype");
+    }
+    @font-face {
+        font-family: "Bookinsanity";
+        src:
+            local("Bookinsanity Remake"),
+            local("Bookinsanity"),
+            url('./fonts/Bookinsanity/BookinsanityBoldItalic.otf'),
+            url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Bookinsanity/Bookinsanity%20Bold%20Italic.otf") format("opentype");
+        font-weight: bold;
+        font-style: italic;
+    }
+    @font-face {
+        font-family: "Bookinsanity";
+        src:
+            local("Bookinsanity Remake"),
+            local("Bookinsanity"),
+            url('./fonts/Bookinsanity/BookinsanityBold.otf'),
+            url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Bookinsanity/Bookinsanity%20Bold.otf") format("opentype");
+        font-weight: bold;
+    }
+    @font-face {
+        font-family: "Bookinsanity";
+        src:
+            local("Bookinsanity Remake"),
+            local("Bookinsanity"),
+            url('./fonts/Bookinsanity/BookinsanityItalic.otf'),
+            url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Bookinsanity/Bookinsanity%20Italic.otf") format("opentype");
+        font-style: italic;
+    }
+    @font-face {
+        font-family: "Nodesto Caps Condensed";
+        src:
+            local("Nodesto Caps Condensed"),
+            url('./fonts/NodestoCapsCondensed/NodestoCapsCondensed.otf'),
+            url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Nodesto%20Caps%20Condensed/Nodesto%20Caps%20Condensed.otf") format("opentype");
+    }
+    @font-face {
+		font-family: "Mr Eaves Small Caps";
+		src:
+			local("Mr Eaves Small Caps"),
+			url("./fonts/MrEaves/MrEavesSmallCaps.otf"),
+			url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Mr%20Eaves/Mr%20Eaves%20Small%20Caps.otf") format("opentype");
+		font-feature-settings: "smcp" on;
+	}
+
+    html {
+      height: 100%;
+    }
+    
+    :root {
+        font-size: 16px;
+        font-family: "Bookinsanity";
+        --text-primary: #A68D67;
+        --text-secondary: #450920;
+        --bg-primary: #041A2E;
+        --bg-secondary: #A68D67;
+        --transition-speed: 600ms;
+      }
+
+      body {
+        color: var(--bg-primary);
+        background-color: #FFFFF5;
+        display: flex;
+        flex-direction: column;
+      }
+
+      body::-webkit-scrollbar {
+        width: 0.5rem;
+      }
+
+      body::-webkit-scrollbar-track {
+        background: var(--bg-secondary);
+      }
+
+      body::-webkit-scrollbar-thumb {
+        background: var(--bg-primary);
+      }
+
+      main {
+        font-family: "Bookinsanity";
+        width: 90%;
+        margin-left: 10%;
+        padding: 1rem;
+        background-image: url("/static/images/background.png");
+        background-repeat: no-repeat;
+        background-position: bottom center;
+      }
+
+      .navbar {
+        position: fixed;
+        background-color: var(--bg-primary);
+        transition: 600ms ease;
+        overflow: scroll;
+      }
+
+      .navbar-nav {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+      }
+
+      .nav-item {
+        width: 100%;
+      }
+
+      .nav-link {
+        display: flex;
+        align-items: center;
+        height: 5rem;
+        color: var(--text-primary);
+        text-decoration: none;
+        transition: var(--transition-speed);
+      }
+
+      .nav-link i {
+        color: var(--text-primary);
+      }
+      .nav-link:hover {
+        background: var(--bg-secondary);
+        color: var(--text-secondary);
+      }
+
+      .nav-link:hover i {
+        color: var(--text-secondary);
+        transition: var(--transition-speed)
+      }
+
+      .link-text {
+        font-size: 1.5rem;
+        display: none;
+      }
+
+      .menu-text {
+        font-family: "Mr Eaves Small Caps";
+      }
+
+      .nav-link i {
+        font-size: 1.5rem;
+        width: 3rem;
+        min-width: 2rem;
+        margin: 0 1.5rem;
+      }
+
+      .logo {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: "Nodesto Caps Condensed";
+        margin-bottom: 1rem;
+        text-align: center;
+        color: var(--text-secondary);
+        background: var(--bg-primary);
+        font-size: 1.5rem;
+        letter-spacing: 0.2ch;
+        width: 100%;
+      }
+
+      .logo i {
+        transform: rotate(0deg);
+        transition: var(--transition-speed);
+      }
+
+      .logo-text
+      {
+        display: inline;
+        position: absolute;
+        margin-left: 0.5rem;
+        left: -999px;
+        transition: var(--transition-speed);
+      }
+
+      .navbar:hover .logo i {
+        transform: rotate(360deg);
+      }
+
+      /* Small screens */
+      @media only screen and (max-width: 600px) {
+        .navbar {
+          bottom: 0;
+          width: 100vw;
+          height: 4rem;
+        }
+
+        .logo {
+          display: none;
+        }
+
+        .navbar-nav {
+          flex-direction: row;
+        }
+
+        .nav-link {
+          justify-content: center;
+        }
+
+        main {
+          margin: 0;
+        }
+      }
+
+      /* Large screens */
+      @media only screen and (min-width: 600px) {
+        .navbar {
+          top: 0;
+          width: 5rem;
+          height: 100vh;
+        }
+
+        .navbar:hover {
+          width: 16rem;
+        }
+
+        .navbar:hover .link-text {
+          display: inline;
+        }
+
+        .navbar:hover .logo i
+        {
+          margin-left: 12rem;
+        }
+
+        .navbar:hover .logo-text
+        {
+          left: 0px;
+        }
+      }

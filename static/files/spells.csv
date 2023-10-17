@@ -1,0 +1,177 @@
+﻿level,name,save,damage,type,increase
+0,Acid Splash,Dexterity,1d6,Acid,TRUE
+0,Booming Blade,None,1d8,Thunder,TRUE
+0,Chill Touch,None,1d8,Necrotic,TRUE
+0,Create Bonfire,Dexterity,1d8,Fire,TRUE
+0,Eldritch Blast,None,1d10,Force,TRUE
+0,Fire Bolt,None,1d10,Fire,TRUE
+0,Frostbite,Constitution,1d6,Cold,TRUE
+0,Green-Flame Blade,None,1d8,Fire,TRUE
+0,Infestation,Constitution,1d6,Poison,TRUE
+0,Lightning Lure,Strength,1d8,Lightning,TRUE
+0,Magic Stone,None,1d6+SAM,Bludgeoning,TRUE
+0,Mind Sliver,Intelligence,1d6,Psychic,TRUE
+0,Poison Spray,Constitution,1d12,Poison,TRUE
+0,Primal Savagery,None,1d10,Acid,TRUE
+0,Produce Flame,None,1d8,Fire,TRUE
+0,Ray of Frost,None,1d8,Cold,TRUE
+0,Sacred Flame,Dexterity,1d8,Radiant,TRUE
+0,Sapping Sting,Constitution,1d4,Necrotic,TRUE
+0,Shillelagh,None,1d8+SAM,Bludgeoning,FALSE
+0,Shocking Grasp,None,1d8,Lightning,TRUE
+0,Sword Burst,Dexterity,1d6,Force,TRUE
+0,Thorn Whip,None,1d6,Piercing,TRUE
+0,Thunderclap,Constitution,1d6,Thunder,TRUE
+0,Toll the Dead,Wisdom,1d8+1d12,Necrotic,TRUE
+0,Vicious Mockery,Wisdom,1d4,Psychic,TRUE
+0,Word of Radiance,Constitution,1d6,Radiant,TRUE
+1,Absorb Elements,None,1d6,Variable,FALSE
+1,Armor of Agathys,None,5,Cold,FALSE
+1,Arms of Hadar,Strength,2d6,Necrotic,FALSE
+1,Burning Hands,Dexterity,3d6,Fire,FALSE
+1,Catapult,Dexterity,3d8,Bludgeoning,FALSE
+1,Chaos Bolt,None,2d8+1d6,Variable,FALSE
+1,Chromatic Orb,None,3d8,Variable,FALSE
+1,Dissonant Whispers,Wisdom,3d6,Psychic,FALSE
+1,Divine Favor,Charisma,1d4,Radiant,FALSE
+1,Earth Tremor,Dexterity,1d6,Bludgeoning,FALSE
+1,Ensnaring Strike,Strength,1d6,Piercing,FALSE
+1,Frost Fingers,Constitution,2d8,Cold,FALSE
+1,Guiding Bolt,None,4d6,Radiant,FALSE
+1,Hail of Thorns,Dexterity,1d10,Piercing,FALSE
+1,Hellish Rebuke,Dexterity,2d10,Fire,FALSE
+1,Hex,None,1d6,Necrotic,FALSE
+1,Hunter's Mark,None,1d6,Variable,FALSE
+1,Ice Knife,Dexterity,1d10+2d6,"Cold, Piercing",FALSE
+1,Inflict Wounds,None,3d10,Necrotic,FALSE
+1,Jim's Magic Missile,None,2d4,Force,FALSE
+1,Magic Missile,None,3d4+3,Force,FALSE
+1,Magnify Gravity,Constitution,2d8,Force,FALSE
+1,Ray of Sickness,Constitution,2d8,Poison,FALSE
+1,Searing Smite,Constitution,2d6,Fire,FALSE
+1,Tasha's Caustic Brew,Dexterity,2d4,Acid,FALSE
+1,Thunderous Smite,Strength,2d6,Thunder,FALSE
+1,Thunderwave,Constitution,2d8,Thunder,FALSE
+1,Witch Bolt,None,1d12,Lightning,FALSE
+1,Wrathful Smite,Wisdom,1d6,Psychic,FALSE
+1,Zephyr Strike,None,1d8,Force,FALSE
+2,Aganazzar's Scorcher,Dexterity,3d8,Fire,FALSE
+2,Branding Smite,None,2d6,Radiant,FALSE
+2,Cloud of Daggers,None,4d4,Slashing,FALSE
+2,Cordon of Arrows,Dexterity,1d6,Piercing,FALSE
+2,Dragon's Breath,Dexterity,3d6,Variable,FALSE
+2,Dust Devil,Strength,1d8,Bludgeoning,FALSE
+2,Flame Blade,None,3d6,Fire,FALSE
+2,Flaming Sphere,Dexterity,2d6,Fire,FALSE
+2,Heat Metal,None,2d8,Fire,FALSE
+2,Maximilian's Earthen Grasp,Strength,4d6,Bludgeoning,FALSE
+2,Melf's Acid Arrow,None,6d4,Acid,FALSE
+2,Mind Spike,Wisdom,3d8,Psychic,FALSE
+2,Moonbeam,Constitution,2d10,Radiant,FALSE
+2,Phantasmal Force,Intelligence,1d6,Psychic,FALSE
+2,Rime's Binding Ice,Constitution,3d8,Cold,FALSE
+2,Scorching Ray,None,6d6,Fire,FALSE
+2,Shadow Blade,None,2d8,Psychic,FALSE
+2,Shatter,Constitution,3d8,Thunder,FALSE
+2,Snilloc's Snowball Swarm,Dexterity,3d6,Cold,FALSE
+2,Spiritual Weapon,None,1d8+SAM,Force,FALSE
+2,Tasha's Mind Whip,Intelligence,3d6,Psychic,FALSE
+2,Wither and Bloom,Constitution,2d6,Necrotic,FALSE
+3,Ashardalon's Stride,None,1d6,Fire,FALSE
+3,Blinding Smite,Constitution,3d8,Radiant,FALSE
+3,Call Lightning,Dexterity,3d10,Lightning,FALSE
+3,Crusader's Mantle,None,1d4,Radiant,FALSE
+3,Elemental Weapon,None,1d4,Variable,FALSE
+3,Erupting Earth,Dexterity,3d12,Bludgeoning,FALSE
+3,Fireball,Dexterity,8d6,Fire,FALSE
+3,Flame Arrows,None,1d6,Fire,FALSE
+3,Glyph of Warding,Dexterity,5d8,Variable,FALSE
+3,Hunger of Hadar,Dexterity,4d6,"Acid, Cold",FALSE
+3,Life Transference,None,4d8,Necrotic,FALSE
+3,Lightning Arrow,Dexterity,6d8,Lightning,FALSE
+3,Lightning Bolt,Dexterity,8d6,Lightning,FALSE
+3,Melf's Minute Meteors,Dexterity,2d6,Fire,FALSE
+3,Pulse Wave,Constitution,6d6,Force,FALSE
+3,Spirit Guardians,Wisdom,3d8,Variable,FALSE
+3,Spirit Shroud,None,1d8,Variable,FALSE
+3,Thunder Step,Constitution,3d10,Thunder,FALSE
+3,Tidal Wave,Dexterity,4d8,Bludgeoning,FALSE
+3,Vampiric Touch,None,3d6,Necrotic,FALSE
+3,Wind Wall,Strength,3d8,Bludgeoning,FALSE
+4,Blight,Constitution,8d8,Necrotic,FALSE
+4,Control Water,Strength,2d8,Bludgeoning,FALSE
+4,Elemental Bane,Constitution,2d6,Variable,FALSE
+4,Evard's Black Tentacles,Dexterity,3d6,Bludgeoning,FALSE
+4,Fire Shield,None,2d8,Variable,FALSE
+4,Gravity Sinkhole,Constitution,5d10,Force,FALSE
+4,Guardian of Faith,Dexterity,20,Radiant,FALSE
+4,Ice Storm,Dexterity,2d8+4d6,"Bludgeoning, Cold",FALSE
+4,Mordenkainen's Faithful Hound,None,4d8,Piercing,FALSE
+4,Phantasmal Killer,Wisdom,4d10,Psychic,FALSE
+4,Raulothim's Psychic Lance,Intelligence,7d6,Psychic,FALSE
+4,Shadow of Moil,None,2d8,Necrotic,FALSE
+4,Sickening Radiance,Constitution,4d10,Radiant,FALSE
+4,Staggering Smite,Wisdom,4d6,Psychic,FALSE
+4,Storm Sphere,Strength,6d6,"Bludgeoning, Lightning",FALSE
+4,Vitriolic Sphere,Dexterity,15d4,Acid,FALSE
+4,Wall of Fire,Dexterity,5d8,Fire,FALSE
+5,Banishing Smite,None,5d10,Force,FALSE
+5,Bigby's Hand,None,4d8+2d6,"Bludgeoning, Force",FALSE
+5,Cloudkill,Constitution,5d8,Poison,FALSE
+5,Cone of Cold,Constitution,8d8,Cold,FALSE
+5,Dawn,Constitution,4d10,Radiant,FALSE
+5,Destructive Wave,Constitution,5d6+5d6,"Thunder, Variable",FALSE
+5,Enervation,Dexterity,4d8,Necrotic,FALSE
+5,Flame Strike,Dexterity,4d6+4d6,"Fire, Radiant",FALSE
+5,Holy Weapon,Constitution,6d8,Radiant,FALSE
+5,Immolation,Dexterity,12d6,Fire,FALSE
+5,Insect Plague,Constitution,4d10,Piercing,FALSE
+5,Maelstrom,Strength,6d6,Bludgeoning,FALSE
+5,Negative Energy Flood,Constitution,5d12,Necrotic,FALSE
+5,Steel Wind Strike,None,6d10,Force,FALSE
+5,Synaptic Static,Intelligence,8d6,Psychic,FALSE
+5,Transmute Rock,Dexterity,4d8,Bludgeoning,FALSE
+5,Wall of Light,Constitution,8d8,Radiant,FALSE
+5,Wrath of Nature,Dexterity,4d6+3d8,"Bludgeoning, Slashing",FALSE
+6,Blade Barrier,Dexterity,6d10,Slashing,FALSE
+6,Bones of the Earth,Dexterity,6d6,Bludgeoning,FALSE
+6,Chain Lightning,Dexterity,10d8,Lightning,FALSE
+6,Circle of Death,Constitution,8d6,Necrotic,FALSE
+6,Disintegrate,Dexterity,10d6+40,Force,FALSE
+6,Forbiddance,None,5d10,Variable,FALSE
+6,Gravity Fissure,Constitution,8d8,Force,FALSE
+6,Harm,Constitution,14d6,Necrotic,FALSE
+6,Investiture of Flame,Dexterity,1d10+4d8,Fire,FALSE
+6,Investiture of Ice,Constitution,4d6,Cold,FALSE
+6,Investiture of Wind,Constitution,2d10,Bludgeoning,FALSE
+6,Mental Prison,Intelligence,5d10,Psychic,FALSE
+6,Otiluke's Freezing Sphere,Constitution,10d6,Cold,FALSE
+6,Sunbeam,Constitution,6d8,Radiant,FALSE
+6,Wall of Ice,Dexterity,15d6,Cold,FALSE
+6,Wall of Thorns,Dexterity,7d8,"Piercing, Slashing",FALSE
+7,Crown of Stars,None,4d12,Radiant,FALSE
+7,Delayed Blast Fireball,Dexterity,12d6,Fire,FALSE
+7,Draconic Transformation,Dexterity,6d8,Force,FALSE
+7,Finger of Death,Constitution,7d8+30,Necrotic,FALSE
+7,Fire Storm,Dexterity,7d10,Fire,FALSE
+7,Mordenkainen's Sword,None,3d10,Force,FALSE
+7,Prismatic Spray,Dexterity,10d6,Variable,FALSE
+7,Symbol,None,10d10,Necrotic,FALSE
+7,Whirlwind,Dexterity,10d6,Bludgeoning,FALSE
+8,Abi-Dalzim's Horrid Wilting,Constitution,12d8,Necrotic,FALSE
+8,Dark Star,Constitution,8d10,Force,FALSE
+8,Earthquake,Dexterity,5d6,Bludgeoning,FALSE
+8,Feeblemind,Intelligence,4d6,Psychic,FALSE
+8,Illusory Dragon,Wisdom,7d6,Variable,FALSE
+8,Incendiary Cloud,Dexterity,10d8,Fire,FALSE
+8,Maddening Darkness,Wisdom,8d8,Psychic,FALSE
+8,Sunburst,Constitution,12d6,Radiant,FALSE
+8,Tsunami,Strength,15d10,Bludgeoning,FALSE
+9,Blade of Disaster,None,4d12,Force,FALSE
+9,Meteor Swarm,Dexterity,20d6+20d6,"Bludgeoning, Fire",FALSE
+9,Prismatic Wall,Constitution,30d6,"Acid, Cold, Fire, Lightning, Poison",FALSE
+9,Psychic Scream,Intelligence,14d6,Psychic,FALSE
+9,Ravenous Void,Strength,5d10,Force,FALSE
+9,Storm of Vengeance,Constitution,13d6,"Acid, Bludgeoning, Cold, Lightning, Thunder",FALSE
+9,Time Ravage,Constitution,10d12,Necrotic,FALSE
+9,Weird,Wisdom,4d10,Psychic,FALSE

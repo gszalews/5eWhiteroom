@@ -1,0 +1,61 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Encounter Analyzer
+{% endblock %}
+
+{% block main %}
+
+<div class="title-block">
+    <div class="title">The While Room: Encounter Analyzer</div>
+</div>
+<div>
+    <h1 class="centered" style="color:#041A2E; padding:1rem">Create the characters. Add the enemies. See the data.</h1>
+</div>
+<br>
+<br>
+<br>
+<div>
+    <h3>What is the Encounter Analyzer?</h3>
+</div>
+<div class="textblock">
+    The encounter analyzer is an attempt to provide information, based broadly on Damage Per Round and Hit Point Pools, to help craft encounters of a desired level. Challenge rating is a system 
+    that has always been critized for its difficulty in tailoring encounters to a specified level of difficulty. The system often seems to work differently, or less reliably, as character levels increase. 
+    Hopefully, with more information and a bit of visual assistance encounters will feel easier to pinpoint.
+</div>
+<br>
+<br>
+<br>
+<div>
+    <h3>How does the Encounter Analyzer work?</h3>
+</div>
+<div class="textblock">
+    The analyzer creates a more reliable picture of how an encounter may play out by averaging both party and enemy damage per round
+        based on the opposing armor class and saving throws. It pools the hitpoints of each side to provide a comparison to the DPR generated. The app also attempts to integrate the
+        use of spells to provide greater accuracy across the party rather than just focus on melee characters. Parties are analyzed on a per round basis as you will find for characters in other
+        online dpr calculators, but for spellcasters the per round damage is averaged from a combination of spell damages. Spellcasters can select up to five spells they typically use in combat. 
+        Half casters dpr is based on a mix of weapon and spell damage, with some choice for emphasis available during character creation or editing. For monsters, the data is sometimes constructed using an average of three rounds of damage output- so a
+        dragon's breath weapon for example will be factored in, as will two rounds of "claw, claw, bite" and legendary actions like tail attack, and then summed together and divided for
+        a per round average. Monster immunities, resistances, and vulnerabilities are applied to affect spell and magical weapon damage like flaming swords etc. Of course, the CR of the encounter is still provided.
+</div>
+<br>
+<br>
+<br>
+<div>
+    <h3>What doesn't the Encounter Analyzer do?</h3>
+</div>
+<div class="textblock">
+    The encounter analyzer is not a simulator. The program does not volly attacks back and forth or attempt to decide the
+        course of action players or enemies will take. The goal is not to "run" the encounter, but to simply give additional information and preserve the spontenaity and creativity of
+        playing the game. Player damage is averaged based on basic inputs and does not take subclass specific information into account. Fighters, for example, will typically use action
+        surge or other features to score more damage in a round. This app, however, uses the base damage philosophy found in the "<a href="https://www.reddit.com/r/dndnext/comments/4i1dff/the_optimists_guide_to_dd_5e_damage_by_class_and/">
+        Optimists Guide to 5e Damage by Class and Level</a>" and discussed further <a href="https://rpg.stackexchange.com/questions/200182/is-there-any-estimate-of-average-damage-output-per-turn-for-pcs-by-level">here</a>.
+        This standard damage can then be scaled up to ballpark a "nova" encounter <span>&#40</span>to borrow Matt Colville's term<span>&#41</span> or down to simulate characters, such as
+        spellcasters, who may be out of slots/resources and limited to casting cantrips or matrial characters who are out of special abilities. At this time the Encounter Analyzer does not take into account enemy Special Abilities.
+        The data from open5e on special abilities doesn't have the same rigid structure that multiattack descriptors do and I don't have a solution to parse those descritptions into usable damage figures. As a result, some monsters reliant
+        on special abilities such as the bulette and remorhaz do not appear as dangerous in damage output as they typically are.
+</div>
+<br>
+<br>
+<br>
+{% endblock %}
