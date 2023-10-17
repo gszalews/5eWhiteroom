@@ -1,3 +1,0 @@
-# 5eWhiteroom
-
-Documentation in progress...
