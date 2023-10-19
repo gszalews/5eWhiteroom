@@ -458,33 +458,18 @@ def ave_spell_dmg(character, encounter):
 # take in full enemy action and configured enemy action (what will be written into json) and get the attack bonus,
 # average the damage on a successful hit, and find any saving throw that players need to make
 def configure_action(full_action, conf_action):
-    key_list = list(full_action.keys())
-    saves = ["Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma"]
-    if "attack_bonus" in key_list:
-        conf_action["attack_bonus"] = full_action["attack_bonus"]
-    
-    if "damage_dice" in key_list:
-        dmg_dice = full_action["damage_dice"]
-        damage = dice_average(dmg_dice)
-        if "damage_bonus" in key_list:
-            damage = damage + full_action["damage_bonus"]
-        conf_action["ave_dmg"] = damage
+    desc = full_action["desc"]
+    # Find attack roll modifier
+    hit = get_hit(desc)
+    conf_action["attack_bonus"] = hit
+    # find average damage
+    dmg = get_damage(desc)
+    conf_action["ave_dmg"] = dmg["dmg"]
     #find the saving throw if needed for a given action
-    if "saving throw" in full_action["desc"]:
-        for i in range(len(saves)):
-            if saves[i] in full_action["desc"]:
-                conf_action["save"] = saves[i]
-                save_pos = full_action["desc"].index(saves[i])
-                dc_pos = full_action["desc"].index("DC")
-                for j in range(30,0,-1):
-                    num = str(j)
-                    if num in full_action["desc"][dc_pos : save_pos]:
-                        conf_action["save_dc"] = j
-                        if "or half as much damage" in full_action["desc"]:
-                            conf_action["save_half"] = True
-                        else:
-                            conf_action["save_half"] = False
-                        break
+    save = get_save(desc)
+    conf_action["save"] = save["ability"]
+    conf_action["save_dc"] = save["dc"]
+    conf_action["save_half"] = save["half"]
     return conf_action
 
 
@@ -532,6 +517,56 @@ def enemy_attack(ac, bonus, ave_dmg, number):
     dmg = odds * ave_dmg * number
     return dmg
    
+
+def get_type(desc):
+    # Determine type of attack
+    if not desc or desc == None:
+        return None
+    type_results = re.search(r"^((?:(?:Melee)|(?:Ranged))|(?:Melee or Ranged)) Weapon Attack:", desc)
+    if type_results:
+        return (type_results.group(1))
+    else:
+        return ("Spell or Ability")
+
+
+def get_hit(desc):
+    # Extract "to hit" value from desc
+    if not desc or desc == None:
+        return None
+    hit_results = re.search(r"^.*\+(\d+) to hit.*$", desc)
+    if hit_results:
+        return (int(hit_results.group(1)))
+    else:
+        return None
+
+
+def get_damage(desc):
+    # Find damage done by action
+    if not desc or desc == None:
+        return None
+    dmg = []
+    dmg_results = re.findall(r" (\d+) \((.*?)\) (\b\w*) damage", desc)
+    if dmg_results:
+        for d in range(len(dmg_results)):
+            dmg.append({"dmg": int(dmg_results[d][0]), "dice": dmg_results[d][1], "type": dmg_results[d][2]})
+    else:
+        dmg = None
+    return dmg
+
+
+def get_save(desc):
+    # Find if saving throw needed and details
+    half = False
+    if not desc or desc == None:
+        return None
+    if "or half as much damage" in desc:
+        half = True
+    save_results = re.search(r"^.*DC (\d+) (\b\w*) saving throw.*$", desc)
+    if save_results:
+        return {"dc": int(save_results.group(1)), "ability": save_results.group(2), "save_half": half}
+    else:
+        return None
+    
 
 def get_mod(score):
     mod = 0
@@ -645,7 +680,7 @@ def get_prof(level):
 
 def get_spells():
     spells = []
-    with open(PATH + '/static/files/spells.csv', 'r', encoding='utf-8-sig') as csvfile:
+    with open(PATH + 'static/files/spells.csv', 'r', encoding='utf-8-sig') as csvfile:
         spell_info = csv.DictReader(csvfile)
         for spell in spell_info:
             spells.append(spell)
@@ -653,7 +688,7 @@ def get_spells():
 
 
 def get_weapons():
-    url = "https://api.open5e.com/weapons/"
+    url = "https://api.open5e.com/weapons/?document__slug=wotc-srd"
     response = requests.get(url)
     weapons = response.json()
     v_weapons = []
@@ -1003,13 +1038,13 @@ def update_enemies(enemies, encounter):
     damge_types = ["acid", "bludgeoning", "cold", "fire", "force", "lightning", "necrotic", "piercing",
                     "poison", "psychic", "radiant", "slashing", "thunder", "nonmagical", "nonsilvered", "nonadamantine"]
     crxp = {}
-    with open(PATH + '/static/files/cr_xp.csv', 'r', encoding='utf-8-sig') as csvfile:
+    with open(PATH + 'static/files/cr_xp.csv', 'r', encoding='utf-8-sig') as csvfile:
         xpreader = csv.reader(csvfile)
         for row in xpreader:
             crxp[str(row[0])] = int(row[1])
     # read csv to link encounter multiplier to enemy count
     enc_multiply = {}
-    with open(PATH + '/static/files/encounter_multipliers.csv', 'r', encoding='utf-8-sig') as csvfile:
+    with open(PATH + 'static/files/encounter_multipliers.csv', 'r', encoding='utf-8-sig') as csvfile:
         multiplyreader = csv.reader(csvfile)
         for row in multiplyreader:
             enc_multiply[str(row[0])] = float(row[1])
@@ -1154,7 +1189,7 @@ def update_enemies(enemies, encounter):
 
 def update_party(party, encounter):
     threshold = {}
-    with open(PATH + '/static/files/xp_thresholds.csv', 'r', encoding='utf-8-sig') as csvfile:
+    with open(PATH + 'static/files/xp_thresholds.csv', 'r', encoding='utf-8-sig') as csvfile:
         threshreader = csv.reader(csvfile)
         for row in threshreader:
             threshold[str(row[0])] = [int(row[1]), int(row[2]), int(row[3]), int(row[4])]

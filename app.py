@@ -13,7 +13,7 @@ from werkzeug.utils import secure_filename
 app = Flask(__name__)
 ALLOWED_EXTENSIONS = {"party", "enemies", "encounter"}
 PATH = ""
-#PATH = "/home/gszalews/mysite"
+#PATH = "/home/gszalews/mysite/"
 # # Configure session to use filesystem (instead of signed cookies)
 app.config["SESSION_PERMANENT"] = False
 app.config["SESSION_TYPE"] = "filesystem"
@@ -65,7 +65,8 @@ def party():
         "hp": int(request.form.get("hp")),
         "ac": int(request.form.get("ac")),
         "scores": {"str": request.form.get("str"), "dex":request.form.get("dex"), "con": request.form.get("con"), "int":
-                  request.form.get("int"), "wis": request.form.get("wis"), "cha": request.form.get("cha")}}
+                  request.form.get("int"), "wis": request.form.get("wis"), "cha": request.form.get("cha")}
+        }
         for abl in character["scores"].keys():
             if not character["scores"][abl]:
                 character["scores"][abl] = 0
@@ -176,7 +177,7 @@ def party():
 
 @app.route("/enemies", methods=["GET", "POST"])
 def enemies():
-    with open(PATH + "/static/files/enemy_names.txt", "r") as input:
+    with open(PATH + "static/files/enemy_names.txt", "r") as input:
         enemy_names = json.load(input)
     #Get enemies session data
     enemies = session.get("enemies")
@@ -334,20 +335,20 @@ def save():
         encounter = session.get("encounter")
         save_type = request.form.get("save")
         if save_type == "party":
-            with open(PATH + "/static/files/download.party", "w") as output:
+            with open(PATH + "static/files/download.party", "w") as output:
                 json.dump(party, output, indent = 4)
-            path = PATH + "/static/files/download.party"
+            path = PATH + "static/files/download.party"
             return send_file(path, as_attachment=True)
         if save_type == "enemies":
-            with open(PATH + "/static/files/download.enemies", "w") as output:
+            with open(PATH + "static/files/download.enemies", "w") as output:
                 json.dump(enemies, output, indent = 4)
-            path = PATH + "/static/files/download.enemies"
+            path = PATH + "static/files/download.enemies"
             return send_file(path, as_attachment=True)
         if save_type == "encounter":
             download = {"party": party, "enemies": enemies, "encounter": encounter}
-            with open(PATH + "/static/files/download.encounter", "w") as output:
+            with open(PATH + "static/files/download.encounter", "w") as output:
                 json.dump(download, output, indent = 4)
-            path = PATH + "/static/files/download.encounter"
+            path = PATH + "static/files/download.encounter"
             return send_file(path, as_attachment=True)
     return redirect("/clean")
 
