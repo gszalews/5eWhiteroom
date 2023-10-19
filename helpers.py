@@ -464,7 +464,10 @@ def configure_action(full_action, conf_action):
     conf_action["attack_bonus"] = hit
     # find average damage
     dmg = get_damage(desc)
-    conf_action["ave_dmg"] = dmg["dmg"]
+    damage = 0
+    for d in dmg:
+        damage += d["dmg"]
+    conf_action["ave_dmg"] = damage
     #find the saving throw if needed for a given action
     save = get_save(desc)
     conf_action["save"] = save["ability"]
