@@ -1,0 +1,9742 @@
+[
+    {
+        "name": "Aboleth",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Acolyte",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Adult Black Dragon",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Adult Blue Dragon",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Adult Brass Dragon",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Adult Bronze Dragon",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Adult Copper Dragon",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Adult Gold Dragon",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Adult Green Dragon",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Adult Red Dragon",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Adult Silver Dragon",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Adult White Dragon",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Air Elemental",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Ancient Black Dragon",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Ancient Blue Dragon",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Ancient Brass Dragon",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Ancient Bronze Dragon",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Ancient Copper Dragon",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Ancient Gold Dragon",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Ancient Green Dragon",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Ancient Red Dragon",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Ancient Silver Dragon",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Ancient White Dragon",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Androsphinx",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Animated Armor",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Ankheg",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Ape",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Archmage",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Assassin",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Awakened Shrub",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Awakened Tree",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Axe Beak",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Azer",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Baboon",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Badger",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Balor",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Bandit",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Bandit Captain",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Barbed Devil",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Basilisk",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Bat",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Bearded Devil",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Behir",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Berserker",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Black Bear",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Black Dragon Wyrmling",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Black Pudding",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Blink Dog",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Blood Hawk",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Blue Dragon Wyrmling",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Boar",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Bone Devil",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Brass Dragon Wyrmling",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Bronze Dragon Wyrmling",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Brown Bear",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Bugbear",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Bulette",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Camel",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Cat",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Centaur",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Chain Devil",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Chimera",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Chuul",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Clay Golem",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Cloaker",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Cloud Giant",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Cockatrice",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Commoner",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Constrictor Snake",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Copper Dragon Wyrmling",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Couatl",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Crab",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Crocodile",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Cult Fanatic",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Cultist",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Darkmantle",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Death Dog",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Deep Gnome (Svirfneblin)",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Deer",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Deva",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Dire Wolf",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Djinni",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Doppelganger",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Draft Horse",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Dragon Turtle",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Dretch",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Drider",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Drow",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Druid",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Dryad",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Duergar",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Dust Mephit",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Eagle",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Earth Elemental",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Efreeti",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Elephant",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Elk",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Erinyes",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Ettercap",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Ettin",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Fire Elemental",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Fire Giant",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Flesh Golem",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Flying Snake",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Flying Sword",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Frog",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Frost Giant",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Gargoyle",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Gelatinous Cube",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Ghast",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Ghost",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Ghoul",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Giant Ape",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Giant Badger",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Giant Bat",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Giant Boar",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Giant Centipede",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Giant Constrictor Snake",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Giant Crab",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Giant Crocodile",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Giant Eagle",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Giant Elk",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Giant Fire Beetle",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Giant Frog",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Giant Goat",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Giant Hyena",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Giant Lizard",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Giant Octopus",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Giant Owl",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Giant Poisonous Snake",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Giant Rat",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Giant Rat (Diseased)",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Giant Scorpion",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Giant Sea Horse",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Giant Shark",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Giant Spider",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Giant Toad",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Giant Vulture",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Giant Wasp",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Giant Weasel",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Giant Wolf Spider",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Gibbering Mouther",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Glabrezu",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Gladiator",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Gnoll",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Goat",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Goblin",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Gold Dragon Wyrmling",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Gorgon",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Gray Ooze",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Green Dragon Wyrmling",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Green Hag",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Grick",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Griffon",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Grimlock",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Guard",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Guardian Naga",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Gynosphinx",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Half-Red Dragon Veteran",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Harpy",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Hawk",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Hell Hound",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Hezrou",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Hill Giant",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Hippogriff",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Hobgoblin",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Homunculus",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Horned Devil",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Hunter Shark",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Hydra",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Hyena",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Ice Devil",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Ice Mephit",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Imp",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Invisible Stalker",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Iron Golem",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Jackal",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Killer Whale",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Knight",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Kobold",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Kraken",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Lamia",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Lemure",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Lich",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Lion",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Lizard",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Lizardfolk",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Mage",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Magma Mephit",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Magmin",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Mammoth",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Manticore",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Marilith",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Mastiff",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Medusa",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Merfolk",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Merrow",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Mimic",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Minotaur",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Minotaur Skeleton",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Mule",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Mummy",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Mummy Lord",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Nalfeshnee",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Night Hag",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Nightmare",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Noble",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Ochre Jelly",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Octopus",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Ogre",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Ogre Zombie",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Oni",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Orc",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Otyugh",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Owl",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Owlbear",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Panther",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Pegasus",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Phase Spider",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Pit Fiend",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Planetar",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Plesiosaurus",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Poisonous Snake",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Polar Bear",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Pony",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Priest",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Pseudodragon",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Purple Worm",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Quasit",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Quipper",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Rakshasa",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Rat",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Raven",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Red Dragon Wyrmling",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Reef Shark",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Remorhaz",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Rhinoceros",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Riding Horse",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Roc",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Roper",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Rug of Smothering",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Rust Monster",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Saber-Toothed Tiger",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Sahuagin",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Salamander",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Satyr",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Scorpion",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Scout",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Sea Hag",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Sea Horse",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Shadow",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Shambling Mound",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Shield Guardian",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Shrieker",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Silver Dragon Wyrmling",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Skeleton",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Solar",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Specter",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Spider",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Spirit Naga",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Sprite",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Spy",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Steam Mephit",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Stirge",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Stone Giant",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Stone Golem",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Storm Giant",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Succubus/Incubus",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Swarm of Bats",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Swarm of Beetles",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Swarm of Centipedes",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Swarm of Insects",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Swarm of Poisonous Snakes",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Swarm of Quippers",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Swarm of Rats",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Swarm of Ravens",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Swarm of Spiders",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Swarm of Wasps",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Tarrasque",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Thug",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Tiger",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Treant",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Tribal Warrior",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Triceratops",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Troll",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Tyrannosaurus Rex",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Unicorn",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Vampire",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Vampire Spawn",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Veteran",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Violet Fungus",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Vrock",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Vulture",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Warhorse",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Warhorse Skeleton",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Water Elemental",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Weasel",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Werebear",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Wereboar",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Wererat",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Weretiger",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Werewolf",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "White Dragon Wyrmling",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Wight",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Will-o'-Wisp",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Winter Wolf",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Wolf",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Worg",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Wraith",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Wyvern",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Xorn",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Young Black Dragon",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Young Blue Dragon",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Young Brass Dragon",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Young Bronze Dragon",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Young Copper Dragon",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Young Gold Dragon",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Young Green Dragon",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Young Red Dragon",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Young Silver Dragon",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Young White Dragon",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Zombie",
+        "slug": "wotc-srd"
+    },
+    {
+        "name": "Aboleth, Nihilith",
+        "slug": "tob"
+    },
+    {
+        "name": "Nihilethic Zombie",
+        "slug": "tob"
+    },
+    {
+        "name": "Abominable Beauty",
+        "slug": "tob"
+    },
+    {
+        "name": "Accursed Defiler",
+        "slug": "tob"
+    },
+    {
+        "name": "Ala",
+        "slug": "tob"
+    },
+    {
+        "name": "Algorith",
+        "slug": "tob"
+    },
+    {
+        "name": "Alseid",
+        "slug": "tob"
+    },
+    {
+        "name": "Alseid Grovekeeper",
+        "slug": "tob"
+    },
+    {
+        "name": "Amphiptere",
+        "slug": "tob"
+    },
+    {
+        "name": "Andrenjinyi",
+        "slug": "tob"
+    },
+    {
+        "name": "Angatra",
+        "slug": "tob"
+    },
+    {
+        "name": "Angel, Chained",
+        "slug": "tob"
+    },
+    {
+        "name": "Fidele Angel",
+        "slug": "tob"
+    },
+    {
+        "name": "Angler Worm",
+        "slug": "tob"
+    },
+    {
+        "name": "Giant Ant",
+        "slug": "tob"
+    },
+    {
+        "name": "Giant Ant Queen",
+        "slug": "tob"
+    },
+    {
+        "name": "Anubian",
+        "slug": "tob"
+    },
+    {
+        "name": "Arboreal Grappler",
+        "slug": "tob"
+    },
+    {
+        "name": "Aridni",
+        "slug": "tob"
+    },
+    {
+        "name": "Asanbosam",
+        "slug": "tob"
+    },
+    {
+        "name": "Azza Gremlin",
+        "slug": "tob"
+    },
+    {
+        "name": "Baba Yaga's Horsemen, Black Night",
+        "slug": "tob"
+    },
+    {
+        "name": "Baba Yaga's Horsemen, Bright Day",
+        "slug": "tob"
+    },
+    {
+        "name": "Baba Yaga's Horsemen, Red Sun",
+        "slug": "tob"
+    },
+    {
+        "name": "Bagiennik",
+        "slug": "tob"
+    },
+    {
+        "name": "Bastet Temple Cat",
+        "slug": "tob"
+    },
+    {
+        "name": "Bearfolk",
+        "slug": "tob"
+    },
+    {
+        "name": "Behtu",
+        "slug": "tob"
+    },
+    {
+        "name": "Beli",
+        "slug": "tob"
+    },
+    {
+        "name": "Bereginyas",
+        "slug": "tob"
+    },
+    {
+        "name": "Blemmyes",
+        "slug": "tob"
+    },
+    {
+        "name": "Boloti",
+        "slug": "tob"
+    },
+    {
+        "name": "Bone Collective",
+        "slug": "tob"
+    },
+    {
+        "name": "Bone Crab",
+        "slug": "tob"
+    },
+    {
+        "name": "Bone Swarm",
+        "slug": "tob"
+    },
+    {
+        "name": "Bouda",
+        "slug": "tob"
+    },
+    {
+        "name": "Broodiken",
+        "slug": "tob"
+    },
+    {
+        "name": "Bucca",
+        "slug": "tob"
+    },
+    {
+        "name": "Bukavac",
+        "slug": "tob"
+    },
+    {
+        "name": "Buraq",
+        "slug": "tob"
+    },
+    {
+        "name": "Burrowling",
+        "slug": "tob"
+    },
+    {
+        "name": "Cactid",
+        "slug": "tob"
+    },
+    {
+        "name": "Cambium",
+        "slug": "tob"
+    },
+    {
+        "name": "Carrion Beetle",
+        "slug": "tob"
+    },
+    {
+        "name": "Cavelight Moss",
+        "slug": "tob"
+    },
+    {
+        "name": "Chelicerae",
+        "slug": "tob"
+    },
+    {
+        "name": "Chernomoi",
+        "slug": "tob"
+    },
+    {
+        "name": "Child Of The Briar",
+        "slug": "tob"
+    },
+    {
+        "name": "Chronalmental",
+        "slug": "tob"
+    },
+    {
+        "name": "Cikavak",
+        "slug": "tob"
+    },
+    {
+        "name": "Clockwork Abomination",
+        "slug": "tob"
+    },
+    {
+        "name": "Clockwork Beetle",
+        "slug": "tob"
+    },
+    {
+        "name": "Clockwork Beetle Swarm",
+        "slug": "tob"
+    },
+    {
+        "name": "Clockwork Hound",
+        "slug": "tob"
+    },
+    {
+        "name": "Clockwork Huntsman",
+        "slug": "tob"
+    },
+    {
+        "name": "Clockwork Myrmidon",
+        "slug": "tob"
+    },
+    {
+        "name": "Clockwork Watchman",
+        "slug": "tob"
+    },
+    {
+        "name": "Weaving Spider",
+        "slug": "tob"
+    },
+    {
+        "name": "Clurichaun",
+        "slug": "tob"
+    },
+    {
+        "name": "Cobbleswarm",
+        "slug": "tob"
+    },
+    {
+        "name": "Corpse Mound",
+        "slug": "tob"
+    },
+    {
+        "name": "Dau",
+        "slug": "tob"
+    },
+    {
+        "name": "Death Butterfly Swarm",
+        "slug": "tob"
+    },
+    {
+        "name": "Greater Death Butterfly Swarm",
+        "slug": "tob"
+    },
+    {
+        "name": "Deathwisp",
+        "slug": "tob"
+    },
+    {
+        "name": "Deep One",
+        "slug": "tob"
+    },
+    {
+        "name": "Deep One Hybrid Priest",
+        "slug": "tob"
+    },
+    {
+        "name": "Deep One Archimandrite",
+        "slug": "tob"
+    },
+    {
+        "name": "Apau Perape",
+        "slug": "tob"
+    },
+    {
+        "name": "Berstuc",
+        "slug": "tob"
+    },
+    {
+        "name": "Kishi Demon",
+        "slug": "tob"
+    },
+    {
+        "name": "Malakbel",
+        "slug": "tob"
+    },
+    {
+        "name": "Psoglav Demon",
+        "slug": "tob"
+    },
+    {
+        "name": "Rubezahl",
+        "slug": "tob"
+    },
+    {
+        "name": "Skin Bat",
+        "slug": "tob"
+    },
+    {
+        "name": "Derro Fetal Savant",
+        "slug": "tob"
+    },
+    {
+        "name": "Derro Shadow Antipaladin",
+        "slug": "tob"
+    },
+    {
+        "name": "Arbeyach",
+        "slug": "tob"
+    },
+    {
+        "name": "Spawn Of Arbeyach",
+        "slug": "tob"
+    },
+    {
+        "name": "Ia'affrat",
+        "slug": "tob"
+    },
+    {
+        "name": "Automata Devil",
+        "slug": "tob"
+    },
+    {
+        "name": "Chort Devil",
+        "slug": "tob"
+    },
+    {
+        "name": "Crystalline Devil",
+        "slug": "tob"
+    },
+    {
+        "name": "Gilded Devil",
+        "slug": "tob"
+    },
+    {
+        "name": "Ink Devil",
+        "slug": "tob"
+    },
+    {
+        "name": "Koralk (Harvester Devil)",
+        "slug": "tob"
+    },
+    {
+        "name": "Lunar Devil",
+        "slug": "tob"
+    },
+    {
+        "name": "Orobas Devil",
+        "slug": "tob"
+    },
+    {
+        "name": "Salt Devil",
+        "slug": "tob"
+    },
+    {
+        "name": "Mbielu",
+        "slug": "tob"
+    },
+    {
+        "name": "Ngobou",
+        "slug": "tob"
+    },
+    {
+        "name": "Spinosaurus",
+        "slug": "tob"
+    },
+    {
+        "name": "Young Spinosaurus",
+        "slug": "tob"
+    },
+    {
+        "name": "Dipsa",
+        "slug": "tob"
+    },
+    {
+        "name": "Dissimortuum",
+        "slug": "tob"
+    },
+    {
+        "name": "Dogmole",
+        "slug": "tob"
+    },
+    {
+        "name": "Dogmole Juggernaut",
+        "slug": "tob"
+    },
+    {
+        "name": "Domovoi",
+        "slug": "tob"
+    },
+    {
+        "name": "Doppelrat",
+        "slug": "tob"
+    },
+    {
+        "name": "Dorreq",
+        "slug": "tob"
+    },
+    {
+        "name": "Adult Cave Dragon",
+        "slug": "tob"
+    },
+    {
+        "name": "Young Cave Dragon",
+        "slug": "tob"
+    },
+    {
+        "name": "Cave Dragon Wyrmling",
+        "slug": "tob"
+    },
+    {
+        "name": "Ancient Flame Dragon",
+        "slug": "tob"
+    },
+    {
+        "name": "Adult Flame Dragon",
+        "slug": "tob"
+    },
+    {
+        "name": "Young Flame Dragon",
+        "slug": "tob"
+    },
+    {
+        "name": "Flame Dragon Wyrmling",
+        "slug": "tob"
+    },
+    {
+        "name": "Ancient Mithral Dragon",
+        "slug": "tob"
+    },
+    {
+        "name": "Adult Mithral Dragon",
+        "slug": "tob"
+    },
+    {
+        "name": "Young Mithral Dragon",
+        "slug": "tob"
+    },
+    {
+        "name": "Ancient Sea Dragon",
+        "slug": "tob"
+    },
+    {
+        "name": "Adult Sea Dragon",
+        "slug": "tob"
+    },
+    {
+        "name": "Young Sea Dragon",
+        "slug": "tob"
+    },
+    {
+        "name": "Sea Dragon Wyrmling",
+        "slug": "tob"
+    },
+    {
+        "name": "Ancient Void Dragon",
+        "slug": "tob"
+    },
+    {
+        "name": "Adult Void Dragon",
+        "slug": "tob"
+    },
+    {
+        "name": "Young Void Dragon",
+        "slug": "tob"
+    },
+    {
+        "name": "Void Dragon Wyrmling",
+        "slug": "tob"
+    },
+    {
+        "name": "Ancient Wind Dragon",
+        "slug": "tob"
+    },
+    {
+        "name": "Adult Wind Dragon",
+        "slug": "tob"
+    },
+    {
+        "name": "Young Wind Dragon",
+        "slug": "tob"
+    },
+    {
+        "name": "Wyrmling Wind Dragon",
+        "slug": "tob"
+    },
+    {
+        "name": "Dragon Eel",
+        "slug": "tob"
+    },
+    {
+        "name": "Dragonleaf Tree",
+        "slug": "tob"
+    },
+    {
+        "name": "Alehouse Drake",
+        "slug": "tob"
+    },
+    {
+        "name": "Ash Drake",
+        "slug": "tob"
+    },
+    {
+        "name": "Coral Drake",
+        "slug": "tob"
+    },
+    {
+        "name": "Crimson Drake",
+        "slug": "tob"
+    },
+    {
+        "name": "Deep Drake",
+        "slug": "tob"
+    },
+    {
+        "name": "Elder Shadow Drake",
+        "slug": "tob"
+    },
+    {
+        "name": "Paper Drake",
+        "slug": "tob"
+    },
+    {
+        "name": "Rust Drake",
+        "slug": "tob"
+    },
+    {
+        "name": "Star Drake",
+        "slug": "tob"
+    },
+    {
+        "name": "Drakon",
+        "slug": "tob"
+    },
+    {
+        "name": "Dream Eater",
+        "slug": "tob"
+    },
+    {
+        "name": "Drowned Maiden",
+        "slug": "tob"
+    },
+    {
+        "name": "Duskthorn Dryad",
+        "slug": "tob"
+    },
+    {
+        "name": "Dullahan",
+        "slug": "tob"
+    },
+    {
+        "name": "Dune Mimic",
+        "slug": "tob"
+    },
+    {
+        "name": "Eala",
+        "slug": "tob"
+    },
+    {
+        "name": "Eater Of Dust (Yakat-Shi)",
+        "slug": "tob"
+    },
+    {
+        "name": "Edimmu",
+        "slug": "tob"
+    },
+    {
+        "name": "Eel Hound",
+        "slug": "tob"
+    },
+    {
+        "name": "Einherjar",
+        "slug": "tob"
+    },
+    {
+        "name": "Eleinomae",
+        "slug": "tob"
+    },
+    {
+        "name": "Elemental Locus",
+        "slug": "tob"
+    },
+    {
+        "name": "Shadow Fey",
+        "slug": "tob"
+    },
+    {
+        "name": "Shadow Fey Duelist",
+        "slug": "tob"
+    },
+    {
+        "name": "Shadow Fey Enchantress",
+        "slug": "tob"
+    },
+    {
+        "name": "Shadow Fey Forest Hunter",
+        "slug": "tob"
+    },
+    {
+        "name": "Shadow Fey Guardian",
+        "slug": "tob"
+    },
+    {
+        "name": "Emerald Eye",
+        "slug": "tob"
+    },
+    {
+        "name": "Empty Cloak",
+        "slug": "tob"
+    },
+    {
+        "name": "Eonic Drifter",
+        "slug": "tob"
+    },
+    {
+        "name": "Erina Scrounger",
+        "slug": "tob"
+    },
+    {
+        "name": "Erina Defender",
+        "slug": "tob"
+    },
+    {
+        "name": "Far Darrig",
+        "slug": "tob"
+    },
+    {
+        "name": "Fate Eater",
+        "slug": "tob"
+    },
+    {
+        "name": "Fear Smith",
+        "slug": "tob"
+    },
+    {
+        "name": "Fellforged",
+        "slug": "tob"
+    },
+    {
+        "name": "Fext",
+        "slug": "tob"
+    },
+    {
+        "name": "Feyward Tree",
+        "slug": "tob"
+    },
+    {
+        "name": "Firebird",
+        "slug": "tob"
+    },
+    {
+        "name": "Firegeist",
+        "slug": "tob"
+    },
+    {
+        "name": "Flutterflesh",
+        "slug": "tob"
+    },
+    {
+        "name": "Folk Of Leng",
+        "slug": "tob"
+    },
+    {
+        "name": "Forest Marauder",
+        "slug": "tob"
+    },
+    {
+        "name": "Fraughashar",
+        "slug": "tob"
+    },
+    {
+        "name": "Frostveil",
+        "slug": "tob"
+    },
+    {
+        "name": "Garroter Crab",
+        "slug": "tob"
+    },
+    {
+        "name": "Gbahali (Postosuchus)",
+        "slug": "tob"
+    },
+    {
+        "name": "Gearforged Templar",
+        "slug": "tob"
+    },
+    {
+        "name": "Al-Aeshma Genie",
+        "slug": "tob"
+    },
+    {
+        "name": "Gerridae",
+        "slug": "tob"
+    },
+    {
+        "name": "Beggar Ghoul",
+        "slug": "tob"
+    },
+    {
+        "name": "Bonepowder Ghoul",
+        "slug": "tob"
+    },
+    {
+        "name": "Ghoul, Darakhul",
+        "slug": "tob"
+    },
+    {
+        "name": "Ghoul, Imperial",
+        "slug": "tob"
+    },
+    {
+        "name": "Ghoul, Iron",
+        "slug": "tob"
+    },
+    {
+        "name": "Desert Giant",
+        "slug": "tob"
+    },
+    {
+        "name": "Flab Giant",
+        "slug": "tob"
+    },
+    {
+        "name": "Hraesvelgr The Corpse Swallower",
+        "slug": "tob"
+    },
+    {
+        "name": "Jotun Giant",
+        "slug": "tob"
+    },
+    {
+        "name": "Thursir Giant",
+        "slug": "tob"
+    },
+    {
+        "name": "Glass Gator",
+        "slug": "tob"
+    },
+    {
+        "name": "Gnarljak",
+        "slug": "tob"
+    },
+    {
+        "name": "Gnoll Havoc Runner",
+        "slug": "tob"
+    },
+    {
+        "name": "Goat-Man",
+        "slug": "tob"
+    },
+    {
+        "name": "Dust Goblin",
+        "slug": "tob"
+    },
+    {
+        "name": "Eye Golem",
+        "slug": "tob"
+    },
+    {
+        "name": "Hoard Golem",
+        "slug": "tob"
+    },
+    {
+        "name": "Salt Golem",
+        "slug": "tob"
+    },
+    {
+        "name": "Smaragdine Golem",
+        "slug": "tob"
+    },
+    {
+        "name": "Steam Golem",
+        "slug": "tob"
+    },
+    {
+        "name": "Gray Thirster",
+        "slug": "tob"
+    },
+    {
+        "name": "Rum Gremlin",
+        "slug": "tob"
+    },
+    {
+        "name": "Grim Jester",
+        "slug": "tob"
+    },
+    {
+        "name": "Gug",
+        "slug": "tob"
+    },
+    {
+        "name": "Blood Hag",
+        "slug": "tob"
+    },
+    {
+        "name": "Mirror Hag",
+        "slug": "tob"
+    },
+    {
+        "name": "Red Hag",
+        "slug": "tob"
+    },
+    {
+        "name": "Sand Hag",
+        "slug": "tob"
+    },
+    {
+        "name": "Owl Harpy",
+        "slug": "tob"
+    },
+    {
+        "name": "Haugbui",
+        "slug": "tob"
+    },
+    {
+        "name": "Herald Of Blood",
+        "slug": "tob"
+    },
+    {
+        "name": "Herald Of Darkness",
+        "slug": "tob"
+    },
+    {
+        "name": "Horakh",
+        "slug": "tob"
+    },
+    {
+        "name": "Hound Of The Night",
+        "slug": "tob"
+    },
+    {
+        "name": "Hulking Whelp",
+        "slug": "tob"
+    },
+    {
+        "name": "Hundun",
+        "slug": "tob"
+    },
+    {
+        "name": "Ice Maiden",
+        "slug": "tob"
+    },
+    {
+        "name": "Idolic Deity",
+        "slug": "tob"
+    },
+    {
+        "name": "Imy-Ut Ushabti",
+        "slug": "tob"
+    },
+    {
+        "name": "Isonade",
+        "slug": "tob"
+    },
+    {
+        "name": "Jaculus",
+        "slug": "tob"
+    },
+    {
+        "name": "Kalke",
+        "slug": "tob"
+    },
+    {
+        "name": "Kikimora",
+        "slug": "tob"
+    },
+    {
+        "name": "Kobold Alchemist",
+        "slug": "tob"
+    },
+    {
+        "name": "Kobold Chieftain",
+        "slug": "tob"
+    },
+    {
+        "name": "Kobold Trapsmith",
+        "slug": "tob"
+    },
+    {
+        "name": "Kongamato",
+        "slug": "tob"
+    },
+    {
+        "name": "Koschei",
+        "slug": "tob"
+    },
+    {
+        "name": "Kot Bayun",
+        "slug": "tob"
+    },
+    {
+        "name": "Krake Spawn",
+        "slug": "tob"
+    },
+    {
+        "name": "Lantern Dragonette",
+        "slug": "tob"
+    },
+    {
+        "name": "Lemurfolk",
+        "slug": "tob"
+    },
+    {
+        "name": "Lemurfolk Greyfur",
+        "slug": "tob"
+    },
+    {
+        "name": "Leshy",
+        "slug": "tob"
+    },
+    {
+        "name": "Library Automaton",
+        "slug": "tob"
+    },
+    {
+        "name": "Lich Hound",
+        "slug": "tob"
+    },
+    {
+        "name": "Likho",
+        "slug": "tob"
+    },
+    {
+        "name": "Lindwurm",
+        "slug": "tob"
+    },
+    {
+        "name": "Liosalfar",
+        "slug": "tob"
+    },
+    {
+        "name": "Living Wick",
+        "slug": "tob"
+    },
+    {
+        "name": "Lorelei",
+        "slug": "tob"
+    },
+    {
+        "name": "Loxoda",
+        "slug": "tob"
+    },
+    {
+        "name": "Mahoru",
+        "slug": "tob"
+    },
+    {
+        "name": "Mallqui",
+        "slug": "tob"
+    },
+    {
+        "name": "Malphas (Storm Crow)",
+        "slug": "tob"
+    },
+    {
+        "name": "Mamura",
+        "slug": "tob"
+    },
+    {
+        "name": "Mask Wight",
+        "slug": "tob"
+    },
+    {
+        "name": "Mavka",
+        "slug": "tob"
+    },
+    {
+        "name": "Mi-Go",
+        "slug": "tob"
+    },
+    {
+        "name": "Millitaur",
+        "slug": "tob"
+    },
+    {
+        "name": "Map Mimic",
+        "slug": "tob"
+    },
+    {
+        "name": "Mindrot Thrall",
+        "slug": "tob"
+    },
+    {
+        "name": "Mirager",
+        "slug": "tob"
+    },
+    {
+        "name": "Miremal",
+        "slug": "tob"
+    },
+    {
+        "name": "Mngwa",
+        "slug": "tob"
+    },
+    {
+        "name": "Monolith Champion",
+        "slug": "tob"
+    },
+    {
+        "name": "Monolith Footman",
+        "slug": "tob"
+    },
+    {
+        "name": "Mordant Snare",
+        "slug": "tob"
+    },
+    {
+        "name": "Morphoi",
+        "slug": "tob"
+    },
+    {
+        "name": "Moss Lurker",
+        "slug": "tob"
+    },
+    {
+        "name": "Venomous Mummy",
+        "slug": "tob"
+    },
+    {
+        "name": "Deathcap Myconid",
+        "slug": "tob"
+    },
+    {
+        "name": "Myling",
+        "slug": "tob"
+    },
+    {
+        "name": "Naina",
+        "slug": "tob"
+    },
+    {
+        "name": "Nichny",
+        "slug": "tob"
+    },
+    {
+        "name": "Nightgarm",
+        "slug": "tob"
+    },
+    {
+        "name": "Nkosi",
+        "slug": "tob"
+    },
+    {
+        "name": "Nkosi Pridelord",
+        "slug": "tob"
+    },
+    {
+        "name": "Nkosi War Ostrich",
+        "slug": "tob"
+    },
+    {
+        "name": "Noctiny",
+        "slug": "tob"
+    },
+    {
+        "name": "Oculo Swarm",
+        "slug": "tob"
+    },
+    {
+        "name": "Oozasis",
+        "slug": "tob"
+    },
+    {
+        "name": "Corrupting Ooze",
+        "slug": "tob"
+    },
+    {
+        "name": "Ostinato",
+        "slug": "tob"
+    },
+    {
+        "name": "Pombero",
+        "slug": "tob"
+    },
+    {
+        "name": "Possessed Pillar",
+        "slug": "tob"
+    },
+    {
+        "name": "Putrid Haunt",
+        "slug": "tob"
+    },
+    {
+        "name": "Qwyllion",
+        "slug": "tob"
+    },
+    {
+        "name": "Ramag",
+        "slug": "tob"
+    },
+    {
+        "name": "Rat King",
+        "slug": "tob"
+    },
+    {
+        "name": "Ratatosk",
+        "slug": "tob"
+    },
+    {
+        "name": "Ratfolk",
+        "slug": "tob"
+    },
+    {
+        "name": "Ratfolk Rogue",
+        "slug": "tob"
+    },
+    {
+        "name": "Ravenala",
+        "slug": "tob"
+    },
+    {
+        "name": "Ravenfolk Scout",
+        "slug": "tob"
+    },
+    {
+        "name": "Ravenfolk Warrior",
+        "slug": "tob"
+    },
+    {
+        "name": "Ravenfolk Doom Croaker",
+        "slug": "tob"
+    },
+    {
+        "name": "Redcap",
+        "slug": "tob"
+    },
+    {
+        "name": "Rift Swine",
+        "slug": "tob"
+    },
+    {
+        "name": "Adult Rime Worm",
+        "slug": "tob"
+    },
+    {
+        "name": "Rime Worm Grub",
+        "slug": "tob"
+    },
+    {
+        "name": "Risen Reaver",
+        "slug": "tob"
+    },
+    {
+        "name": "Roachling Skirmisher",
+        "slug": "tob"
+    },
+    {
+        "name": "Roachling Lord",
+        "slug": "tob"
+    },
+    {
+        "name": "Rotting Wind",
+        "slug": "tob"
+    },
+    {
+        "name": "Rusalka",
+        "slug": "tob"
+    },
+    {
+        "name": "Sand Silhouette",
+        "slug": "tob"
+    },
+    {
+        "name": "Sandman",
+        "slug": "tob"
+    },
+    {
+        "name": "Sandwyrm",
+        "slug": "tob"
+    },
+    {
+        "name": "Sap Demon",
+        "slug": "tob"
+    },
+    {
+        "name": "Sarcophagus Slime",
+        "slug": "tob"
+    },
+    {
+        "name": "Sathaq Worm",
+        "slug": "tob"
+    },
+    {
+        "name": "Savager",
+        "slug": "tob"
+    },
+    {
+        "name": "Scheznyki",
+        "slug": "tob"
+    },
+    {
+        "name": "Night Scorpion",
+        "slug": "tob"
+    },
+    {
+        "name": "Stygian Fat-Tailed Scorpion",
+        "slug": "tob"
+    },
+    {
+        "name": "Selang",
+        "slug": "tob"
+    },
+    {
+        "name": "Serpopard",
+        "slug": "tob"
+    },
+    {
+        "name": "Shabti",
+        "slug": "tob"
+    },
+    {
+        "name": "Shadhavar",
+        "slug": "tob"
+    },
+    {
+        "name": "Shadow Beast",
+        "slug": "tob"
+    },
+    {
+        "name": "Shellycoat",
+        "slug": "tob"
+    },
+    {
+        "name": "Shoggoth",
+        "slug": "tob"
+    },
+    {
+        "name": "Shroud",
+        "slug": "tob"
+    },
+    {
+        "name": "Skein Witch",
+        "slug": "tob"
+    },
+    {
+        "name": "Sharkjaw Skeleton",
+        "slug": "tob"
+    },
+    {
+        "name": "Vine Troll Skeleton",
+        "slug": "tob"
+    },
+    {
+        "name": "Skitterhaunt",
+        "slug": "tob"
+    },
+    {
+        "name": "Slow Storm",
+        "slug": "tob"
+    },
+    {
+        "name": "Swamp Adder",
+        "slug": "tob"
+    },
+    {
+        "name": "Zanskaran Viper",
+        "slug": "tob"
+    },
+    {
+        "name": "Son Of Fenris",
+        "slug": "tob"
+    },
+    {
+        "name": "Soul Eater",
+        "slug": "tob"
+    },
+    {
+        "name": "Spark",
+        "slug": "tob"
+    },
+    {
+        "name": "Spectral Guardian",
+        "slug": "tob"
+    },
+    {
+        "name": "Gypsosphinx",
+        "slug": "tob"
+    },
+    {
+        "name": "Ghostwalk Spider",
+        "slug": "tob"
+    },
+    {
+        "name": "J'ba Fofi Spider",
+        "slug": "tob"
+    },
+    {
+        "name": "Red-Banded Line Spider",
+        "slug": "tob"
+    },
+    {
+        "name": "Sand Spider",
+        "slug": "tob"
+    },
+    {
+        "name": "Spider Of Leng",
+        "slug": "tob"
+    },
+    {
+        "name": "Spider Thief",
+        "slug": "tob"
+    },
+    {
+        "name": "Spire Walker",
+        "slug": "tob"
+    },
+    {
+        "name": "Star Spawn Of Cthulhu",
+        "slug": "tob"
+    },
+    {
+        "name": "Stryx",
+        "slug": "tob"
+    },
+    {
+        "name": "Stuhac",
+        "slug": "tob"
+    },
+    {
+        "name": "Subek",
+        "slug": "tob"
+    },
+    {
+        "name": "Suturefly",
+        "slug": "tob"
+    },
+    {
+        "name": "Fire Dancer Swarm",
+        "slug": "tob"
+    },
+    {
+        "name": "Manabane Scarab Swarm",
+        "slug": "tob"
+    },
+    {
+        "name": "Prismatic Beetle Swarm",
+        "slug": "tob"
+    },
+    {
+        "name": "Sluagh Swarm",
+        "slug": "tob"
+    },
+    {
+        "name": "Wolf Spirit Swarm",
+        "slug": "tob"
+    },
+    {
+        "name": "Temple Dog",
+        "slug": "tob"
+    },
+    {
+        "name": "Thuellai",
+        "slug": "tob"
+    },
+    {
+        "name": "Ancient Titan",
+        "slug": "tob"
+    },
+    {
+        "name": "Degenerate Titan",
+        "slug": "tob"
+    },
+    {
+        "name": "Titanoboa",
+        "slug": "tob"
+    },
+    {
+        "name": "Tophet",
+        "slug": "tob"
+    },
+    {
+        "name": "Tosculi Hive-Queen",
+        "slug": "tob"
+    },
+    {
+        "name": "Tosculi Warrior",
+        "slug": "tob"
+    },
+    {
+        "name": "Tosculi Drone",
+        "slug": "tob"
+    },
+    {
+        "name": "Tosculi Elite Bow Raider",
+        "slug": "tob"
+    },
+    {
+        "name": "Treacle",
+        "slug": "tob"
+    },
+    {
+        "name": "Weeping Treant",
+        "slug": "tob"
+    },
+    {
+        "name": "Lake Troll",
+        "slug": "tob"
+    },
+    {
+        "name": "Trollkin Reaver",
+        "slug": "tob"
+    },
+    {
+        "name": "Tusked Skyfish",
+        "slug": "tob"
+    },
+    {
+        "name": "Uraeus",
+        "slug": "tob"
+    },
+    {
+        "name": "Urochar (Strangling Watcher)",
+        "slug": "tob"
+    },
+    {
+        "name": "Ushabti",
+        "slug": "tob"
+    },
+    {
+        "name": "Vaettir",
+        "slug": "tob"
+    },
+    {
+        "name": "Valkyrie",
+        "slug": "tob"
+    },
+    {
+        "name": "Umbral Vampire",
+        "slug": "tob"
+    },
+    {
+        "name": "Vapor Lynx",
+        "slug": "tob"
+    },
+    {
+        "name": "Vesiculosa",
+        "slug": "tob"
+    },
+    {
+        "name": "Vila",
+        "slug": "tob"
+    },
+    {
+        "name": "Vile Barber",
+        "slug": "tob"
+    },
+    {
+        "name": "Vine Lord",
+        "slug": "tob"
+    },
+    {
+        "name": "Vine Lord's Tendril Puppet",
+        "slug": "tob"
+    },
+    {
+        "name": "Voidling",
+        "slug": "tob"
+    },
+    {
+        "name": "Wampus Cat",
+        "slug": "tob"
+    },
+    {
+        "name": "Water Leaper",
+        "slug": "tob"
+    },
+    {
+        "name": "Wharfling",
+        "slug": "tob"
+    },
+    {
+        "name": "Wharfling Swarm",
+        "slug": "tob"
+    },
+    {
+        "name": "White Ape",
+        "slug": "tob"
+    },
+    {
+        "name": "Witchlight",
+        "slug": "tob"
+    },
+    {
+        "name": "Wormhearted Suffragan",
+        "slug": "tob"
+    },
+    {
+        "name": "Xanka",
+        "slug": "tob"
+    },
+    {
+        "name": "Xhkarsh",
+        "slug": "tob"
+    },
+    {
+        "name": "Ychen Bannog",
+        "slug": "tob"
+    },
+    {
+        "name": "Zaratan",
+        "slug": "tob"
+    },
+    {
+        "name": "Zimwi",
+        "slug": "tob"
+    },
+    {
+        "name": "Zmey",
+        "slug": "tob"
+    },
+    {
+        "name": "Zmey Headling",
+        "slug": "tob"
+    },
+    {
+        "name": "Bandit Lord",
+        "slug": "tob"
+    },
+    {
+        "name": "Black Knight Commander",
+        "slug": "tob"
+    },
+    {
+        "name": "City Watch Captain",
+        "slug": "tob"
+    },
+    {
+        "name": "Devilbound Gnomish Prince",
+        "slug": "tob"
+    },
+    {
+        "name": "Dwarven Ringmage",
+        "slug": "tob"
+    },
+    {
+        "name": "Elvish Veteran Archer",
+        "slug": "tob"
+    },
+    {
+        "name": "Ghost Knight",
+        "slug": "tob"
+    },
+    {
+        "name": "Ogre Chieftain, Corrupted",
+        "slug": "tob"
+    },
+    {
+        "name": "Scorpion Cultist",
+        "slug": "tob"
+    },
+    {
+        "name": "Wolf Reaver Dwarf",
+        "slug": "tob"
+    },
+    {
+        "name": "Emerald Order Cult Leader",
+        "slug": "tob"
+    },
+    {
+        "name": "Vampire Warlock - Variant",
+        "slug": "tob"
+    },
+    {
+        "name": "Aatxe",
+        "slug": "cc"
+    },
+    {
+        "name": "Acid Ant",
+        "slug": "cc"
+    },
+    {
+        "name": "Adult Light Dragon",
+        "slug": "cc"
+    },
+    {
+        "name": "Adult Wasteland Dragon",
+        "slug": "cc"
+    },
+    {
+        "name": "Agnibarra",
+        "slug": "cc"
+    },
+    {
+        "name": "Ahu-Nixta",
+        "slug": "cc"
+    },
+    {
+        "name": "Ahuizotl",
+        "slug": "cc"
+    },
+    {
+        "name": "Alabaster Tree",
+        "slug": "cc"
+    },
+    {
+        "name": "Albino Death Weasel",
+        "slug": "cc"
+    },
+    {
+        "name": "Alchemical Apprentice",
+        "slug": "cc"
+    },
+    {
+        "name": "Alchemical Golem",
+        "slug": "cc"
+    },
+    {
+        "name": "Alchemist Archer",
+        "slug": "cc"
+    },
+    {
+        "name": "Alkonost",
+        "slug": "cc"
+    },
+    {
+        "name": "Alliumite",
+        "slug": "cc"
+    },
+    {
+        "name": "Alnaar",
+        "slug": "cc"
+    },
+    {
+        "name": "Alp",
+        "slug": "cc"
+    },
+    {
+        "name": "Alpha Yek",
+        "slug": "cc"
+    },
+    {
+        "name": "Altar Flame Golem",
+        "slug": "cc"
+    },
+    {
+        "name": "Ammut",
+        "slug": "cc"
+    },
+    {
+        "name": "Ancient Light Dragon",
+        "slug": "cc"
+    },
+    {
+        "name": "Ancient Mandriano",
+        "slug": "cc"
+    },
+    {
+        "name": "Ancient Wasteland Dragon",
+        "slug": "cc"
+    },
+    {
+        "name": "Ankou Soul Herald",
+        "slug": "cc"
+    },
+    {
+        "name": "Ankou Soul Seeker",
+        "slug": "cc"
+    },
+    {
+        "name": "Anophiloi",
+        "slug": "cc"
+    },
+    {
+        "name": "Arborcyte",
+        "slug": "cc"
+    },
+    {
+        "name": "Arcamag",
+        "slug": "cc"
+    },
+    {
+        "name": "Arcanaphage",
+        "slug": "cc"
+    },
+    {
+        "name": "Archaeopteryx",
+        "slug": "cc"
+    },
+    {
+        "name": "Armory Golem",
+        "slug": "cc"
+    },
+    {
+        "name": "Astral Snapper",
+        "slug": "cc"
+    },
+    {
+        "name": "Avatar of Shoth",
+        "slug": "cc"
+    },
+    {
+        "name": "Azeban",
+        "slug": "cc"
+    },
+    {
+        "name": "Azi Dahaka",
+        "slug": "cc"
+    },
+    {
+        "name": "Bar Brawl",
+        "slug": "cc"
+    },
+    {
+        "name": "Barong",
+        "slug": "cc"
+    },
+    {
+        "name": "Bathhouse Drake",
+        "slug": "cc"
+    },
+    {
+        "name": "Bearfolk Chieftain",
+        "slug": "cc"
+    },
+    {
+        "name": "Bearmit Crab",
+        "slug": "cc"
+    },
+    {
+        "name": "Bilwis",
+        "slug": "cc"
+    },
+    {
+        "name": "Black Sun Orc",
+        "slug": "cc"
+    },
+    {
+        "name": "Black Sun Priestess",
+        "slug": "cc"
+    },
+    {
+        "name": "Blood Elemental",
+        "slug": "cc"
+    },
+    {
+        "name": "Blood Giant",
+        "slug": "cc"
+    },
+    {
+        "name": "Blood Ooze",
+        "slug": "cc"
+    },
+    {
+        "name": "Blood Zombie",
+        "slug": "cc"
+    },
+    {
+        "name": "Bloody Bones",
+        "slug": "cc"
+    },
+    {
+        "name": "Bone Golem",
+        "slug": "cc"
+    },
+    {
+        "name": "Bookkeeper",
+        "slug": "cc"
+    },
+    {
+        "name": "Boot Grabber",
+        "slug": "cc"
+    },
+    {
+        "name": "Bronze Golem",
+        "slug": "cc"
+    },
+    {
+        "name": "Cacus Giant",
+        "slug": "cc"
+    },
+    {
+        "name": "Carbuncle",
+        "slug": "cc"
+    },
+    {
+        "name": "Cats of Ulthar",
+        "slug": "cc"
+    },
+    {
+        "name": "Cauldronborn",
+        "slug": "cc"
+    },
+    {
+        "name": "Cave Giant",
+        "slug": "cc"
+    },
+    {
+        "name": "Centaur Chieftain",
+        "slug": "cc"
+    },
+    {
+        "name": "Chaos-Spawn Goblin",
+        "slug": "cc"
+    },
+    {
+        "name": "Child of Yggdrasil",
+        "slug": "cc"
+    },
+    {
+        "name": "Chuhaister",
+        "slug": "cc"
+    },
+    {
+        "name": "Chupacabra",
+        "slug": "cc"
+    },
+    {
+        "name": "Cipactli",
+        "slug": "cc"
+    },
+    {
+        "name": "Clacking Skeleton",
+        "slug": "cc"
+    },
+    {
+        "name": "Clockwork Assassin",
+        "slug": "cc"
+    },
+    {
+        "name": "Clockwork Servant",
+        "slug": "cc"
+    },
+    {
+        "name": "Clockwork Soldier",
+        "slug": "cc"
+    },
+    {
+        "name": "Corpse Thief",
+        "slug": "cc"
+    },
+    {
+        "name": "Crimson Mist",
+        "slug": "cc"
+    },
+    {
+        "name": "Crypt Spider",
+        "slug": "cc"
+    },
+    {
+        "name": "Cueyatl Moon Priest",
+        "slug": "cc"
+    },
+    {
+        "name": "Cueyatl Sea Priest",
+        "slug": "cc"
+    },
+    {
+        "name": "Cueyatl Warrior",
+        "slug": "cc"
+    },
+    {
+        "name": "Cueyatl",
+        "slug": "cc"
+    },
+    {
+        "name": "Darakhul High Priestess",
+        "slug": "cc"
+    },
+    {
+        "name": "Darakhul Shadowmancer",
+        "slug": "cc"
+    },
+    {
+        "name": "Dark Eye",
+        "slug": "cc"
+    },
+    {
+        "name": "Dark Father",
+        "slug": "cc"
+    },
+    {
+        "name": "Dark Servant",
+        "slug": "cc"
+    },
+    {
+        "name": "Dark Voice",
+        "slug": "cc"
+    },
+    {
+        "name": "Deathsworn Elf",
+        "slug": "cc"
+    },
+    {
+        "name": "Desert Troll",
+        "slug": "cc"
+    },
+    {
+        "name": "Devil Bough",
+        "slug": "cc"
+    },
+    {
+        "name": "Devil Shark",
+        "slug": "cc"
+    },
+    {
+        "name": "Dhampir Commander",
+        "slug": "cc"
+    },
+    {
+        "name": "Dhampir",
+        "slug": "cc"
+    },
+    {
+        "name": "Doom Golem",
+        "slug": "cc"
+    },
+    {
+        "name": "Dracotaur",
+        "slug": "cc"
+    },
+    {
+        "name": "Dream Squire",
+        "slug": "cc"
+    },
+    {
+        "name": "Dream Wraith",
+        "slug": "cc"
+    },
+    {
+        "name": "Droth",
+        "slug": "cc"
+    },
+    {
+        "name": "Dust Goblin Chieftain",
+        "slug": "cc"
+    },
+    {
+        "name": "Dvarapala",
+        "slug": "cc"
+    },
+    {
+        "name": "Echo",
+        "slug": "cc"
+    },
+    {
+        "name": "Ecstatic Bloom",
+        "slug": "cc"
+    },
+    {
+        "name": "Edjet",
+        "slug": "cc"
+    },
+    {
+        "name": "Elder Ghost Boar",
+        "slug": "cc"
+    },
+    {
+        "name": "Elementalist",
+        "slug": "cc"
+    },
+    {
+        "name": "Elite Kobold",
+        "slug": "cc"
+    },
+    {
+        "name": "Elophar",
+        "slug": "cc"
+    },
+    {
+        "name": "Enchanter",
+        "slug": "cc"
+    },
+    {
+        "name": "Execrable Shrub",
+        "slug": "cc"
+    },
+    {
+        "name": "Exploding Toad",
+        "slug": "cc"
+    },
+    {
+        "name": "Eye of the Gods",
+        "slug": "cc"
+    },
+    {
+        "name": "Fang of the Great Wolf",
+        "slug": "cc"
+    },
+    {
+        "name": "Far Wanderer",
+        "slug": "cc"
+    },
+    {
+        "name": "Fear Liath",
+        "slug": "cc"
+    },
+    {
+        "name": "Fey Drake",
+        "slug": "cc"
+    },
+    {
+        "name": "Fierstjerren",
+        "slug": "cc"
+    },
+    {
+        "name": "Fire Imp",
+        "slug": "cc"
+    },
+    {
+        "name": "Flame Eater Swarm",
+        "slug": "cc"
+    },
+    {
+        "name": "Flame-Scourged Scion",
+        "slug": "cc"
+    },
+    {
+        "name": "Flesh Reaver",
+        "slug": "cc"
+    },
+    {
+        "name": "Fleshpod Hornet",
+        "slug": "cc"
+    },
+    {
+        "name": "Flying Polyp",
+        "slug": "cc"
+    },
+    {
+        "name": "Forest Drake",
+        "slug": "cc"
+    },
+    {
+        "name": "Foxfire Ooze",
+        "slug": "cc"
+    },
+    {
+        "name": "Foxin",
+        "slug": "cc"
+    },
+    {
+        "name": "Fractal Golem",
+        "slug": "cc"
+    },
+    {
+        "name": "Fragrite",
+        "slug": "cc"
+    },
+    {
+        "name": "Fulad-Zereh",
+        "slug": "cc"
+    },
+    {
+        "name": "Fulminar",
+        "slug": "cc"
+    },
+    {
+        "name": "Gaki",
+        "slug": "cc"
+    },
+    {
+        "name": "Gargoctopus",
+        "slug": "cc"
+    },
+    {
+        "name": "Ghast of Leng",
+        "slug": "cc"
+    },
+    {
+        "name": "Ghost Boar",
+        "slug": "cc"
+    },
+    {
+        "name": "Ghost Dragon",
+        "slug": "cc"
+    },
+    {
+        "name": "Ghost Dwarf",
+        "slug": "cc"
+    },
+    {
+        "name": "Ghoulsteed",
+        "slug": "cc"
+    },
+    {
+        "name": "Giant Albino Bat",
+        "slug": "cc"
+    },
+    {
+        "name": "Giant Moth",
+        "slug": "cc"
+    },
+    {
+        "name": "Giant Shark Bowl",
+        "slug": "cc"
+    },
+    {
+        "name": "Giant Sloth",
+        "slug": "cc"
+    },
+    {
+        "name": "Giant Vampire Bat",
+        "slug": "cc"
+    },
+    {
+        "name": "Glass Golem",
+        "slug": "cc"
+    },
+    {
+        "name": "Gloomflower",
+        "slug": "cc"
+    },
+    {
+        "name": "Gnoll Slaver",
+        "slug": "cc"
+    },
+    {
+        "name": "Goliath Longlegs",
+        "slug": "cc"
+    },
+    {
+        "name": "Goreling",
+        "slug": "cc"
+    },
+    {
+        "name": "Grave Behemoth",
+        "slug": "cc"
+    },
+    {
+        "name": "Great Mandrake",
+        "slug": "cc"
+    },
+    {
+        "name": "Greater Rakshasa",
+        "slug": "cc"
+    },
+    {
+        "name": "Greater Scrag",
+        "slug": "cc"
+    },
+    {
+        "name": "Green Abyss Orc",
+        "slug": "cc"
+    },
+    {
+        "name": "Green Knight of the Woods",
+        "slug": "cc"
+    },
+    {
+        "name": "Grindylow",
+        "slug": "cc"
+    },
+    {
+        "name": "Gugalanna",
+        "slug": "cc"
+    },
+    {
+        "name": "Gulon",
+        "slug": "cc"
+    },
+    {
+        "name": "Gumienniki",
+        "slug": "cc"
+    },
+    {
+        "name": "Hair Golem",
+        "slug": "cc"
+    },
+    {
+        "name": "Hallowed Reed",
+        "slug": "cc"
+    },
+    {
+        "name": "Haunted Giant",
+        "slug": "cc"
+    },
+    {
+        "name": "Heavy Cavalry",
+        "slug": "cc"
+    },
+    {
+        "name": "Hierophant Lich",
+        "slug": "cc"
+    },
+    {
+        "name": "Horned Serpent",
+        "slug": "cc"
+    },
+    {
+        "name": "Hound of Tindalos",
+        "slug": "cc"
+    },
+    {
+        "name": "Ichneumon",
+        "slug": "cc"
+    },
+    {
+        "name": "Ijiraq",
+        "slug": "cc"
+    },
+    {
+        "name": "Incinis",
+        "slug": "cc"
+    },
+    {
+        "name": "Infernal Knight",
+        "slug": "cc"
+    },
+    {
+        "name": "Ink Guardian",
+        "slug": "cc"
+    },
+    {
+        "name": "Inkling",
+        "slug": "cc"
+    },
+    {
+        "name": "Iron Sphere",
+        "slug": "cc"
+    },
+    {
+        "name": "Jaanavar Jal",
+        "slug": "cc"
+    },
+    {
+        "name": "Jiangshi",
+        "slug": "cc"
+    },
+    {
+        "name": "Jinmenju",
+        "slug": "cc"
+    },
+    {
+        "name": "Junk Shaman",
+        "slug": "cc"
+    },
+    {
+        "name": "Kallikantzaros",
+        "slug": "cc"
+    },
+    {
+        "name": "Kapi",
+        "slug": "cc"
+    },
+    {
+        "name": "Kappa",
+        "slug": "cc"
+    },
+    {
+        "name": "Karakura",
+        "slug": "cc"
+    },
+    {
+        "name": "Keg Golem",
+        "slug": "cc"
+    },
+    {
+        "name": "King Kobold",
+        "slug": "cc"
+    },
+    {
+        "name": "Kinnara",
+        "slug": "cc"
+    },
+    {
+        "name": "Kitsune",
+        "slug": "cc"
+    },
+    {
+        "name": "Knight of the Road",
+        "slug": "cc"
+    },
+    {
+        "name": "Korrigan",
+        "slug": "cc"
+    },
+    {
+        "name": "Kryt",
+        "slug": "cc"
+    },
+    {
+        "name": "K\u00fclmking",
+        "slug": "cc"
+    },
+    {
+        "name": "Kuunganisha",
+        "slug": "cc"
+    },
+    {
+        "name": "Labyrinth Keeper",
+        "slug": "cc"
+    },
+    {
+        "name": "Lady in White",
+        "slug": "cc"
+    },
+    {
+        "name": "Laestrigonian Giant",
+        "slug": "cc"
+    },
+    {
+        "name": "Lamassu",
+        "slug": "cc"
+    },
+    {
+        "name": "Leonino",
+        "slug": "cc"
+    },
+    {
+        "name": "Lesser Scrag",
+        "slug": "cc"
+    },
+    {
+        "name": "Light Cavalry",
+        "slug": "cc"
+    },
+    {
+        "name": "Light Dragon Wyrmling",
+        "slug": "cc"
+    },
+    {
+        "name": "Living Shade",
+        "slug": "cc"
+    },
+    {
+        "name": "Living Star",
+        "slug": "cc"
+    },
+    {
+        "name": "Lord Zombie",
+        "slug": "cc"
+    },
+    {
+        "name": "Lost Minotaur",
+        "slug": "cc"
+    },
+    {
+        "name": "Lotus Golem",
+        "slug": "cc"
+    },
+    {
+        "name": "Lou Carcolh",
+        "slug": "cc"
+    },
+    {
+        "name": "Lystrosaurus",
+        "slug": "cc"
+    },
+    {
+        "name": "Manastorm Golem",
+        "slug": "cc"
+    },
+    {
+        "name": "Mandrake",
+        "slug": "cc"
+    },
+    {
+        "name": "Mandriano",
+        "slug": "cc"
+    },
+    {
+        "name": "Matriarch Serpentine Lamia",
+        "slug": "cc"
+    },
+    {
+        "name": "Megapede",
+        "slug": "cc"
+    },
+    {
+        "name": "Mold Zombie",
+        "slug": "cc"
+    },
+    {
+        "name": "Monarch Skeleton",
+        "slug": "cc"
+    },
+    {
+        "name": "Monkey King",
+        "slug": "cc"
+    },
+    {
+        "name": "Moon Drake",
+        "slug": "cc"
+    },
+    {
+        "name": "Moon Nymph",
+        "slug": "cc"
+    },
+    {
+        "name": "Moonchild Naga",
+        "slug": "cc"
+    },
+    {
+        "name": "Morko",
+        "slug": "cc"
+    },
+    {
+        "name": "Mountain Giant",
+        "slug": "cc"
+    },
+    {
+        "name": "Mud Golem",
+        "slug": "cc"
+    },
+    {
+        "name": "Mytholabe",
+        "slug": "cc"
+    },
+    {
+        "name": "Nachzehrer",
+        "slug": "cc"
+    },
+    {
+        "name": "Nalusa Falaya",
+        "slug": "cc"
+    },
+    {
+        "name": "Necrophage Ghast",
+        "slug": "cc"
+    },
+    {
+        "name": "Necrotic Tick",
+        "slug": "cc"
+    },
+    {
+        "name": "Neophron",
+        "slug": "cc"
+    },
+    {
+        "name": "Nian",
+        "slug": "cc"
+    },
+    {
+        "name": "Nightgaunt",
+        "slug": "cc"
+    },
+    {
+        "name": "Ningyo",
+        "slug": "cc"
+    },
+    {
+        "name": "Nodosaurus",
+        "slug": "cc"
+    },
+    {
+        "name": "Oliphaunt",
+        "slug": "cc"
+    },
+    {
+        "name": "One-Headed Clockwork Dragon",
+        "slug": "cc"
+    },
+    {
+        "name": "Ophanim",
+        "slug": "cc"
+    },
+    {
+        "name": "Orthrus",
+        "slug": "cc"
+    },
+    {
+        "name": "Oth",
+        "slug": "cc"
+    },
+    {
+        "name": "Ouroban",
+        "slug": "cc"
+    },
+    {
+        "name": "Ouroboros",
+        "slug": "cc"
+    },
+    {
+        "name": "Pact Drake",
+        "slug": "cc"
+    },
+    {
+        "name": "Pact Lich",
+        "slug": "cc"
+    },
+    {
+        "name": "Paper Golem Swarm",
+        "slug": "cc"
+    },
+    {
+        "name": "Paper Golem",
+        "slug": "cc"
+    },
+    {
+        "name": "Pattern Dancer",
+        "slug": "cc"
+    },
+    {
+        "name": "Pech Lithlord",
+        "slug": "cc"
+    },
+    {
+        "name": "Pech Stonemaster",
+        "slug": "cc"
+    },
+    {
+        "name": "Pech",
+        "slug": "cc"
+    },
+    {
+        "name": "Peluda Drake",
+        "slug": "cc"
+    },
+    {
+        "name": "Phantom",
+        "slug": "cc"
+    },
+    {
+        "name": "Philosopher's Ghost",
+        "slug": "cc"
+    },
+    {
+        "name": "Piasa",
+        "slug": "cc"
+    },
+    {
+        "name": "Pillar of the Lost Magocracy",
+        "slug": "cc"
+    },
+    {
+        "name": "Pishacha",
+        "slug": "cc"
+    },
+    {
+        "name": "Pixiu",
+        "slug": "cc"
+    },
+    {
+        "name": "Plaresh",
+        "slug": "cc"
+    },
+    {
+        "name": "Preta",
+        "slug": "cc"
+    },
+    {
+        "name": "Purple Slime",
+        "slug": "cc"
+    },
+    {
+        "name": "Quickstep",
+        "slug": "cc"
+    },
+    {
+        "name": "Quiet Soul",
+        "slug": "cc"
+    },
+    {
+        "name": "Rageipede",
+        "slug": "cc"
+    },
+    {
+        "name": "Ramag Portal Master",
+        "slug": "cc"
+    },
+    {
+        "name": "Ratatosk Warlord",
+        "slug": "cc"
+    },
+    {
+        "name": "Ratfolk Mercenary",
+        "slug": "cc"
+    },
+    {
+        "name": "Ratfolk Warlock",
+        "slug": "cc"
+    },
+    {
+        "name": "Rattok",
+        "slug": "cc"
+    },
+    {
+        "name": "Razorleaf",
+        "slug": "cc"
+    },
+    {
+        "name": "Rimewing",
+        "slug": "cc"
+    },
+    {
+        "name": "Ring Servant",
+        "slug": "cc"
+    },
+    {
+        "name": "Roachling Scout",
+        "slug": "cc"
+    },
+    {
+        "name": "Roggenwolf",
+        "slug": "cc"
+    },
+    {
+        "name": "Ruby Ooze",
+        "slug": "cc"
+    },
+    {
+        "name": "Sammael",
+        "slug": "cc"
+    },
+    {
+        "name": "Scitalis",
+        "slug": "cc"
+    },
+    {
+        "name": "Sentinel in Darkness",
+        "slug": "cc"
+    },
+    {
+        "name": "Serpentfolk of Yig",
+        "slug": "cc"
+    },
+    {
+        "name": "Serpentine Lamia",
+        "slug": "cc"
+    },
+    {
+        "name": "Servant of the Vine",
+        "slug": "cc"
+    },
+    {
+        "name": "Servant of Yig",
+        "slug": "cc"
+    },
+    {
+        "name": "Shadow Blight",
+        "slug": "cc"
+    },
+    {
+        "name": "Shadow Fey Ambassador",
+        "slug": "cc"
+    },
+    {
+        "name": "Shadow Fey Poisoner",
+        "slug": "cc"
+    },
+    {
+        "name": "Shadow Goblin",
+        "slug": "cc"
+    },
+    {
+        "name": "Shadow Ooze",
+        "slug": "cc"
+    },
+    {
+        "name": "Shadow River Lord",
+        "slug": "cc"
+    },
+    {
+        "name": "Shadow Skeleton",
+        "slug": "cc"
+    },
+    {
+        "name": "Shantak",
+        "slug": "cc"
+    },
+    {
+        "name": "Shard Swarm",
+        "slug": "cc"
+    },
+    {
+        "name": "Shockwing",
+        "slug": "cc"
+    },
+    {
+        "name": "Shoreline Scrapper",
+        "slug": "cc"
+    },
+    {
+        "name": "Sigilian",
+        "slug": "cc"
+    },
+    {
+        "name": "Simhamukha",
+        "slug": "cc"
+    },
+    {
+        "name": "Simurg",
+        "slug": "cc"
+    },
+    {
+        "name": "Skull Drake",
+        "slug": "cc"
+    },
+    {
+        "name": "Skull Lantern",
+        "slug": "cc"
+    },
+    {
+        "name": "Sleipnir",
+        "slug": "cc"
+    },
+    {
+        "name": "Snow Cat",
+        "slug": "cc"
+    },
+    {
+        "name": "Snow Hag",
+        "slug": "cc"
+    },
+    {
+        "name": "Song Angel",
+        "slug": "cc"
+    },
+    {
+        "name": "Sootwing",
+        "slug": "cc"
+    },
+    {
+        "name": "Sooze",
+        "slug": "cc"
+    },
+    {
+        "name": "Spawn of Chernobog",
+        "slug": "cc"
+    },
+    {
+        "name": "Speaker to the Darkness",
+        "slug": "cc"
+    },
+    {
+        "name": "Spider Drake",
+        "slug": "cc"
+    },
+    {
+        "name": "Spirit Lamp",
+        "slug": "cc"
+    },
+    {
+        "name": "Spree",
+        "slug": "cc"
+    },
+    {
+        "name": "Storm Lord",
+        "slug": "cc"
+    },
+    {
+        "name": "Storm Spirit",
+        "slug": "cc"
+    },
+    {
+        "name": "Sunset Raptor",
+        "slug": "cc"
+    },
+    {
+        "name": "Suppurating Ooze",
+        "slug": "cc"
+    },
+    {
+        "name": "Swolbold",
+        "slug": "cc"
+    },
+    {
+        "name": "Tar Ghoul",
+        "slug": "cc"
+    },
+    {
+        "name": "Terror Bird",
+        "slug": "cc"
+    },
+    {
+        "name": "The Barbed",
+        "slug": "cc"
+    },
+    {
+        "name": "Thorned Sulfurlord",
+        "slug": "cc"
+    },
+    {
+        "name": "Thread-Bound Constrictor Snake",
+        "slug": "cc"
+    },
+    {
+        "name": "Three-Headed Clockwork Dragon",
+        "slug": "cc"
+    },
+    {
+        "name": "Three-Headed Cobra",
+        "slug": "cc"
+    },
+    {
+        "name": "Tosculi Jeweled Drone",
+        "slug": "cc"
+    },
+    {
+        "name": "Trollking Grunt",
+        "slug": "cc"
+    },
+    {
+        "name": "Trollkin Shaman",
+        "slug": "cc"
+    },
+    {
+        "name": "Tulpa",
+        "slug": "cc"
+    },
+    {
+        "name": "Tusked Crimson Ogre",
+        "slug": "cc"
+    },
+    {
+        "name": "Tveirherjar",
+        "slug": "cc"
+    },
+    {
+        "name": "Two-Headed Eagle",
+        "slug": "cc"
+    },
+    {
+        "name": "Undead Phoenix",
+        "slug": "cc"
+    },
+    {
+        "name": "Unhatched",
+        "slug": "cc"
+    },
+    {
+        "name": "Ursa Polaris",
+        "slug": "cc"
+    },
+    {
+        "name": "Vampire Patrician",
+        "slug": "cc"
+    },
+    {
+        "name": "Vampire Priestess",
+        "slug": "cc"
+    },
+    {
+        "name": "Vampiric Knight",
+        "slug": "cc"
+    },
+    {
+        "name": "Vanara",
+        "slug": "cc"
+    },
+    {
+        "name": "Vellso",
+        "slug": "cc"
+    },
+    {
+        "name": "Venom Elemental",
+        "slug": "cc"
+    },
+    {
+        "name": "Venom Maw Hydra",
+        "slug": "cc"
+    },
+    {
+        "name": "Vines of Nemthyr",
+        "slug": "cc"
+    },
+    {
+        "name": "Void Giant",
+        "slug": "cc"
+    },
+    {
+        "name": "War Machine Golem",
+        "slug": "cc"
+    },
+    {
+        "name": "War Wyvern",
+        "slug": "cc"
+    },
+    {
+        "name": "Warlock's Trumpetbloom",
+        "slug": "cc"
+    },
+    {
+        "name": "Wasteland Dragon Wyrmling",
+        "slug": "cc"
+    },
+    {
+        "name": "Water Horse",
+        "slug": "cc"
+    },
+    {
+        "name": "Weirding Scroll",
+        "slug": "cc"
+    },
+    {
+        "name": "Wendigo",
+        "slug": "cc"
+    },
+    {
+        "name": "Werebat",
+        "slug": "cc"
+    },
+    {
+        "name": "Werehyena",
+        "slug": "cc"
+    },
+    {
+        "name": "Whisperer in Darkness",
+        "slug": "cc"
+    },
+    {
+        "name": "White Stag",
+        "slug": "cc"
+    },
+    {
+        "name": "Wickerman",
+        "slug": "cc"
+    },
+    {
+        "name": "Wind Demon",
+        "slug": "cc"
+    },
+    {
+        "name": "Wind Eater",
+        "slug": "cc"
+    },
+    {
+        "name": "Wind Weasel",
+        "slug": "cc"
+    },
+    {
+        "name": "Wind's Harp",
+        "slug": "cc"
+    },
+    {
+        "name": "Wirbeln Fungi",
+        "slug": "cc"
+    },
+    {
+        "name": "Witch Queen",
+        "slug": "cc"
+    },
+    {
+        "name": "Wizard Kobold",
+        "slug": "cc"
+    },
+    {
+        "name": "Wolpertinger",
+        "slug": "cc"
+    },
+    {
+        "name": "Wood Golem",
+        "slug": "cc"
+    },
+    {
+        "name": "Woodwose",
+        "slug": "cc"
+    },
+    {
+        "name": "Wyvern Knight",
+        "slug": "cc"
+    },
+    {
+        "name": "Xenabsorber",
+        "slug": "cc"
+    },
+    {
+        "name": "Xiphus",
+        "slug": "cc"
+    },
+    {
+        "name": "Yaga Goo",
+        "slug": "cc"
+    },
+    {
+        "name": "Yakirian",
+        "slug": "cc"
+    },
+    {
+        "name": "Yann-An-Oed",
+        "slug": "cc"
+    },
+    {
+        "name": "Yek",
+        "slug": "cc"
+    },
+    {
+        "name": "Young Light Dragon",
+        "slug": "cc"
+    },
+    {
+        "name": "Young Wasteland Dragon",
+        "slug": "cc"
+    },
+    {
+        "name": "Ziphius",
+        "slug": "cc"
+    },
+    {
+        "name": "Zoog",
+        "slug": "cc"
+    },
+    {
+        "name": "Zoryas",
+        "slug": "cc"
+    },
+    {
+        "name": "A-mi-kuk",
+        "slug": "tob2"
+    },
+    {
+        "name": "Aalpamac",
+        "slug": "tob2"
+    },
+    {
+        "name": "Abbanith Giant",
+        "slug": "tob2"
+    },
+    {
+        "name": "Adult Boreal Dragon",
+        "slug": "tob2"
+    },
+    {
+        "name": "Adult Imperial Dragon",
+        "slug": "tob2"
+    },
+    {
+        "name": "Ahu-Nixta Cataphract",
+        "slug": "tob2"
+    },
+    {
+        "name": "Ahu-Nixta Drudge",
+        "slug": "tob2"
+    },
+    {
+        "name": "Akaasit",
+        "slug": "tob2"
+    },
+    {
+        "name": "Akhlut",
+        "slug": "tob2"
+    },
+    {
+        "name": "Alchemical Skunk",
+        "slug": "tob2"
+    },
+    {
+        "name": "Alligator Turtle",
+        "slug": "tob2"
+    },
+    {
+        "name": "Alligator",
+        "slug": "tob2"
+    },
+    {
+        "name": "Alpha Fish",
+        "slug": "tob2"
+    },
+    {
+        "name": "Amber Ooze",
+        "slug": "tob2"
+    },
+    {
+        "name": "Ancient Boreal Dragon",
+        "slug": "tob2"
+    },
+    {
+        "name": "Ancient Imperial Dragon",
+        "slug": "tob2"
+    },
+    {
+        "name": "Angel of Judgment",
+        "slug": "tob2"
+    },
+    {
+        "name": "Angelic Enforcer",
+        "slug": "tob2"
+    },
+    {
+        "name": "Animated Bearskin Rug",
+        "slug": "tob2"
+    },
+    {
+        "name": "Aniwye",
+        "slug": "tob2"
+    },
+    {
+        "name": "Anzu",
+        "slug": "tob2"
+    },
+    {
+        "name": "Apaxrusl",
+        "slug": "tob2"
+    },
+    {
+        "name": "Arachnocrat",
+        "slug": "tob2"
+    },
+    {
+        "name": "Ash Phoenix",
+        "slug": "tob2"
+    },
+    {
+        "name": "Ashen Custodian",
+        "slug": "tob2"
+    },
+    {
+        "name": "Astral Devourer",
+        "slug": "tob2"
+    },
+    {
+        "name": "Astri",
+        "slug": "tob2"
+    },
+    {
+        "name": "Attercroppe",
+        "slug": "tob2"
+    },
+    {
+        "name": "August Rooster",
+        "slug": "tob2"
+    },
+    {
+        "name": "Aurora Horribilis",
+        "slug": "tob2"
+    },
+    {
+        "name": "Avalanche Screamer",
+        "slug": "tob2"
+    },
+    {
+        "name": "Aviere",
+        "slug": "tob2"
+    },
+    {
+        "name": "Avulzor",
+        "slug": "tob2"
+    },
+    {
+        "name": "Backup Holler Spider",
+        "slug": "tob2"
+    },
+    {
+        "name": "Baliri Demon",
+        "slug": "tob2"
+    },
+    {
+        "name": "Balloon Spider",
+        "slug": "tob2"
+    },
+    {
+        "name": "Barometz",
+        "slug": "tob2"
+    },
+    {
+        "name": "Bearing Golem",
+        "slug": "tob2"
+    },
+    {
+        "name": "Befouled Weird",
+        "slug": "tob2"
+    },
+    {
+        "name": "Black Crier",
+        "slug": "tob2"
+    },
+    {
+        "name": "Bleakheart",
+        "slug": "tob2"
+    },
+    {
+        "name": "Bloated Ghoul",
+        "slug": "tob2"
+    },
+    {
+        "name": "Blood Imp",
+        "slug": "tob2"
+    },
+    {
+        "name": "Bloodsapper",
+        "slug": "tob2"
+    },
+    {
+        "name": "Bloodstone Sentinel",
+        "slug": "tob2"
+    },
+    {
+        "name": "Bone Colossus",
+        "slug": "tob2"
+    },
+    {
+        "name": "Boneshard Wraith",
+        "slug": "tob2"
+    },
+    {
+        "name": "Bonespitter",
+        "slug": "tob2"
+    },
+    {
+        "name": "Boomer",
+        "slug": "tob2"
+    },
+    {
+        "name": "Boreal Dragon Wyrmling",
+        "slug": "tob2"
+    },
+    {
+        "name": "Boreas\u2019 Chosen",
+        "slug": "tob2"
+    },
+    {
+        "name": "Brachyura Shambler",
+        "slug": "tob2"
+    },
+    {
+        "name": "Brain Hood",
+        "slug": "tob2"
+    },
+    {
+        "name": "Brimstone Locusthound",
+        "slug": "tob2"
+    },
+    {
+        "name": "Broodmother of Leng",
+        "slug": "tob2"
+    },
+    {
+        "name": "Bulbous Violet",
+        "slug": "tob2"
+    },
+    {
+        "name": "Bull",
+        "slug": "tob2"
+    },
+    {
+        "name": "Butatsch",
+        "slug": "tob2"
+    },
+    {
+        "name": "Cackling Skeleton",
+        "slug": "tob2"
+    },
+    {
+        "name": "Cadaver Sprite",
+        "slug": "tob2"
+    },
+    {
+        "name": "Caltrop Golem",
+        "slug": "tob2"
+    },
+    {
+        "name": "Carnivorous Ship",
+        "slug": "tob2"
+    },
+    {
+        "name": "Carnivorous Sod",
+        "slug": "tob2"
+    },
+    {
+        "name": "Carrier Mosquito",
+        "slug": "tob2"
+    },
+    {
+        "name": "Catscratch",
+        "slug": "tob2"
+    },
+    {
+        "name": "Cave Drake",
+        "slug": "tob2"
+    },
+    {
+        "name": "Cave Giant Shaman",
+        "slug": "tob2"
+    },
+    {
+        "name": "Cave Goat",
+        "slug": "tob2"
+    },
+    {
+        "name": "Cavefish Zombie",
+        "slug": "tob2"
+    },
+    {
+        "name": "Chameleon Hydra",
+        "slug": "tob2"
+    },
+    {
+        "name": "Chamrosh",
+        "slug": "tob2"
+    },
+    {
+        "name": "Chatterlome",
+        "slug": "tob2"
+    },
+    {
+        "name": "Cherufe",
+        "slug": "tob2"
+    },
+    {
+        "name": "Chill Haunt",
+        "slug": "tob2"
+    },
+    {
+        "name": "Chimeric Phantom",
+        "slug": "tob2"
+    },
+    {
+        "name": "Chronomatic Enhancer",
+        "slug": "tob2"
+    },
+    {
+        "name": "Clockwork Archon",
+        "slug": "tob2"
+    },
+    {
+        "name": "Clockwork Leech",
+        "slug": "tob2"
+    },
+    {
+        "name": "Clockwork Mantis",
+        "slug": "tob2"
+    },
+    {
+        "name": "Clockwork Tiger",
+        "slug": "tob2"
+    },
+    {
+        "name": "Coll\u00e1is",
+        "slug": "tob2"
+    },
+    {
+        "name": "Compsognathus",
+        "slug": "tob2"
+    },
+    {
+        "name": "Conjoined Queen",
+        "slug": "tob2"
+    },
+    {
+        "name": "Corpse Worm",
+        "slug": "tob2"
+    },
+    {
+        "name": "Corrupted Pixie",
+        "slug": "tob2"
+    },
+    {
+        "name": "Crimson Shambler",
+        "slug": "tob2"
+    },
+    {
+        "name": "Crinaea",
+        "slug": "tob2"
+    },
+    {
+        "name": "Crocotta",
+        "slug": "tob2"
+    },
+    {
+        "name": "Cryoceros",
+        "slug": "tob2"
+    },
+    {
+        "name": "Crystalline Monolith",
+        "slug": "tob2"
+    },
+    {
+        "name": "Culicoid",
+        "slug": "tob2"
+    },
+    {
+        "name": "Dancing Foliage",
+        "slug": "tob2"
+    },
+    {
+        "name": "Darakhul Captain",
+        "slug": "tob2"
+    },
+    {
+        "name": "Darakhul Spy",
+        "slug": "tob2"
+    },
+    {
+        "name": "De Ogen",
+        "slug": "tob2"
+    },
+    {
+        "name": "Death Barque",
+        "slug": "tob2"
+    },
+    {
+        "name": "Death Shroud Golem",
+        "slug": "tob2"
+    },
+    {
+        "name": "Death Vulture",
+        "slug": "tob2"
+    },
+    {
+        "name": "Deathspeaker",
+        "slug": "tob2"
+    },
+    {
+        "name": "Deathweaver",
+        "slug": "tob2"
+    },
+    {
+        "name": "Deep Troll",
+        "slug": "tob2"
+    },
+    {
+        "name": "Derendian Moth Abomination",
+        "slug": "tob2"
+    },
+    {
+        "name": "Derro Explorer",
+        "slug": "tob2"
+    },
+    {
+        "name": "Derro Guard",
+        "slug": "tob2"
+    },
+    {
+        "name": "Derro Shadowseeker",
+        "slug": "tob2"
+    },
+    {
+        "name": "Destroyer",
+        "slug": "tob2"
+    },
+    {
+        "name": "Dimensional Shambler",
+        "slug": "tob2"
+    },
+    {
+        "name": "Diminution Drake",
+        "slug": "tob2"
+    },
+    {
+        "name": "Dragonflesh Golem",
+        "slug": "tob2"
+    },
+    {
+        "name": "Dread Walker Excavator",
+        "slug": "tob2"
+    },
+    {
+        "name": "Edjet Initiate",
+        "slug": "tob2"
+    },
+    {
+        "name": "Egret Harpy",
+        "slug": "tob2"
+    },
+    {
+        "name": "Eldritch Ooze",
+        "slug": "tob2"
+    },
+    {
+        "name": "Emperor\u2019s Hyena",
+        "slug": "tob2"
+    },
+    {
+        "name": "Empusa",
+        "slug": "tob2"
+    },
+    {
+        "name": "Eonic Savant",
+        "slug": "tob2"
+    },
+    {
+        "name": "Fabricator",
+        "slug": "tob2"
+    },
+    {
+        "name": "Faceless Wanderer",
+        "slug": "tob2"
+    },
+    {
+        "name": "Falsifier Fog",
+        "slug": "tob2"
+    },
+    {
+        "name": "Fane Spirit",
+        "slug": "tob2"
+    },
+    {
+        "name": "Far Dorocha",
+        "slug": "tob2"
+    },
+    {
+        "name": "Felid Dragon",
+        "slug": "tob2"
+    },
+    {
+        "name": "Fennec Fox",
+        "slug": "tob2"
+    },
+    {
+        "name": "Fey Revenant",
+        "slug": "tob2"
+    },
+    {
+        "name": "Fire-Infused Water Elemental",
+        "slug": "tob2"
+    },
+    {
+        "name": "Flayed Wraith",
+        "slug": "tob2"
+    },
+    {
+        "name": "Fleshdreg",
+        "slug": "tob2"
+    },
+    {
+        "name": "Fleshspurned",
+        "slug": "tob2"
+    },
+    {
+        "name": "Flithidir",
+        "slug": "tob2"
+    },
+    {
+        "name": "Forest Emperor",
+        "slug": "tob2"
+    },
+    {
+        "name": "Forest Falcon",
+        "slug": "tob2"
+    },
+    {
+        "name": "Fragrant One",
+        "slug": "tob2"
+    },
+    {
+        "name": "Frost Mole",
+        "slug": "tob2"
+    },
+    {
+        "name": "Galidroo",
+        "slug": "tob2"
+    },
+    {
+        "name": "Garlicle",
+        "slug": "tob2"
+    },
+    {
+        "name": "Gaunt One",
+        "slug": "tob2"
+    },
+    {
+        "name": "Ghillie Dubh",
+        "slug": "tob2"
+    },
+    {
+        "name": "Ghoul Bat",
+        "slug": "tob2"
+    },
+    {
+        "name": "Ghul",
+        "slug": "tob2"
+    },
+    {
+        "name": "Giant Armadillo",
+        "slug": "tob2"
+    },
+    {
+        "name": "Giant Bombardier Beetle",
+        "slug": "tob2"
+    },
+    {
+        "name": "Giant Frilled Lizard",
+        "slug": "tob2"
+    },
+    {
+        "name": "Giant Honey Bee",
+        "slug": "tob2"
+    },
+    {
+        "name": "Giant Husk",
+        "slug": "tob2"
+    },
+    {
+        "name": "Giant Leech",
+        "slug": "tob2"
+    },
+    {
+        "name": "Giant Mongoose",
+        "slug": "tob2"
+    },
+    {
+        "name": "Giant Snow Beetle",
+        "slug": "tob2"
+    },
+    {
+        "name": "Giant Water Scorpion",
+        "slug": "tob2"
+    },
+    {
+        "name": "Glacial Corrupter",
+        "slug": "tob2"
+    },
+    {
+        "name": "Glacier Behemoth",
+        "slug": "tob2"
+    },
+    {
+        "name": "Gorao-Ka",
+        "slug": "tob2"
+    },
+    {
+        "name": "Graknork",
+        "slug": "tob2"
+    },
+    {
+        "name": "Graveyard Dragon",
+        "slug": "tob2"
+    },
+    {
+        "name": "Gray Orc",
+        "slug": "tob2"
+    },
+    {
+        "name": "Great Gray Owl",
+        "slug": "tob2"
+    },
+    {
+        "name": "Greater Ghast of Leng",
+        "slug": "tob2"
+    },
+    {
+        "name": "Greater Lunarchidna",
+        "slug": "tob2"
+    },
+    {
+        "name": "Greed Swarm",
+        "slug": "tob2"
+    },
+    {
+        "name": "Grimmlet Swarm",
+        "slug": "tob2"
+    },
+    {
+        "name": "Grimmlet",
+        "slug": "tob2"
+    },
+    {
+        "name": "Grove Bear",
+        "slug": "tob2"
+    },
+    {
+        "name": "Gulper Behemoth",
+        "slug": "tob2"
+    },
+    {
+        "name": "Haleshi",
+        "slug": "tob2"
+    },
+    {
+        "name": "Hantu Penanggal",
+        "slug": "tob2"
+    },
+    {
+        "name": "Harbinger of Wrath",
+        "slug": "tob2"
+    },
+    {
+        "name": "Harefolk",
+        "slug": "tob2"
+    },
+    {
+        "name": "Hebi-Doku",
+        "slug": "tob2"
+    },
+    {
+        "name": "Heggarna",
+        "slug": "tob2"
+    },
+    {
+        "name": "Helashruu",
+        "slug": "tob2"
+    },
+    {
+        "name": "Herald of Slaughter",
+        "slug": "tob2"
+    },
+    {
+        "name": "Herald of the Void",
+        "slug": "tob2"
+    },
+    {
+        "name": "Hoard Drake",
+        "slug": "tob2"
+    },
+    {
+        "name": "Hoarfrost Drake",
+        "slug": "tob2"
+    },
+    {
+        "name": "Hodag",
+        "slug": "tob2"
+    },
+    {
+        "name": "Holler Spider",
+        "slug": "tob2"
+    },
+    {
+        "name": "Hongaek",
+        "slug": "tob2"
+    },
+    {
+        "name": "Hooden Horse",
+        "slug": "tob2"
+    },
+    {
+        "name": "Howler Baboon",
+        "slug": "tob2"
+    },
+    {
+        "name": "Huecambra",
+        "slug": "tob2"
+    },
+    {
+        "name": "Huli Jing",
+        "slug": "tob2"
+    },
+    {
+        "name": "Hverhuldra",
+        "slug": "tob2"
+    },
+    {
+        "name": "Ice Bogie",
+        "slug": "tob2"
+    },
+    {
+        "name": "Ice Elemental",
+        "slug": "tob2"
+    },
+    {
+        "name": "Ichor Ooze",
+        "slug": "tob2"
+    },
+    {
+        "name": "Ikuchi",
+        "slug": "tob2"
+    },
+    {
+        "name": "Illhveli, Kembingur",
+        "slug": "tob2"
+    },
+    {
+        "name": "Illhveli, Nauthveli",
+        "slug": "tob2"
+    },
+    {
+        "name": "Imperial Dragon Wyrmling",
+        "slug": "tob2"
+    },
+    {
+        "name": "Incarnate Gloom",
+        "slug": "tob2"
+    },
+    {
+        "name": "Infernal Centaur",
+        "slug": "tob2"
+    },
+    {
+        "name": "Infernal Swarm",
+        "slug": "tob2"
+    },
+    {
+        "name": "Initiate of the Elder Elementals",
+        "slug": "tob2"
+    },
+    {
+        "name": "Irid",
+        "slug": "tob2"
+    },
+    {
+        "name": "Jack of Strings",
+        "slug": "tob2"
+    },
+    {
+        "name": "Kachlian",
+        "slug": "tob2"
+    },
+    {
+        "name": "Kamaitachi",
+        "slug": "tob2"
+    },
+    {
+        "name": "Kaveph",
+        "slug": "tob2"
+    },
+    {
+        "name": "Keelbreaker Crab",
+        "slug": "tob2"
+    },
+    {
+        "name": "Kelp Drake",
+        "slug": "tob2"
+    },
+    {
+        "name": "Kelp Eel",
+        "slug": "tob2"
+    },
+    {
+        "name": "Keyhole Dragonette",
+        "slug": "tob2"
+    },
+    {
+        "name": "Kezai",
+        "slug": "tob2"
+    },
+    {
+        "name": "Khodumodumo",
+        "slug": "tob2"
+    },
+    {
+        "name": "Kirikari",
+        "slug": "tob2"
+    },
+    {
+        "name": "Knight Ab-errant",
+        "slug": "tob2"
+    },
+    {
+        "name": "Kobold Spellclerk",
+        "slug": "tob2"
+    },
+    {
+        "name": "Kobold War Machine",
+        "slug": "tob2"
+    },
+    {
+        "name": "Lambent Witchfyre",
+        "slug": "tob2"
+    },
+    {
+        "name": "Lantern Beetle",
+        "slug": "tob2"
+    },
+    {
+        "name": "Lava Keeper",
+        "slug": "tob2"
+    },
+    {
+        "name": "Lazavik",
+        "slug": "tob2"
+    },
+    {
+        "name": "Leech Swarm",
+        "slug": "tob2"
+    },
+    {
+        "name": "Lesser Lunarchidna",
+        "slug": "tob2"
+    },
+    {
+        "name": "Light Drake",
+        "slug": "tob2"
+    },
+    {
+        "name": "Liminal Drake",
+        "slug": "tob2"
+    },
+    {
+        "name": "Locksmith",
+        "slug": "tob2"
+    },
+    {
+        "name": "Luck Leech",
+        "slug": "tob2"
+    },
+    {
+        "name": "Lunarian",
+        "slug": "tob2"
+    },
+    {
+        "name": "Lymarien Swarm",
+        "slug": "tob2"
+    },
+    {
+        "name": "Lymarien",
+        "slug": "tob2"
+    },
+    {
+        "name": "Mad Piper",
+        "slug": "tob2"
+    },
+    {
+        "name": "Magma Octopus",
+        "slug": "tob2"
+    },
+    {
+        "name": "Magnetic Elemental",
+        "slug": "tob2"
+    },
+    {
+        "name": "Major Malleable",
+        "slug": "tob2"
+    },
+    {
+        "name": "Manggus",
+        "slug": "tob2"
+    },
+    {
+        "name": "Mangrove Treant",
+        "slug": "tob2"
+    },
+    {
+        "name": "Mari Lwyd",
+        "slug": "tob2"
+    },
+    {
+        "name": "Marsh Dire",
+        "slug": "tob2"
+    },
+    {
+        "name": "Massive Malleable",
+        "slug": "tob2"
+    },
+    {
+        "name": "Mead Archon",
+        "slug": "tob2"
+    },
+    {
+        "name": "Mei Jiao Shou",
+        "slug": "tob2"
+    },
+    {
+        "name": "Mineral Ooze",
+        "slug": "tob2"
+    },
+    {
+        "name": "Minor Malleable",
+        "slug": "tob2"
+    },
+    {
+        "name": "Moderate Malleable",
+        "slug": "tob2"
+    },
+    {
+        "name": "Moonkite",
+        "slug": "tob2"
+    },
+    {
+        "name": "Mountain Dryad",
+        "slug": "tob2"
+    },
+    {
+        "name": "Mountain Nymph",
+        "slug": "tob2"
+    },
+    {
+        "name": "Mountain Strider",
+        "slug": "tob2"
+    },
+    {
+        "name": "Murgrik",
+        "slug": "tob2"
+    },
+    {
+        "name": "Mydnari",
+        "slug": "tob2"
+    },
+    {
+        "name": "Mystic",
+        "slug": "tob2"
+    },
+    {
+        "name": "Naizu-Ha",
+        "slug": "tob2"
+    },
+    {
+        "name": "Narshark",
+        "slug": "tob2"
+    },
+    {
+        "name": "Nephirron Devil",
+        "slug": "tob2"
+    },
+    {
+        "name": "Nharyth",
+        "slug": "tob2"
+    },
+    {
+        "name": "Noth-norren",
+        "slug": "tob2"
+    },
+    {
+        "name": "Nyctli Swarm",
+        "slug": "tob2"
+    },
+    {
+        "name": "Nyctli",
+        "slug": "tob2"
+    },
+    {
+        "name": "Oasis Keeper",
+        "slug": "tob2"
+    },
+    {
+        "name": "Ogrepede",
+        "slug": "tob2"
+    },
+    {
+        "name": "One-Horned Ogre",
+        "slug": "tob2"
+    },
+    {
+        "name": "Onyx Magistrate",
+        "slug": "tob2"
+    },
+    {
+        "name": "Ophidiotaur",
+        "slug": "tob2"
+    },
+    {
+        "name": "Ophinix",
+        "slug": "tob2"
+    },
+    {
+        "name": "Ophio Fungus",
+        "slug": "tob2"
+    },
+    {
+        "name": "Orniraptor",
+        "slug": "tob2"
+    },
+    {
+        "name": "Orphan of the Black",
+        "slug": "tob2"
+    },
+    {
+        "name": "Ortifex",
+        "slug": "tob2"
+    },
+    {
+        "name": "Otterfolk",
+        "slug": "tob2"
+    },
+    {
+        "name": "Overshadow",
+        "slug": "tob2"
+    },
+    {
+        "name": "Pal-Rai-Yuk",
+        "slug": "tob2"
+    },
+    {
+        "name": "Pale Screamer",
+        "slug": "tob2"
+    },
+    {
+        "name": "Parzz\u2019val",
+        "slug": "tob2"
+    },
+    {
+        "name": "Peat Mammoth",
+        "slug": "tob2"
+    },
+    {
+        "name": "Pestilence Swarm",
+        "slug": "tob2"
+    },
+    {
+        "name": "Phase Giant",
+        "slug": "tob2"
+    },
+    {
+        "name": "Pine Doom",
+        "slug": "tob2"
+    },
+    {
+        "name": "Pixie\u2019s Umbrella",
+        "slug": "tob2"
+    },
+    {
+        "name": "Plague Spirit",
+        "slug": "tob2"
+    },
+    {
+        "name": "Primal Oozer",
+        "slug": "tob2"
+    },
+    {
+        "name": "Psychic Vampire",
+        "slug": "tob2"
+    },
+    {
+        "name": "Pustulent Shambler",
+        "slug": "tob2"
+    },
+    {
+        "name": "Putrescent Slime",
+        "slug": "tob2"
+    },
+    {
+        "name": "Qiqirn",
+        "slug": "tob2"
+    },
+    {
+        "name": "Quickserpent",
+        "slug": "tob2"
+    },
+    {
+        "name": "Quoreq",
+        "slug": "tob2"
+    },
+    {
+        "name": "Radiant Spark Swarm",
+        "slug": "tob2"
+    },
+    {
+        "name": "Repository",
+        "slug": "tob2"
+    },
+    {
+        "name": "Resinous Frog",
+        "slug": "tob2"
+    },
+    {
+        "name": "Righteous Sentinel",
+        "slug": "tob2"
+    },
+    {
+        "name": "Rock Roach",
+        "slug": "tob2"
+    },
+    {
+        "name": "Rotsam Swarm",
+        "slug": "tob2"
+    },
+    {
+        "name": "Rotsam",
+        "slug": "tob2"
+    },
+    {
+        "name": "Rum Lord",
+        "slug": "tob2"
+    },
+    {
+        "name": "Runeswarm",
+        "slug": "tob2"
+    },
+    {
+        "name": "Salamander Monarch",
+        "slug": "tob2"
+    },
+    {
+        "name": "Sanddrift Drake",
+        "slug": "tob2"
+    },
+    {
+        "name": "Sapphire Jelly",
+        "slug": "tob2"
+    },
+    {
+        "name": "Sarsaok",
+        "slug": "tob2"
+    },
+    {
+        "name": "Sasori Fukurowashi",
+        "slug": "tob2"
+    },
+    {
+        "name": "Sasquatch",
+        "slug": "tob2"
+    },
+    {
+        "name": "Scarlet Ibis",
+        "slug": "tob2"
+    },
+    {
+        "name": "Scribe Devil",
+        "slug": "tob2"
+    },
+    {
+        "name": "Scrofin",
+        "slug": "tob2"
+    },
+    {
+        "name": "Scroll Mummy",
+        "slug": "tob2"
+    },
+    {
+        "name": "Servant of the Unsated God",
+        "slug": "tob2"
+    },
+    {
+        "name": "Shadow Boxer",
+        "slug": "tob2"
+    },
+    {
+        "name": "Shadow Giant",
+        "slug": "tob2"
+    },
+    {
+        "name": "Shadow of Death",
+        "slug": "tob2"
+    },
+    {
+        "name": "Shiftshroom",
+        "slug": "tob2"
+    },
+    {
+        "name": "Shimmer Seal",
+        "slug": "tob2"
+    },
+    {
+        "name": "Shriekbat",
+        "slug": "tob2"
+    },
+    {
+        "name": "Shukankor",
+        "slug": "tob2"
+    },
+    {
+        "name": "Shurale",
+        "slug": "tob2"
+    },
+    {
+        "name": "Silenal",
+        "slug": "tob2"
+    },
+    {
+        "name": "Silver Dragon Wyrmling Skeleton",
+        "slug": "tob2"
+    },
+    {
+        "name": "Snake with a Hundred Mage Hands",
+        "slug": "tob2"
+    },
+    {
+        "name": "Snow Giant",
+        "slug": "tob2"
+    },
+    {
+        "name": "Snow Terror",
+        "slug": "tob2"
+    },
+    {
+        "name": "Somberweave",
+        "slug": "tob2"
+    },
+    {
+        "name": "Spawn of Alquam",
+        "slug": "tob2"
+    },
+    {
+        "name": "Spawn of Hriggala",
+        "slug": "tob2"
+    },
+    {
+        "name": "Spawn of Rhopalocerex",
+        "slug": "tob2"
+    },
+    {
+        "name": "Spellhound",
+        "slug": "tob2"
+    },
+    {
+        "name": "Sporous Crab",
+        "slug": "tob2"
+    },
+    {
+        "name": "Spurred Water Skate",
+        "slug": "tob2"
+    },
+    {
+        "name": "Ssadar",
+        "slug": "tob2"
+    },
+    {
+        "name": "Stellar Rorqual",
+        "slug": "tob2"
+    },
+    {
+        "name": "Stone Creeper",
+        "slug": "tob2"
+    },
+    {
+        "name": "Storm Maiden",
+        "slug": "tob2"
+    },
+    {
+        "name": "Stormboar",
+        "slug": "tob2"
+    },
+    {
+        "name": "Strobing Fungus",
+        "slug": "tob2"
+    },
+    {
+        "name": "Sulsha",
+        "slug": "tob2"
+    },
+    {
+        "name": "Swamp Lily",
+        "slug": "tob2"
+    },
+    {
+        "name": "Swamp Naga",
+        "slug": "tob2"
+    },
+    {
+        "name": "Swampgas Bubble",
+        "slug": "tob2"
+    },
+    {
+        "name": "Swarm of Compsognathus",
+        "slug": "tob2"
+    },
+    {
+        "name": "Swarm of Esteron",
+        "slug": "tob2"
+    },
+    {
+        "name": "Tar Ooze",
+        "slug": "tob2"
+    },
+    {
+        "name": "Tembril",
+        "slug": "tob2"
+    },
+    {
+        "name": "Tetomatli",
+        "slug": "tob2"
+    },
+    {
+        "name": "Thin Giant",
+        "slug": "tob2"
+    },
+    {
+        "name": "Thornheart Guardian",
+        "slug": "tob2"
+    },
+    {
+        "name": "Thrummren",
+        "slug": "tob2"
+    },
+    {
+        "name": "Tidehunter",
+        "slug": "tob2"
+    },
+    {
+        "name": "Timingila",
+        "slug": "tob2"
+    },
+    {
+        "name": "Tormented Qiqirn",
+        "slug": "tob2"
+    },
+    {
+        "name": "Transcendent Lunarchida",
+        "slug": "tob2"
+    },
+    {
+        "name": "Tree Skinner",
+        "slug": "tob2"
+    },
+    {
+        "name": "Tricenatorus",
+        "slug": "tob2"
+    },
+    {
+        "name": "Trollkin Raider",
+        "slug": "tob2"
+    },
+    {
+        "name": "Tzepharion",
+        "slug": "tob2"
+    },
+    {
+        "name": "Ulnorya",
+        "slug": "tob2"
+    },
+    {
+        "name": "Uridimmu",
+        "slug": "tob2"
+    },
+    {
+        "name": "Valkruung",
+        "slug": "tob2"
+    },
+    {
+        "name": "Vallowex",
+        "slug": "tob2"
+    },
+    {
+        "name": "Vangsluagh",
+        "slug": "tob2"
+    },
+    {
+        "name": "Vent Linnorm",
+        "slug": "tob2"
+    },
+    {
+        "name": "Veteran Swordbreaker Skeleton",
+        "slug": "tob2"
+    },
+    {
+        "name": "Vexxeh",
+        "slug": "tob2"
+    },
+    {
+        "name": "Viiret",
+        "slug": "tob2"
+    },
+    {
+        "name": "Vine Drake",
+        "slug": "tob2"
+    },
+    {
+        "name": "Vine Golem",
+        "slug": "tob2"
+    },
+    {
+        "name": "Virtuoso Lich",
+        "slug": "tob2"
+    },
+    {
+        "name": "Voidpool",
+        "slug": "tob2"
+    },
+    {
+        "name": "Walled Horror",
+        "slug": "tob2"
+    },
+    {
+        "name": "Wanyudo",
+        "slug": "tob2"
+    },
+    {
+        "name": "Wardu",
+        "slug": "tob2"
+    },
+    {
+        "name": "Warmth Thief",
+        "slug": "tob2"
+    },
+    {
+        "name": "Web Zombie",
+        "slug": "tob2"
+    },
+    {
+        "name": "Wereowl",
+        "slug": "tob2"
+    },
+    {
+        "name": "Wereshark",
+        "slug": "tob2"
+    },
+    {
+        "name": "Werynax",
+        "slug": "tob2"
+    },
+    {
+        "name": "Wicked Skull",
+        "slug": "tob2"
+    },
+    {
+        "name": "Willowhaunt",
+        "slug": "tob2"
+    },
+    {
+        "name": "Windy Wailer",
+        "slug": "tob2"
+    },
+    {
+        "name": "Winterghast",
+        "slug": "tob2"
+    },
+    {
+        "name": "Wintergrim",
+        "slug": "tob2"
+    },
+    {
+        "name": "Woe Siphon",
+        "slug": "tob2"
+    },
+    {
+        "name": "Wood Ward",
+        "slug": "tob2"
+    },
+    {
+        "name": "Wraith Bear",
+        "slug": "tob2"
+    },
+    {
+        "name": "Xing Tian",
+        "slug": "tob2"
+    },
+    {
+        "name": "Yaojing",
+        "slug": "tob2"
+    },
+    {
+        "name": "Yathon",
+        "slug": "tob2"
+    },
+    {
+        "name": "Yavalnoi",
+        "slug": "tob2"
+    },
+    {
+        "name": "Young Blue Dragon Zombie",
+        "slug": "tob2"
+    },
+    {
+        "name": "Young Boreal Dragon",
+        "slug": "tob2"
+    },
+    {
+        "name": "Young Imperial Dragon",
+        "slug": "tob2"
+    },
+    {
+        "name": "Yowler",
+        "slug": "tob2"
+    },
+    {
+        "name": "Yumerai",
+        "slug": "tob2"
+    },
+    {
+        "name": "Zalikum",
+        "slug": "tob2"
+    },
+    {
+        "name": "Zeitgeist",
+        "slug": "tob2"
+    },
+    {
+        "name": "Zouyu",
+        "slug": "tob2"
+    },
+    {
+        "name": "Aboleth",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Aboleth Thrall",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Abominable Snowman",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Accursed Guardian Naga",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Accursed Spirit Naga",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Acolyte",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Adult Amethyst Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Adult Black Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Adult Black Dragon Lich",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Adult Blue Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Adult Brass Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Adult Bronze Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Adult Copper Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Adult Earth Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Adult Emerald Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Adult Gold Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Adult Green Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Adult Red Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Adult River Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Adult Sapphire Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Adult Shadow Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Adult Silver Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Adult White Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Air Elemental",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Aklea",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Alchemist",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Allosaurus",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Alpha Werewolf",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Amethyst Dragon Wyrmling",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Ancient Aboleth",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Ancient Amethyst Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Ancient Black Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Ancient Blue Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Ancient Brass Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Ancient Bronze Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Ancient Copper Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Ancient Earth Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Ancient Emerald Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Ancient Gold Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Ancient Green Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Ancient Red Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Ancient River Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Ancient Sapphire Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Ancient Shadow Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Ancient Silver Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Ancient White Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Animated Armor",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Ankheg",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Ankheg Queen",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Ankheg Spawn",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Ankylosaurus",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Ape",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Apprentice Mage",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Arcane Blademaster",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Archfey",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Archmage",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Archpriest",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Ascetic Grandmaster",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Assassin",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Awakened Shrub",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Awakened Tree",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Axe Beak",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Azer",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Azer Forgemaster",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Baboon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Badger",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Balor",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Balor General",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Bandit",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Bandit Captain",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Banshee",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Barbed Devil",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Basilisk",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Bat",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Bearded Devil",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Behir",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Behir Magus",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Berserker",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Black Bear",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Black Dragon Wyrmling",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Black Pudding",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Blackguard",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Blink Dog",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Blood Hawk",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Blue Dragon Wyrmling",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Boar",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Boggard",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Boggard Bravo",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Boggard Sovereign",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Bolt-Thrower",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Bone Devil",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Brass Dragon Wyrmling",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Bronze Dragon Wyrmling",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Brown Bear",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Bugbear",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Bugbear Chief",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Bulette",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Bunyip",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Cambion",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Camel",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Cat",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Cave Bear",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Cave Ogre",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Cave Troll",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Centaur",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Chain Devil",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Champion Warrior",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Chimera",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Chuul",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Clay Guardian",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Cloaker",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Clockwork Sentinel",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Cloud Giant",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Cloud Giant Noble",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Cockatrice",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Commoner",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Commoner Mob",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Constrictor Snake",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Copper Dragon Wyrmling",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Coralfish",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Corrupted Unicorn",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Cosmopolitan Alchemist",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Couatl",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Coven Green Hag",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Coven Night Hag",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Coven Sea Hag",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Coven Winter Hag",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Crab",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Crime Boss",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Crocodile",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Crusher",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Cult Fanatic",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Cultist",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Cutthroat",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Cyclops",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Cyclops Myrmidon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Darkmantle",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Dead Mans Fingers",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Death Dog",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Deep Dwarf Soldier",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Deep Gnome Scout",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Deer",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Demilich",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Demilich Mastermind",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Deva",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Diplodocus",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Dire Centipede",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Dire Tyrannosaurus Rex",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Dire Wolf",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Diseased Giant Rat",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Divi",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Divi Noble",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Djinni",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Djinni Noble",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Doppelganger",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Draft Horse",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Dragon Cultist",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Dragon Turtle",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Dragonbound Warrior",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Drainpipe Gargoyle",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Dread Knight",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Dread Knight Champion",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Dread Troll",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Dretch",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Drider",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Drop Bear",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Druid",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Dryad",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Duelist",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Dust Mephit",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Eagle",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Earth Dragon Wyrmling",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Earth Elemental",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Efreeti",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Efreeti Noble",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Elder Black Pudding",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Elder Vampire",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Elephant",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Elk",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Emerald Dragon Wyrmling",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Empyrean",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Erinyes",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Ettercap",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Ettin",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Faerie Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Faerie Dragon Familiar",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Faerie Eater Troll",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Faerie Noble",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Fallen Deva",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Fallen Planetar",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Fallen Solar",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Fell Nightmare",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Fey Knight",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Fire Elemental",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Fire Giant",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Fire Giant War Priest",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Flesh Guardian",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Flumph",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Flying Lion",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Flying Snake",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Flying Sword",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Fomorian",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Forest Gnome Illusionist",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Forest Gnome Scout",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Forgotten God",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Frog",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Frost Giant",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Frost Giant Jarl",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Gargoyle",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Gear Spider",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Gelatinous Cube",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Gelatinous Wall",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Ghast",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Ghost",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Ghoul",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Giant Air Elemental",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Giant Ape",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Giant Badger",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Giant Bat",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Giant Boar",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Giant Centipede",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Giant Constrictor Snake",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Giant Crab",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Giant Crocodile",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Giant Eagle",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Giant Earth Elemental",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Giant Elk",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Giant Fire Beetle",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Giant Fire Elemental",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Giant Frog",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Giant Goat",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Giant Grick",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Giant Hyena",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Giant Lanternfish",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Giant Lizard",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Giant Octopus",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Giant Owl",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Giant Poisonous Snake",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Giant Rat",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Giant Scorpion",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Giant Seahorse",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Giant Shark",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Giant Spider",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Giant Toad",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Giant Vulture",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Giant Wasp",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Giant Water Elemental",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Giant Weasel",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Giant Wolf Spider",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Gibbering Mouther",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Glabrezu",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Gladiator",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Gnoll",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Gnoll Demonfang",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Gnoll Pack Leader",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Goat",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Goblin",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Goblin Alchemist",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Goblin Boss",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Goblin Dreadnought",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Goblin Musketeer",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Goblin Shieldbearer",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Goblin Skulker",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Goblin Warlock",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Gold Dragon Wyrmling",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Gorgon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Gray Ooze",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Great Wyrm Black Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Great Wyrm Blue Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Great Wyrm Gold Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Great Wyrm Green Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Great Wyrm Red Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Great Wyrm White Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Greater Sphinx",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Green Dragon Wyrmling",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Green Hag",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Grick",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Griffon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Grimalkin",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Grimlock",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Grimlock Technical",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Guard",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Guard Squad",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Guardian Naga",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Half-Red Dragon Veteran",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Half-Shadow Dragon Assassin",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Harpy",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Hawk",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Hell Hound",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Hezrou",
+        "slug": "menagerie"
+    },
+    {
+        "name": "High Elf Noble",
+        "slug": "menagerie"
+    },
+    {
+        "name": "High Priest",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Hill Dwarf Wrestler",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Hill Giant",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Hill Giant Chief",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Hippogriff",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Hobgoblin",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Hobgoblin Captain",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Hobgoblin Warlord",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Holy Knight",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Homunculus",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Horde Demon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Horde Demon Band",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Horde of Shadows",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Horned Devil",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Horned Tauric",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Hound Guardian",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Hunter Shark",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Hydra",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Hyena",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Ice Devil",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Ice Mephit",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Ice Worm",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Imp",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Imp Familiar",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Intellect Devourer",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Invisible Stalker",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Iron Guardian",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Jackal",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Jackalope",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Jackalwere",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Jackalwere Pack Leader",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Kech",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Khalkos",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Khalkos Spawn",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Killer Whale",
+        "slug": "menagerie"
+    },
+    {
+        "name": "King Fomor",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Knight",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Knight Captain",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Kobold",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Kobold Broodguard",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Kobold Broodguard Dragon Servitor",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Kobold Dragon Servitor",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Kobold Sorcerer",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Kobold Sorcerer Dragon Servitor",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Kraken",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Lacedon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Lamia",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Lemure",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Lemure Band",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Lich",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Lion",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Lizard",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Lizardfolk",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Lizardfolk Chosen One",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Mage",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Magma Mephit",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Magmin",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Malcubus",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Mammoth",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Manticore",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Marid",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Marid Noble",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Marilith",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Master Assassin",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Master Thief",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Mastiff",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Medusa",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Medusa Queen",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Merclops",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Merfolk",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Merfolk Knight",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Merrow",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Merrow Mage",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Mimic",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Minotaur",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Minotaur Champion",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Minstrel",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Mirage Monster",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Miremuck Goblin King",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Mountain Dwarf Defender",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Mountain Dwarf Lord",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Mountain Dwarf Soldier",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Mule",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Mummy",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Mummy Lord",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Murmuring Worm",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Naiad",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Nalfeshnee",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Necromancer",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Night Hag",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Nightmare",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Nilbog",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Noble",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Ochre Jelly",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Octopus",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Ogre",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Ogre Flesh Heap",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Ogre Mage",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Ogre Zombie",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Ogrekin",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Orcish Wildling Minstrel",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Ork Urk",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Otyugh",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Owl",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Owlbear",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Owlbear Recluse",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Panther",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Pegasus",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Peryton",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Phase Monster",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Phase Spider",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Piercer",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Pirate",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Pirate Captain",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Pit Fiend",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Pit Fiend General",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Pixie",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Planetar",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Plesiosaurus",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Poisonous Snake",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Polar Bear",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Pony",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Priest",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Pseudodragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Pseudodragon Familiar",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Pteranodon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Pugilist",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Purple Worm",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Pyrohydra",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Quasit",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Quasit Familiar",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Quipper",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Rakshasa",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Raptor",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Rat",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Raven",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Red Dragon Wyrmling",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Reef Shark",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Remorhaz",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Remorhaz Spawn",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Revenant",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Revilock",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Rhinoceros",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Riding Horse",
+        "slug": "menagerie"
+    },
+    {
+        "name": "River Dragon Wyrmling",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Roc",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Roc Juvenile",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Roper",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Rug of Smothering",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Rust Monster",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Saber-Toothed Tiger",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Sahuagin",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Sahuagin Champion",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Salamander",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Salamander Noble",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Salamander Nymph",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Sand Ray",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Sand Worm",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Sapphire Dragon Wyrmling",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Satyr",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Scarecrow",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Scarecrow Harvester",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Scorpion",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Scorpionfolk",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Scorpionfolk Imperator",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Scout",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Scrag",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Sea Hag",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Sea Serpent",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Seahorse",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Shadow",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Shadow Demon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Shadow Dragon Wyrmling",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Shadow Elf Champion Warrior",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Shadow Elf High Priest",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Shadow Elf Mage",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Shadow Elf Spellcaster Drider",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Shadow Elf Warrior",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Shambling Mound",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Shield Guardian",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Shrieker",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Shroud Ray",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Silver Dragon Wyrmling",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Siren",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Skeletal Champion",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Skeletal Tyrannosaurus Rex",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Skeletal Warhorse",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Skeleton",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Skeleton Horde",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Snake Lamia",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Solar",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Soldier",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Soldier Squad",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Spark Mephit",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Specter",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Spell-warped Chuul",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Sphinx",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Spider",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Spirit Naga",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Sprite",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Spy",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Spymaster",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Steam Mephit",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Stegosaurus",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Stirge",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Stone Colossus",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Stone Giant",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Stone Giant Stonetalker",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Stone Guardian",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Storm Giant",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Storm Giant Monarch",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Stout Halfling Guard",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Strider",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Swarm of Bats",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Swarm of Insects",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Swarm of Khalkos Spawn",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Swarm of Poisonous Snakes",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Swarm of Quippers",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Swarm of Rats",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Swarm of Ravens",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Tarrasque",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Thug",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Thunderbird",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Tiger",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Titanic Dragon Turtle",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Titanic Kraken",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Treant",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Triceratops",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Trickster Priest",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Troglodyte",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Troll",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Tyrannosaurus Rex",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Unicorn",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Ur-Otyugh",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Vampire",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Vampire Assassin",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Vampire Mage",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Vampire Spawn",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Vampire Warrior",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Vengeful Ghost",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Veteran",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Violet Fungus",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Vrock",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Vulture",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Walking Statue",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Wallflower",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Warhordling Orc Eye",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Warhordling Orc War Chief",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Warhordling Orc Warrior",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Warhorse",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Warlords Ghost",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Warrior",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Warrior Band",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Water Elemental",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Weasel",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Werebear",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Wereboar",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Wererat",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Weretiger",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Werewolf",
+        "slug": "menagerie"
+    },
+    {
+        "name": "White Dragon Wyrmling",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Wight",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Will-o-Wisp",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Winter Hag",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Winter Wolf",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Wolf",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Wood Elf Scout",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Wood Elf Sharpshooter",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Worg",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Wraith",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Wraith Lord",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Wyvern",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Xorn",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Yeti",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Yobbo",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Young Amethyst Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Young Black Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Young Blue Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Young Brass Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Young Bronze Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Young Copper Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Young Earth Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Young Emerald Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Young Gold Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Young Green Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Young Red Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Young Red Dragon Zombie",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Young River Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Young Sapphire Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Young Shadow Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Young Silver Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Young White Dragon",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Zombie",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Zombie Horde",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Zombie Knight",
+        "slug": "menagerie"
+    },
+    {
+        "name": "Dire Pangolin",
+        "slug": "tob3"
+    },
+    {
+        "name": "Wakwak",
+        "slug": "tob3"
+    },
+    {
+        "name": "Clockwork Armadillo",
+        "slug": "tob3"
+    },
+    {
+        "name": "Ogre, Black Sun",
+        "slug": "tob3"
+    },
+    {
+        "name": "Dwarf, Pike Guard",
+        "slug": "tob3"
+    },
+    {
+        "name": "Dragon, Prismatic Adult",
+        "slug": "tob3"
+    },
+    {
+        "name": "Swarm, Biting Gnat",
+        "slug": "tob3"
+    },
+    {
+        "name": "Npc: Infiltrator",
+        "slug": "tob3"
+    },
+    {
+        "name": "Peri",
+        "slug": "tob3"
+    },
+    {
+        "name": "Chemosit",
+        "slug": "tob3"
+    },
+    {
+        "name": "Angel, Psychopomp",
+        "slug": "tob3"
+    },
+    {
+        "name": "Crab, Razorback",
+        "slug": "tob3"
+    },
+    {
+        "name": "Dragon, Sand Young",
+        "slug": "tob3"
+    },
+    {
+        "name": "Berberoka",
+        "slug": "tob3"
+    },
+    {
+        "name": "Rockwood",
+        "slug": "tob3"
+    },
+    {
+        "name": "Dragonette, Shovel",
+        "slug": "tob3"
+    },
+    {
+        "name": "Rochade",
+        "slug": "tob3"
+    },
+    {
+        "name": "Derro, Hellforged",
+        "slug": "tob3"
+    },
+    {
+        "name": "Pelagic Blush Worm",
+        "slug": "tob3"
+    },
+    {
+        "name": "Jinnborn Air Pirate",
+        "slug": "tob3"
+    },
+    {
+        "name": "Dire Wildebeest",
+        "slug": "tob3"
+    },
+    {
+        "name": "Drudge Pitcher",
+        "slug": "tob3"
+    },
+    {
+        "name": "Gremlin, Bilge Bosun",
+        "slug": "tob3"
+    },
+    {
+        "name": "Dwarf, Firecracker",
+        "slug": "tob3"
+    },
+    {
+        "name": "Nariphon",
+        "slug": "tob3"
+    },
+    {
+        "name": "Akanka",
+        "slug": "tob3"
+    },
+    {
+        "name": "Ogre, Rockchewer",
+        "slug": "tob3"
+    },
+    {
+        "name": "Alazai",
+        "slug": "tob3"
+    },
+    {
+        "name": "Dawnfly",
+        "slug": "tob3"
+    },
+    {
+        "name": "Obeleric",
+        "slug": "tob3"
+    },
+    {
+        "name": "Dragon, Prismatic Young",
+        "slug": "tob3"
+    },
+    {
+        "name": "Cave Sovereign",
+        "slug": "tob3"
+    },
+    {
+        "name": "Npc: Apostle",
+        "slug": "tob3"
+    },
+    {
+        "name": "Dwarf, Pike Guard Captain",
+        "slug": "tob3"
+    },
+    {
+        "name": "Devil, Devilflame Juggler",
+        "slug": "tob3"
+    },
+    {
+        "name": "Demon, Balbazu",
+        "slug": "tob3"
+    },
+    {
+        "name": "Rakshasa, Servitor",
+        "slug": "tob3"
+    },
+    {
+        "name": "Swarm, Ice Borers",
+        "slug": "tob3"
+    },
+    {
+        "name": "Derro, Abysswalker",
+        "slug": "tob3"
+    },
+    {
+        "name": "Coastline Reaper",
+        "slug": "tob3"
+    },
+    {
+        "name": "Wandering Haze",
+        "slug": "tob3"
+    },
+    {
+        "name": "Chimera, Royal",
+        "slug": "tob3"
+    },
+    {
+        "name": "Chaos Raptor",
+        "slug": "tob3"
+    },
+    {
+        "name": "Npc: Wind Acolyte",
+        "slug": "tob3"
+    },
+    {
+        "name": "Lycanthrope, Wereotter",
+        "slug": "tob3"
+    },
+    {
+        "name": "Karkadann",
+        "slug": "tob3"
+    },
+    {
+        "name": "Alseid, Woad Warrior",
+        "slug": "tob3"
+    },
+    {
+        "name": "Ember Glider",
+        "slug": "tob3"
+    },
+    {
+        "name": "Ooze, Leavesrot",
+        "slug": "tob3"
+    },
+    {
+        "name": "Erina Tussler",
+        "slug": "tob3"
+    },
+    {
+        "name": "Zombie, Smokeplume",
+        "slug": "tob3"
+    },
+    {
+        "name": "Astralsupial",
+        "slug": "tob3"
+    },
+    {
+        "name": "Despair And Anger",
+        "slug": "tob3"
+    },
+    {
+        "name": "Lycanthrope, Werecrocodile",
+        "slug": "tob3"
+    },
+    {
+        "name": "Demon, Vetala",
+        "slug": "tob3"
+    },
+    {
+        "name": "Golem, Origami",
+        "slug": "tob3"
+    },
+    {
+        "name": "Starving Specter",
+        "slug": "tob3"
+    },
+    {
+        "name": "Blaspheming Hand",
+        "slug": "tob3"
+    },
+    {
+        "name": "Grivid",
+        "slug": "tob3"
+    },
+    {
+        "name": "Giant, Thursir Armorer",
+        "slug": "tob3"
+    },
+    {
+        "name": "Catterball",
+        "slug": "tob3"
+    },
+    {
+        "name": "Rafflesian",
+        "slug": "tob3"
+    },
+    {
+        "name": "Abaasy",
+        "slug": "tob3"
+    },
+    {
+        "name": "Porcellina",
+        "slug": "tob3"
+    },
+    {
+        "name": "Scarab, Suncatcher",
+        "slug": "tob3"
+    },
+    {
+        "name": "Tigebra",
+        "slug": "tob3"
+    },
+    {
+        "name": "Giant, Firestorm",
+        "slug": "tob3"
+    },
+    {
+        "name": "Giant Flea",
+        "slug": "tob3"
+    },
+    {
+        "name": "Hvalfiskr",
+        "slug": "tob3"
+    },
+    {
+        "name": "Star-Nosed Diopsid",
+        "slug": "tob3"
+    },
+    {
+        "name": "Ahu-Nixta Mechanon",
+        "slug": "tob3"
+    },
+    {
+        "name": "Sinstar Thrall",
+        "slug": "tob3"
+    },
+    {
+        "name": "Niya-Atha Raja",
+        "slug": "tob3"
+    },
+    {
+        "name": "Npc: Field Commander",
+        "slug": "tob3"
+    },
+    {
+        "name": "Drake, Ethereal",
+        "slug": "tob3"
+    },
+    {
+        "name": "Tripwire Patch",
+        "slug": "tob3"
+    },
+    {
+        "name": "Archon, Ursan",
+        "slug": "tob3"
+    },
+    {
+        "name": "Angel, Zirnitran",
+        "slug": "tob3"
+    },
+    {
+        "name": "Npc: First Servant",
+        "slug": "tob3"
+    },
+    {
+        "name": "Caretaker Weevil",
+        "slug": "tob3"
+    },
+    {
+        "name": "Devil, Moldering",
+        "slug": "tob3"
+    },
+    {
+        "name": "Tuberkith",
+        "slug": "tob3"
+    },
+    {
+        "name": "Trollkin Ironmonger",
+        "slug": "tob3"
+    },
+    {
+        "name": "Grolar Bear Alpha",
+        "slug": "tob3"
+    },
+    {
+        "name": "Dire Owlbear",
+        "slug": "tob3"
+    },
+    {
+        "name": "Giant, Hellfire",
+        "slug": "tob3"
+    },
+    {
+        "name": "Mortifera",
+        "slug": "tob3"
+    },
+    {
+        "name": "Birgemon Seal",
+        "slug": "tob3"
+    },
+    {
+        "name": "Giant, Shire",
+        "slug": "tob3"
+    },
+    {
+        "name": "Angel, Pelagic Deva",
+        "slug": "tob3"
+    },
+    {
+        "name": "Wilderness Crone",
+        "slug": "tob3"
+    },
+    {
+        "name": "Brain Coral",
+        "slug": "tob3"
+    },
+    {
+        "name": "Catonoctrix",
+        "slug": "tob3"
+    },
+    {
+        "name": "Glacial Crawler",
+        "slug": "tob3"
+    },
+    {
+        "name": "Chaos Creeper",
+        "slug": "tob3"
+    },
+    {
+        "name": "Conniption Bug",
+        "slug": "tob3"
+    },
+    {
+        "name": "Npc: Atavist",
+        "slug": "tob3"
+    },
+    {
+        "name": "Dinosaur, Razorfeather Raptor",
+        "slug": "tob3"
+    },
+    {
+        "name": "Black Patch",
+        "slug": "tob3"
+    },
+    {
+        "name": "Drake, Vapor",
+        "slug": "tob3"
+    },
+    {
+        "name": "Clockwork Conductor",
+        "slug": "tob3"
+    },
+    {
+        "name": "Golem, Tar",
+        "slug": "tob3"
+    },
+    {
+        "name": "Umbral Shambler",
+        "slug": "tob3"
+    },
+    {
+        "name": "Avestruzii",
+        "slug": "tob3"
+    },
+    {
+        "name": "Yali",
+        "slug": "tob3"
+    },
+    {
+        "name": "Cyonaxin",
+        "slug": "tob3"
+    },
+    {
+        "name": "Thripper",
+        "slug": "tob3"
+    },
+    {
+        "name": "Dragon, Sand Wyrmling",
+        "slug": "tob3"
+    },
+    {
+        "name": "Hag, Pesta",
+        "slug": "tob3"
+    },
+    {
+        "name": "Blood Flurry",
+        "slug": "tob3"
+    },
+    {
+        "name": "Howler Of The Hill",
+        "slug": "tob3"
+    },
+    {
+        "name": "Demon, Leech",
+        "slug": "tob3"
+    },
+    {
+        "name": "Derro, Voidwarped",
+        "slug": "tob3"
+    },
+    {
+        "name": "Faux-Garou",
+        "slug": "tob3"
+    },
+    {
+        "name": "Giant Mole Lizard",
+        "slug": "tob3"
+    },
+    {
+        "name": "Troll, Breakwater",
+        "slug": "tob3"
+    },
+    {
+        "name": "Corpselight Moth",
+        "slug": "tob3"
+    },
+    {
+        "name": "Necrotech Reaver",
+        "slug": "tob3"
+    },
+    {
+        "name": "Savior Lumen",
+        "slug": "tob3"
+    },
+    {
+        "name": "Clockwork Pugilist",
+        "slug": "tob3"
+    },
+    {
+        "name": "Crystallite",
+        "slug": "tob3"
+    },
+    {
+        "name": "Doppelixir",
+        "slug": "tob3"
+    },
+    {
+        "name": "Dragonette, Barnyard",
+        "slug": "tob3"
+    },
+    {
+        "name": "Troll, Rattleback",
+        "slug": "tob3"
+    },
+    {
+        "name": "Drake, Riptide",
+        "slug": "tob3"
+    },
+    {
+        "name": "Dread Examiner",
+        "slug": "tob3"
+    },
+    {
+        "name": "Dokkaebi",
+        "slug": "tob3"
+    },
+    {
+        "name": "Giant, Lantern",
+        "slug": "tob3"
+    },
+    {
+        "name": "Npc: Frost-Afflicted",
+        "slug": "tob3"
+    },
+    {
+        "name": "Qumdaq",
+        "slug": "tob3"
+    },
+    {
+        "name": "Phoenixborn",
+        "slug": "tob3"
+    },
+    {
+        "name": "Troll, Gutter",
+        "slug": "tob3"
+    },
+    {
+        "name": "Hag, Brine",
+        "slug": "tob3"
+    },
+    {
+        "name": "Swarm, Swamp Slirghs",
+        "slug": "tob3"
+    },
+    {
+        "name": "Giant Flea Swarm",
+        "slug": "tob3"
+    },
+    {
+        "name": "Underworld Sentinel",
+        "slug": "tob3"
+    },
+    {
+        "name": "Kobold, Leviathan Hunter",
+        "slug": "tob3"
+    },
+    {
+        "name": "Musk Deer, Swarm",
+        "slug": "tob3"
+    },
+    {
+        "name": "Catamount",
+        "slug": "tob3"
+    },
+    {
+        "name": "Alke",
+        "slug": "tob3"
+    },
+    {
+        "name": "Ibexian",
+        "slug": "tob3"
+    },
+    {
+        "name": "Gigantura",
+        "slug": "tob3"
+    },
+    {
+        "name": "Black Shuck",
+        "slug": "tob3"
+    },
+    {
+        "name": "Scarab, Ruin",
+        "slug": "tob3"
+    },
+    {
+        "name": "Painted Phantasm",
+        "slug": "tob3"
+    },
+    {
+        "name": "Animated Instrument, Quartet",
+        "slug": "tob3"
+    },
+    {
+        "name": "Troll, Tumor",
+        "slug": "tob3"
+    },
+    {
+        "name": "Daeodon",
+        "slug": "tob3"
+    },
+    {
+        "name": "Herd Skulker",
+        "slug": "tob3"
+    },
+    {
+        "name": "Zombie, Voidclaw",
+        "slug": "tob3"
+    },
+    {
+        "name": "Ion Slime",
+        "slug": "tob3"
+    },
+    {
+        "name": "Dust Grazer",
+        "slug": "tob3"
+    },
+    {
+        "name": "Trollkin Fire Shaman",
+        "slug": "tob3"
+    },
+    {
+        "name": "Elemental, Rockslide",
+        "slug": "tob3"
+    },
+    {
+        "name": "Torch Mimic",
+        "slug": "tob3"
+    },
+    {
+        "name": "Forgotten Regent",
+        "slug": "tob3"
+    },
+    {
+        "name": "Midnight Sun",
+        "slug": "tob3"
+    },
+    {
+        "name": "Ooze, Manure",
+        "slug": "tob3"
+    },
+    {
+        "name": "Offal Walker",
+        "slug": "tob3"
+    },
+    {
+        "name": "Kobold, Sapper",
+        "slug": "tob3"
+    },
+    {
+        "name": "Div",
+        "slug": "tob3"
+    },
+    {
+        "name": "Myrmex",
+        "slug": "tob3"
+    },
+    {
+        "name": "Stargazer",
+        "slug": "tob3"
+    },
+    {
+        "name": "Ooze, Scintillating",
+        "slug": "tob3"
+    },
+    {
+        "name": "Giant Walking Stick",
+        "slug": "tob3"
+    },
+    {
+        "name": "Primordial Surge",
+        "slug": "tob3"
+    },
+    {
+        "name": "Urushi Constrictor",
+        "slug": "tob3"
+    },
+    {
+        "name": "Drake, Venom",
+        "slug": "tob3"
+    },
+    {
+        "name": "Moppet",
+        "slug": "tob3"
+    },
+    {
+        "name": "Diving Gel",
+        "slug": "tob3"
+    },
+    {
+        "name": "Crab, Duffel",
+        "slug": "tob3"
+    },
+    {
+        "name": "Niya-Atha Warrior",
+        "slug": "tob3"
+    },
+    {
+        "name": "Sunflower Sprite",
+        "slug": "tob3"
+    },
+    {
+        "name": "Stained-Glass Moth",
+        "slug": "tob3"
+    },
+    {
+        "name": "Truant Devourer",
+        "slug": "tob3"
+    },
+    {
+        "name": "Brownie Mystic",
+        "slug": "tob3"
+    },
+    {
+        "name": "Wrackwraith",
+        "slug": "tob3"
+    },
+    {
+        "name": "Alliumite, Husker",
+        "slug": "tob3"
+    },
+    {
+        "name": "Pescavitus",
+        "slug": "tob3"
+    },
+    {
+        "name": "Kobold, Drake Rider",
+        "slug": "tob3"
+    },
+    {
+        "name": "Myrmex, Young",
+        "slug": "tob3"
+    },
+    {
+        "name": "Amphibolt",
+        "slug": "tob3"
+    },
+    {
+        "name": "Devil, Infernal Tutor",
+        "slug": "tob3"
+    },
+    {
+        "name": "Harvest Horse",
+        "slug": "tob3"
+    },
+    {
+        "name": "Ooze, Shoal",
+        "slug": "tob3"
+    },
+    {
+        "name": "Jubjub Bird",
+        "slug": "tob3"
+    },
+    {
+        "name": "Blood Barnacle",
+        "slug": "tob3"
+    },
+    {
+        "name": "Avestruzii Champion",
+        "slug": "tob3"
+    },
+    {
+        "name": "Brownie",
+        "slug": "tob3"
+    },
+    {
+        "name": "Rakshasa, Slayer",
+        "slug": "tob3"
+    },
+    {
+        "name": "Xecha",
+        "slug": "tob3"
+    },
+    {
+        "name": "Vampiric Vanguard",
+        "slug": "tob3"
+    },
+    {
+        "name": "Gullkin",
+        "slug": "tob3"
+    },
+    {
+        "name": "Ogre, Rainforest",
+        "slug": "tob3"
+    },
+    {
+        "name": "Wind Witch",
+        "slug": "tob3"
+    },
+    {
+        "name": "Alabroza, Bloodfiend",
+        "slug": "tob3"
+    },
+    {
+        "name": "Shetani",
+        "slug": "tob3"
+    },
+    {
+        "name": "Ice Urchin",
+        "slug": "tob3"
+    },
+    {
+        "name": "Primordial Matriarch",
+        "slug": "tob3"
+    },
+    {
+        "name": "Scarsupial",
+        "slug": "tob3"
+    },
+    {
+        "name": "Quagga",
+        "slug": "tob3"
+    },
+    {
+        "name": "Giant Mantis Shrimp",
+        "slug": "tob3"
+    },
+    {
+        "name": "Ogre, Alleybasher",
+        "slug": "tob3"
+    },
+    {
+        "name": "Malmbjorn",
+        "slug": "tob3"
+    },
+    {
+        "name": "Rakshasa, Myrmidon",
+        "slug": "tob3"
+    },
+    {
+        "name": "Dinosaur, Jeholopterus",
+        "slug": "tob3"
+    },
+    {
+        "name": "Dwarf, Angler",
+        "slug": "tob3"
+    },
+    {
+        "name": "Necrotech Bonecage Constrictor",
+        "slug": "tob3"
+    },
+    {
+        "name": "Bone Lord",
+        "slug": "tob3"
+    },
+    {
+        "name": "Demon, Inciter",
+        "slug": "tob3"
+    },
+    {
+        "name": "Gearmass",
+        "slug": "tob3"
+    },
+    {
+        "name": "Phoenixborn Sorcerer",
+        "slug": "tob3"
+    },
+    {
+        "name": "Archon, Siege",
+        "slug": "tob3"
+    },
+    {
+        "name": "Sodwose",
+        "slug": "tob3"
+    },
+    {
+        "name": "Trollkin Ragecaster",
+        "slug": "tob3"
+    },
+    {
+        "name": "Arcane Leviathan",
+        "slug": "tob3"
+    },
+    {
+        "name": "Clockwork Tactician",
+        "slug": "tob3"
+    },
+    {
+        "name": "Elf, Shadow Fey Executioner",
+        "slug": "tob3"
+    },
+    {
+        "name": "Alabroza",
+        "slug": "tob3"
+    },
+    {
+        "name": "Beetle, Clacker Soldier",
+        "slug": "tob3"
+    },
+    {
+        "name": "Mudmutt",
+        "slug": "tob3"
+    },
+    {
+        "name": "Belu",
+        "slug": "tob3"
+    },
+    {
+        "name": "Beetle, Clacker Swarm",
+        "slug": "tob3"
+    },
+    {
+        "name": "Hirudine Stalker",
+        "slug": "tob3"
+    },
+    {
+        "name": "Goblin Siege Engine",
+        "slug": "tob3"
+    },
+    {
+        "name": "Dragon, Sand Adult",
+        "slug": "tob3"
+    },
+    {
+        "name": "Caldera Kite",
+        "slug": "tob3"
+    },
+    {
+        "name": "Gullkin Hunter",
+        "slug": "tob3"
+    },
+    {
+        "name": "Desert Slime",
+        "slug": "tob3"
+    },
+    {
+        "name": "Diomedian Horse",
+        "slug": "tob3"
+    },
+    {
+        "name": "Meerkat",
+        "slug": "tob3"
+    },
+    {
+        "name": "Ettin, Kobold",
+        "slug": "tob3"
+    },
+    {
+        "name": "Brumalek",
+        "slug": "tob3"
+    },
+    {
+        "name": "Akkorokamui",
+        "slug": "tob3"
+    },
+    {
+        "name": "Ice Willow",
+        "slug": "tob3"
+    },
+    {
+        "name": "Capybear",
+        "slug": "tob3"
+    },
+    {
+        "name": "Void Knight",
+        "slug": "tob3"
+    },
+    {
+        "name": "Nautiloid",
+        "slug": "tob3"
+    },
+    {
+        "name": "Dragon, Prismatic Wyrmling",
+        "slug": "tob3"
+    },
+    {
+        "name": "Demon, Kogukhpak",
+        "slug": "tob3"
+    },
+    {
+        "name": "Juniper Sheriff",
+        "slug": "tob3"
+    },
+    {
+        "name": "Pyrite Pile",
+        "slug": "tob3"
+    },
+    {
+        "name": "Gnyan",
+        "slug": "tob3"
+    },
+    {
+        "name": "Animated Offal",
+        "slug": "tob3"
+    },
+    {
+        "name": "Npc: Cultist Psychophant",
+        "slug": "tob3"
+    },
+    {
+        "name": "Muraenid",
+        "slug": "tob3"
+    },
+    {
+        "name": "Incandescent One",
+        "slug": "tob3"
+    },
+    {
+        "name": "Godslayer",
+        "slug": "tob3"
+    },
+    {
+        "name": "Musk Deer",
+        "slug": "tob3"
+    },
+    {
+        "name": "Crab, Samurai",
+        "slug": "tob3"
+    },
+    {
+        "name": "Splinter Matron",
+        "slug": "tob3"
+    },
+    {
+        "name": "Alliumite, Rapscallion",
+        "slug": "tob3"
+    },
+    {
+        "name": "Rakshasa, Pustakam",
+        "slug": "tob3"
+    },
+    {
+        "name": "Ley Wanderer",
+        "slug": "tob3"
+    },
+    {
+        "name": "Veritigibbet",
+        "slug": "tob3"
+    },
+    {
+        "name": "Puffinfolk",
+        "slug": "tob3"
+    },
+    {
+        "name": "Light Eater",
+        "slug": "tob3"
+    },
+    {
+        "name": "Animal Lord, Mammoth Queen",
+        "slug": "tob3"
+    },
+    {
+        "name": "Dragon, Prismatic Ancient",
+        "slug": "tob3"
+    },
+    {
+        "name": "Kobold, Ghost Hunter",
+        "slug": "tob3"
+    },
+    {
+        "name": "Drake, Shepherd",
+        "slug": "tob3"
+    },
+    {
+        "name": "Hag, Floe",
+        "slug": "tob3"
+    },
+    {
+        "name": "Wraith, Oathrot",
+        "slug": "tob3"
+    },
+    {
+        "name": "Rock Salamander",
+        "slug": "tob3"
+    },
+    {
+        "name": "Mindshard",
+        "slug": "tob3"
+    },
+    {
+        "name": "Monkey\u2019S Bane Vine",
+        "slug": "tob3"
+    },
+    {
+        "name": "Golem, Barnyard",
+        "slug": "tob3"
+    },
+    {
+        "name": "Cosmic Symphony",
+        "slug": "tob3"
+    },
+    {
+        "name": "Necrotech Thunderer",
+        "slug": "tob3"
+    },
+    {
+        "name": "Pyrrhic Podthrower",
+        "slug": "tob3"
+    },
+    {
+        "name": "Fungi, Duskwilt",
+        "slug": "tob3"
+    },
+    {
+        "name": "Snatch Bat",
+        "slug": "tob3"
+    },
+    {
+        "name": "Khamaseen",
+        "slug": "tob3"
+    },
+    {
+        "name": "Elemental, Permafrost",
+        "slug": "tob3"
+    },
+    {
+        "name": "Dinosaur, Thundercall Hadrosaur",
+        "slug": "tob3"
+    },
+    {
+        "name": "Gremlin, Bilge",
+        "slug": "tob3"
+    },
+    {
+        "name": "Dawnfly, Desolation Nymph",
+        "slug": "tob3"
+    },
+    {
+        "name": "Dire Lionfish",
+        "slug": "tob3"
+    },
+    {
+        "name": "Ooze, Sinkhole",
+        "slug": "tob3"
+    },
+    {
+        "name": "Dubius",
+        "slug": "tob3"
+    },
+    {
+        "name": "Meerkats, Swarm",
+        "slug": "tob3"
+    },
+    {
+        "name": "Void Constructor",
+        "slug": "tob3"
+    },
+    {
+        "name": "Devil, Maelstrom",
+        "slug": "tob3"
+    },
+    {
+        "name": "Moonweb",
+        "slug": "tob3"
+    },
+    {
+        "name": "Arcane Scavenger",
+        "slug": "tob3"
+    },
+    {
+        "name": "Brownie Beastrider",
+        "slug": "tob3"
+    },
+    {
+        "name": "Beach Weird",
+        "slug": "tob3"
+    },
+    {
+        "name": "Npc: Infested Duelist",
+        "slug": "tob3"
+    },
+    {
+        "name": "Ogre, Kadag",
+        "slug": "tob3"
+    },
+    {
+        "name": "Clockwork Scorpion",
+        "slug": "tob3"
+    },
+    {
+        "name": "Ooze, Sinoper",
+        "slug": "tob3"
+    },
+    {
+        "name": "The Flesh",
+        "slug": "tob3"
+    },
+    {
+        "name": "Khargi",
+        "slug": "tob3"
+    },
+    {
+        "name": "Soil Snake",
+        "slug": "tob3"
+    },
+    {
+        "name": "Cave Mimic",
+        "slug": "tob3"
+    },
+    {
+        "name": "Angel, Haladron",
+        "slug": "tob3"
+    },
+    {
+        "name": "Myrmex Speaker",
+        "slug": "tob3"
+    },
+    {
+        "name": "Nullicorn",
+        "slug": "tob3"
+    },
+    {
+        "name": "Hippopotamus, Sacred",
+        "slug": "tob3"
+    },
+    {
+        "name": "Haakjir",
+        "slug": "tob3"
+    },
+    {
+        "name": "Dinosaur, Therizinosaurus",
+        "slug": "tob3"
+    },
+    {
+        "name": "Bone Collector",
+        "slug": "tob3"
+    },
+    {
+        "name": "Angel, Kalkydra",
+        "slug": "tob3"
+    },
+    {
+        "name": "Aphasian Abomination",
+        "slug": "tob3"
+    },
+    {
+        "name": "Garmvvolf",
+        "slug": "tob3"
+    },
+    {
+        "name": "Fungi, Mush Marcher",
+        "slug": "tob3"
+    },
+    {
+        "name": "Frostjack",
+        "slug": "tob3"
+    },
+    {
+        "name": "Bearfolk Thunderstomper",
+        "slug": "tob3"
+    },
+    {
+        "name": "Baleful Miasma",
+        "slug": "tob3"
+    },
+    {
+        "name": "Drake, Bakery",
+        "slug": "tob3"
+    },
+    {
+        "name": "Slithy Tove",
+        "slug": "tob3"
+    },
+    {
+        "name": "Npc: Warlock Of The Genie Lord",
+        "slug": "tob3"
+    },
+    {
+        "name": "Silent Crier",
+        "slug": "tob3"
+    },
+    {
+        "name": "Animated Instrument",
+        "slug": "tob3"
+    },
+    {
+        "name": "Sinstar",
+        "slug": "tob3"
+    },
+    {
+        "name": "Vorthropod",
+        "slug": "tob3"
+    },
+    {
+        "name": "Death Worm",
+        "slug": "tob3"
+    },
+    {
+        "name": "Hippopotamus",
+        "slug": "tob3"
+    },
+    {
+        "name": "Kobold, Empyrean",
+        "slug": "tob3"
+    },
+    {
+        "name": "Drake, Reef",
+        "slug": "tob3"
+    },
+    {
+        "name": "Golem, Chain",
+        "slug": "tob3"
+    },
+    {
+        "name": "Hinderling",
+        "slug": "tob3"
+    },
+    {
+        "name": "Imperator, Penguin Swarm",
+        "slug": "tob3"
+    },
+    {
+        "name": "Copperkill Slime",
+        "slug": "tob3"
+    },
+    {
+        "name": "Angel, Shrouded",
+        "slug": "tob3"
+    },
+    {
+        "name": "Swampgas Shade",
+        "slug": "tob3"
+    },
+    {
+        "name": "Climbing Vine",
+        "slug": "tob3"
+    },
+    {
+        "name": "Devouring Angel",
+        "slug": "tob3"
+    },
+    {
+        "name": "Harpy, Plague",
+        "slug": "tob3"
+    },
+    {
+        "name": "Dinosaur, Guardian Archaeopteryx",
+        "slug": "tob3"
+    },
+    {
+        "name": "Npc: Merchant Captain",
+        "slug": "tob3"
+    },
+    {
+        "name": "Stone-Eater Slime",
+        "slug": "tob3"
+    },
+    {
+        "name": "Wild Sirocco",
+        "slug": "tob3"
+    },
+    {
+        "name": "Relentless Hound",
+        "slug": "tob3"
+    },
+    {
+        "name": "Golem, Ice",
+        "slug": "tob3"
+    },
+    {
+        "name": "Dragonette, Sedge",
+        "slug": "tob3"
+    },
+    {
+        "name": "P\u00faca",
+        "slug": "tob3"
+    },
+    {
+        "name": "Fungi, Mulcher",
+        "slug": "tob3"
+    },
+    {
+        "name": "Sazakan",
+        "slug": "tob3"
+    },
+    {
+        "name": "Zilaq",
+        "slug": "tob3"
+    },
+    {
+        "name": "Witchalder",
+        "slug": "tob3"
+    },
+    {
+        "name": "Talus Flow",
+        "slug": "tob3"
+    },
+    {
+        "name": "Aural Hunter",
+        "slug": "tob3"
+    },
+    {
+        "name": "Oaken Sentinel",
+        "slug": "tob3"
+    },
+    {
+        "name": "Shadow Lurker",
+        "slug": "tob3"
+    },
+    {
+        "name": "Old Salt",
+        "slug": "tob3"
+    },
+    {
+        "name": "Lobe Lemur",
+        "slug": "tob3"
+    },
+    {
+        "name": "Fungi, Void Fungus",
+        "slug": "tob3"
+    },
+    {
+        "name": "Blestsessebe",
+        "slug": "tob3"
+    },
+    {
+        "name": "Dragon, Sand Ancient",
+        "slug": "tob3"
+    },
+    {
+        "name": "Ghost Knight Templar",
+        "slug": "tob3"
+    },
+    {
+        "name": "Aziza",
+        "slug": "tob3"
+    },
+    {
+        "name": "Asp Vine",
+        "slug": "tob3"
+    },
+    {
+        "name": "Imperator",
+        "slug": "tob3"
+    },
+    {
+        "name": "Tatzelwurm",
+        "slug": "tob3"
+    },
+    {
+        "name": "Minotaur, Ravening",
+        "slug": "tob3"
+    },
+    {
+        "name": "Ogre, Cunning Artisan",
+        "slug": "tob3"
+    },
+    {
+        "name": "Niya-Atha Sorcerer",
+        "slug": "tob3"
+    },
+    {
+        "name": "Iceworm",
+        "slug": "tob3"
+    },
+    {
+        "name": "Moonless Hunter",
+        "slug": "tob3"
+    },
+    {
+        "name": "Sewer Weird",
+        "slug": "tob3"
+    },
+    {
+        "name": "Devil, Infernal Tutor, Lesser",
+        "slug": "tob3"
+    },
+    {
+        "name": "Gremlin, Rum Story Keeper",
+        "slug": "tob3"
+    },
+    {
+        "name": "Grolar Bear",
+        "slug": "tob3"
+    },
+    {
+        "name": "Chroma Lizard",
+        "slug": "tob3"
+    },
+    {
+        "name": "Doom Creeper",
+        "slug": "tob3"
+    },
+    {
+        "name": "Equitox",
+        "slug": "tob3"
+    },
+    {
+        "name": "Bannik",
+        "slug": "tob3"
+    },
+    {
+        "name": "Snallygaster",
+        "slug": "tob3"
+    },
+    {
+        "name": "Swarm, Vampire Blossom",
+        "slug": "tob3"
+    },
+    {
+        "name": "Npc: Fixer",
+        "slug": "tob3"
+    },
+    {
+        "name": "Devil, Rimepacted",
+        "slug": "tob3"
+    },
+    {
+        "name": "Archon, Word",
+        "slug": "tob3"
+    },
+    {
+        "name": "Hag, Wood",
+        "slug": "tob3"
+    },
+    {
+        "name": "Megantereon",
+        "slug": "tob3"
+    },
+    {
+        "name": "Cloudhoof Assassin",
+        "slug": "tob3"
+    },
+    {
+        "name": "Cueyatl Warchief",
+        "slug": "tob3"
+    },
+    {
+        "name": "Life Broker",
+        "slug": "tob3"
+    },
+    {
+        "name": "Npc: Breathstealer",
+        "slug": "tob3"
+    },
+    {
+        "name": "Kobold, Planes Hunter",
+        "slug": "tob3"
+    },
+    {
+        "name": "Giant Pufferfish",
+        "slug": "tob3"
+    },
+    {
+        "name": "Leashed Lesion",
+        "slug": "tob3"
+    },
+    {
+        "name": "Ogre, Void Blessed",
+        "slug": "tob3"
+    },
+    {
+        "name": "Ooze, Snow",
+        "slug": "tob3"
+    },
+    {
+        "name": "Drake, Cactus",
+        "slug": "tob3"
+    },
+    {
+        "name": "Lakescourge Lotus",
+        "slug": "tob3"
+    },
+    {
+        "name": "Living Soot",
+        "slug": "tob3"
+    },
+    {
+        "name": "Swarm, Gryllus",
+        "slug": "tob3"
+    },
+    {
+        "name": "Giant, Thursir Hearth Priestess",
+        "slug": "tob3"
+    },
+    {
+        "name": "Animated Instrument, Symphony",
+        "slug": "tob3"
+    },
+    {
+        "name": "Waterkledde",
+        "slug": "tob3"
+    },
+    {
+        "name": "Scorchrunner Jackal",
+        "slug": "tob3"
+    },
+    {
+        "name": "Moon Weaver",
+        "slug": "tob3"
+    },
+    {
+        "name": "Demon, Maha",
+        "slug": "tob3"
+    },
+    {
+        "name": "Obsidian Ophidian",
+        "slug": "tob3"
+    },
+    {
+        "name": "Mummy, Peat",
+        "slug": "tob3"
+    },
+    {
+        "name": "Alpine Creeper",
+        "slug": "tob3"
+    }
+]

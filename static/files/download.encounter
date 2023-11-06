@@ -1,0 +1,465 @@
+{
+    "party": [
+        {
+            "name": "Biff",
+            "class": "fighter",
+            "level": 8,
+            "prof_bonus": 3,
+            "hp": 76,
+            "ac": 18,
+            "scores": {
+                "str": 18,
+                "dex": 15,
+                "con": 17,
+                "int": 12,
+                "wis": 14,
+                "cha": 9
+            },
+            "modifiers": {
+                "str": 4,
+                "dex": 2,
+                "con": 3,
+                "int": 1,
+                "wis": 2,
+                "cha": -1
+            },
+            "attacks": 2,
+            "fighting_style": "dueling",
+            "weapon1": {
+                "name": "Battleaxe",
+                "slug": "battleaxe",
+                "category": "Martial Melee Weapons",
+                "document__slug": "wotc-srd",
+                "document__title": "5e Core Rules",
+                "document__license_url": "http://open5e.com/legal",
+                "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
+                "cost": "10 gp",
+                "damage_dice": "1d8",
+                "damage_type": "slashing",
+                "weight": "4 lb.",
+                "properties": [
+                    "versatile (1d10)"
+                ],
+                "magic_bonus": 1,
+                "extra_damage_dice": "none",
+                "crit": 0.05,
+                "dpr_string": "6.55 = (odds)0.55 * (((base dmg)4.5 + (abl mod + dueling)6 + (magical)1 * (vri)1.0) + ((xdmg)0 * (xmdg vri)1.0) + ((crit %)0.05 * ((base dmg)4.5 + (xdmg)0) "
+            },
+            "weapon2": {
+                "name": "none",
+                "magic_bonus": 0,
+                "extra_damage_dice": "none",
+                "crit": 0.05
+            },
+            "spellcaster": false,
+            "caster_type": "none",
+            "w_dpr": 6.55,
+            "dpr": {
+                "base": 6.55,
+                "med": 8.52,
+                "high": 11.79
+            }
+        }
+    ],
+    "enemies": [
+        {
+            "slug": "adult-black-dragon",
+            "desc": "",
+            "name": "Adult Black Dragon (wotc-srd)",
+            "size": "Huge",
+            "type": "Dragon",
+            "subtype": "",
+            "group": "Black Dragon",
+            "alignment": "chaotic evil",
+            "armor_class": 19,
+            "armor_desc": "natural armor",
+            "hit_points": 195,
+            "hit_dice": "17d12+85",
+            "speed": {
+                "walk": 40,
+                "fly": 80,
+                "swim": 40
+            },
+            "strength": 23,
+            "dexterity": 14,
+            "constitution": 21,
+            "intelligence": 14,
+            "wisdom": 13,
+            "charisma": 17,
+            "strength_save": null,
+            "dexterity_save": 7,
+            "constitution_save": 10,
+            "intelligence_save": null,
+            "wisdom_save": 6,
+            "charisma_save": 8,
+            "perception": 11,
+            "skills": {
+                "perception": 11,
+                "stealth": 7
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "acid",
+            "condition_immunities": "",
+            "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 21",
+            "languages": "Common, Draconic",
+            "challenge_rating": "14",
+            "cr": 14.0,
+            "actions": [
+                {
+                    "name": "multiattack",
+                    "multiattack": 3,
+                    "attacks": [
+                        {
+                            "name": "bite",
+                            "number": 1,
+                            "attack_bonus": 11,
+                            "ave_dmg": 21,
+                            "legendary": false
+                        },
+                        {
+                            "name": "claw",
+                            "number": 2,
+                            "attack_bonus": 11,
+                            "ave_dmg": 13,
+                            "legendary": false
+                        }
+                    ]
+                },
+                {
+                    "name": "tail",
+                    "number": 1,
+                    "attack_bonus": 11,
+                    "ave_dmg": 15,
+                    "legendary": true
+                },
+                {
+                    "name": "frightful presence",
+                    "number": 1,
+                    "save": "Wisdom",
+                    "save_dc": 16,
+                    "save_half": false,
+                    "legendary": false
+                },
+                {
+                    "name": "acid breath (recharge 5-6)",
+                    "number": 1,
+                    "ave_dmg": 54,
+                    "save": "Dexterity",
+                    "save_dc": 18,
+                    "save_half": true,
+                    "legendary": false
+                }
+            ],
+            "reactions": null,
+            "legendary_desc": "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
+            "legendary_actions": true,
+            "special_abilities": [
+                {
+                    "name": "Amphibious",
+                    "desc": "The dragon can breathe air and water."
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "desc": "If the dragon fails a saving throw, it can choose to succeed instead."
+                }
+            ],
+            "spell_list": [],
+            "page_no": 281,
+            "environments": [
+                "Swamp"
+            ],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "5e Core Rules",
+            "document__license_url": "http://open5e.com/legal",
+            "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
+            "attacks": 6,
+            "spellcaster": false,
+            "count": 2,
+            "dpr": 64.4
+        },
+        {
+            "slug": "sand-spider",
+            "desc": "_When a sand spider attacks, its two speckled, tan legs erupt from the sand, plunging forward with murderous speed, followed by a spider the size of a horse. They attack as often in broad daylight as at night._  \n**Drag Prey into Tunnels.** Sand spiders lurk beneath the arid plains and dry grasslands. These carnivores hunt desert dwellers and plains travelers by burrowing into loose sand so they are completely hidden from view. When prey walks over their trap, the spider lunges up from hiding, snares the prey, and drags it down beneath the sand, where it can wrap the prey in webbing before quickly stabbing it to death.  \n**Spider Packs.** More terrifying than a lone sand spider is a group of sand spiders hunting together. They build connected lair networks called clusters, containing one female and 2 or 3 males. They work together with one sand spider attacking to draw attention, and 2 or 3 others attacking from trapdoors in the opposite direction, behind the skirmish line.",
+            "name": "Sand Spider",
+            "size": "Large",
+            "type": "Beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 15,
+            "armor_desc": "natural armor",
+            "hit_points": 105,
+            "hit_dice": "14d10+28",
+            "speed": {
+                "walk": 30,
+                "burrow": 20
+            },
+            "strength": 20,
+            "dexterity": 17,
+            "constitution": 14,
+            "intelligence": 4,
+            "wisdom": 12,
+            "charisma": 4,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 4,
+            "skills": {
+                "perception": 4,
+                "stealth": 6
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 14",
+            "languages": "-",
+            "challenge_rating": "7",
+            "cr": 7.0,
+            "actions": [
+                {
+                    "name": "multiattack",
+                    "multiattack": 2,
+                    "attacks": [
+                        {
+                            "name": "legs",
+                            "number": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "impaling leg",
+                    "number": 1,
+                    "attack_bonus": 8,
+                    "ave_dmg": 22
+                },
+                {
+                    "name": "bite",
+                    "number": 1,
+                    "attack_bonus": 8,
+                    "ave_dmg": 29,
+                    "save": "Constitution",
+                    "save_dc": 13,
+                    "save_half": false
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "Trapdoor Ambush",
+                    "desc": "When a creature walks over a sand spider's hidden burrow, the spider can use its reaction to attack that creature with two impaling leg attacks. The creature is considered a surprised target for both attacks. If one or both attacks hit and the target is a Medium or smaller creature, then the sand spider and the target engage in a Strength contest. If the creature wins, it can immediately move 5 feet away from the sand spider. If the contest results in a tie, the creature is grappled (escape DC 15). If the sand spider wins, the creature is grappled and dragged by the sand spider 30 feet into its lair. If the creature is still grappled at the start of the sand spider's next turn, it becomes restrained instead. The restrained creature can escape by using an action to make a successful DC 15 Strength (Athletics) check."
+                }
+            ],
+            "legendary_desc": "",
+            "legendary_actions": false,
+            "special_abilities": [
+                {
+                    "name": "Sand Stealth",
+                    "desc": "The sand spider gains an additional +3 to Stealth (+9 in total) in sand terrain."
+                },
+                {
+                    "name": "Spider Climb",
+                    "desc": "The sand spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+                },
+                {
+                    "name": "Ambusher",
+                    "desc": "The sand spider has advantage on attack rolls against surprised targets."
+                }
+            ],
+            "spell_list": [],
+            "page_no": 364,
+            "environments": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts",
+            "document__license_url": "http://open5e.com/legal",
+            "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+            "attacks": 2,
+            "spellcaster": false,
+            "count": 1,
+            "dpr": 15.95
+        },
+        {
+            "slug": "adult-black-dragon-a5e",
+            "desc": "",
+            "name": "Adult Black Dragon (menagerie)",
+            "size": "Huge",
+            "type": "Dragon",
+            "subtype": "",
+            "group": null,
+            "alignment": "",
+            "armor_class": 19,
+            "armor_desc": "",
+            "hit_points": 253,
+            "hit_dice": "22d12+110",
+            "speed": {
+                "walk": 40,
+                "fly": 80,
+                "swim": 40
+            },
+            "strength": 22,
+            "dexterity": 14,
+            "constitution": 20,
+            "intelligence": 14,
+            "wisdom": 12,
+            "charisma": 16,
+            "strength_save": null,
+            "dexterity_save": 8,
+            "constitution_save": 11,
+            "intelligence_save": null,
+            "wisdom_save": 7,
+            "charisma_save": 9,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "acid",
+            "condition_immunities": "",
+            "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 20",
+            "languages": "Common, Draconic",
+            "challenge_rating": "17",
+            "cr": 17.0,
+            "actions": [
+                {
+                    "name": "multiattack",
+                    "multiattack": 0,
+                    "attacks": [
+                        {
+                            "name": "bite",
+                            "number": 1,
+                            "attack_bonus": 12,
+                            "ave_dmg": 26,
+                            "legendary": false
+                        },
+                        {
+                            "name": "claw",
+                            "number": 2,
+                            "attack_bonus": 12,
+                            "ave_dmg": 19,
+                            "legendary": false
+                        }
+                    ]
+                },
+                {
+                    "name": "tail",
+                    "number": 1,
+                    "attack_bonus": 12,
+                    "ave_dmg": 15,
+                    "legendary": false
+                },
+                {
+                    "name": "acid spit",
+                    "number": 1,
+                    "ave_dmg": 22,
+                    "save": "Dexterity",
+                    "save_dc": 19,
+                    "save_half": false,
+                    "legendary": false
+                },
+                {
+                    "name": "acid breath (recharge 5-6)",
+                    "number": 1,
+                    "ave_dmg": 63,
+                    "save": "Dexterity",
+                    "save_dc": 19,
+                    "save_half": false,
+                    "legendary": false
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "Tail Attack",
+                    "desc": "When a creature the dragon can see within 10 feet hits the dragon with a melee attack, the dragon makes a tail attack against it."
+                }
+            ],
+            "legendary_desc": "",
+            "legendary_actions": true,
+            "special_abilities": [
+                {
+                    "name": "Ambusher",
+                    "desc": "When submerged in water, the dragon has advantage on Stealth checks. If the dragon hits a creature that can't see it with its bite, it can deal piercing damage and grapple the target simultaneously."
+                },
+                {
+                    "name": "Amphibious",
+                    "desc": "The dragon can breathe air and water."
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "desc": "When the dragon fails a saving throw, it can choose to succeed instead. When it does, it sheds some of its scales, which turn to mud. If it has no more uses of this ability, its Armor Class is reduced to 17 until it finishes a long rest."
+                },
+                {
+                    "name": "Ruthless (1/Round)",
+                    "desc": "After scoring a critical hit on its turn, the dragon can immediately make one claw attack."
+                },
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "The dragons spellcasting ability is Charisma (save DC 17). It can innately cast the following spells, requiring no material components. 3/day each:fog cloud, pass without trace, legend lore, speak with dead"
+                }
+            ],
+            "spell_list": [],
+            "page_no": 102,
+            "environments": [],
+            "img_main": null,
+            "document__slug": "menagerie",
+            "document__title": "Level Up Advanced 5e Monstrous Menagerie",
+            "document__license_url": "http://open5e.com/legal",
+            "document__url": "https://www.levelup5e.com",
+            "attacks": 3,
+            "spellcaster": false,
+            "count": 1,
+            "dpr": 19.5
+        }
+    ],
+    "encounter": {
+        "party": {
+            "count": 1,
+            "saves": {
+                "str": 7,
+                "dex": 2,
+                "con": 6,
+                "int": 1,
+                "wis": 2,
+                "cha": -1
+            },
+            "hp": 76,
+            "attacks": 2,
+            "thresholds": [
+                450,
+                900,
+                1400,
+                2100
+            ],
+            "ac": 18
+        },
+        "enemies": {
+            "count": 4,
+            "hp": 748,
+            "attacks": 17,
+            "xp": 43900,
+            "types": {
+                "Dragon": 3,
+                "Beast": 1
+            },
+            "enc_xp": 87800.0,
+            "dmg_vulnerabilities": {},
+            "dmg_resistances": {},
+            "dmg_immunities": {
+                "acid": 0.86
+            },
+            "saves": {
+                "str": 4,
+                "dex": 5,
+                "con": 7,
+                "int": 1,
+                "wis": 4,
+                "cha": 5
+            },
+            "ac": 18,
+            "difficulty": "N/A"
+        }
+    }
+}

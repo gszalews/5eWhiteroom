@@ -9,9 +9,9 @@
 <div class="title-block">
     <div class="title">The Adventuring Party</div>
 </div>
-    <h1 class="centered" style="color:#041A2E; padding:1rem">Edit {{pc["name"]}}</h1>
+    <h1 class="level1" style="padding:1rem">Edit {{pc["name"]}}</h1>
 <form class="mainform" action="/party" method="post">
-    <h5>Character Information</h5>
+    <h5 class="level5">>Character Information</h5>
     <div class="row gy-2 gx-3 align-items-center">
         <div class="col-auto">
             <input autocomplete="off" autofocus class="form-control" id="name" name="name" value="{{pc["name"]}}" type="text" required>
@@ -54,7 +54,7 @@
             </select>
         </div>
     </div>
-    <h5>Ability Scores</h5>
+    <h5 class="level5">>Ability Scores</h5>
     <div class="row gy-2 gx-3 align-items-center">
         <div class="col-auto">
             <select class="form-select" id="str" name="str" aria-label="strength score" required>
@@ -105,7 +105,7 @@
             </select>
         </div>
     </div>
-    <h5>Primary Weapon</h5>
+    <h5 class="level5">>Primary Weapon</h5>
     <div class="row gy-2 gx-3 align-items-center">
         <div class="col-auto">
                 <select class="form-select" id="attacks" name="attacks" aria-label="number of attacks">
@@ -191,7 +191,7 @@
         </div>
     </div>
     <div id="xdmg_dice_field1" style="display: none;">
-        <h5>Extra Damage Dice</h5>
+        <h5 class="level5">>Extra Damage Dice</h5>
         <div class="row gy-2 gx-3 align-items-center" >
             <div class="col-auto">
                 {% if pc["weapon1"]["extra_damage_dice"] == "none" %}
@@ -264,7 +264,7 @@
     </div>
     <div id="secondary_weapon_field" style="display: none;">
         <br>
-        <h5>Off-hand or Second Weapon</h5>
+        <h5 class="level5">>Off-hand or Second Weapon</h5>
         <div class="row gy-2 gx-3 align-items-center">
             <div class="col-auto">
                 <select class="form-select" id="weapon2" name="weapon2" aria-label="weapon choice">
@@ -319,7 +319,7 @@
             </div>
         </div>
         <div id="xdmg_dice_field2" style="display: none;">
-            <h5>Extra Damage Dice</h5>
+            <h5 class="level5">>Extra Damage Dice</h5>
             <div class="row gy-2 gx-3 align-items-center" >
                 <div class="col-auto">
                     {% if pc["weapon2"]["extra_damage_dice"] == "none" %}
@@ -379,7 +379,7 @@
             </div>
         </div>
     </div>
-    <h5 style="margin-top: 35px; margin-bottom: 15px;">Spellcasting</h5>
+    <h5 class="level5"> style="margin-top: 35px; margin-bottom: 15px;">Spellcasting</h5>
     <div class="row gy-2 gx-3 align-items-center">
         <div class="col-auto">
             <div class="form-check form-switch">
@@ -431,7 +431,7 @@
         </div>
         <div class="row gy-2 gx-3 align-items-center">
             <div class="col-auto">
-                <h5>Spells:</h5>
+                <h5 class="level5">>Spells:</h5>
                 <div>Select combat spells typically used by this character.</div>
                 <div>Please follow the suggested progression that appears in the spell selection boxes based on your own level and use</div>
                 <select class="form-select" id="spell1" name="spell1" aria-label="spell choice one">

@@ -1,0 +1,527 @@
+[
+    {
+        "slug": "adult-black-dragon",
+        "desc": "",
+        "name": "Adult Black Dragon (wotc-srd)",
+        "size": "Huge",
+        "type": "Dragon",
+        "subtype": "",
+        "group": "Black Dragon",
+        "alignment": "chaotic evil",
+        "armor_class": 19,
+        "armor_desc": "natural armor",
+        "hit_points": 195,
+        "hit_dice": "17d12+85",
+        "speed": {
+            "walk": 40,
+            "fly": 80,
+            "swim": 40
+        },
+        "strength": 23,
+        "dexterity": 14,
+        "constitution": 21,
+        "intelligence": 14,
+        "wisdom": 13,
+        "charisma": 17,
+        "strength_save": null,
+        "dexterity_save": 7,
+        "constitution_save": 10,
+        "intelligence_save": null,
+        "wisdom_save": 6,
+        "charisma_save": 8,
+        "perception": 11,
+        "skills": {
+            "perception": 11,
+            "stealth": 7
+        },
+        "damage_vulnerabilities": "",
+        "damage_resistances": "",
+        "damage_immunities": "acid",
+        "condition_immunities": "",
+        "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 21",
+        "languages": "Common, Draconic",
+        "challenge_rating": "14",
+        "cr": 14.0,
+        "actions": [
+            {
+                "name": "multiattack",
+                "multiattack": 3,
+                "attacks": [
+                    {
+                        "name": "bite",
+                        "number": 1,
+                        "attack_bonus": 11,
+                        "ave_dmg": 21,
+                        "legendary": false
+                    },
+                    {
+                        "name": "claw",
+                        "number": 2,
+                        "attack_bonus": 11,
+                        "ave_dmg": 13,
+                        "legendary": false
+                    }
+                ],
+                "attack_bonus": null,
+                "ave_dmg": 0
+            },
+            {
+                "name": "tail",
+                "number": 1,
+                "attack_bonus": 11,
+                "ave_dmg": 15,
+                "legendary": true
+            },
+            {
+                "name": "frightful presence",
+                "number": 1,
+                "attack_bonus": null,
+                "ave_dmg": 0,
+                "save": "Wisdom",
+                "save_dc": 16,
+                "save_half": false,
+                "legendary": false
+            },
+            {
+                "name": "acid breath (recharge 5-6)",
+                "number": 1,
+                "attack_bonus": null,
+                "ave_dmg": 54,
+                "save": "Dexterity",
+                "save_dc": 18,
+                "save_half": true,
+                "legendary": false
+            }
+        ],
+        "reactions": null,
+        "legendary_desc": "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
+        "legendary_actions": true,
+        "special_abilities": [
+            {
+                "name": "Amphibious",
+                "desc": "The dragon can breathe air and water."
+            },
+            {
+                "name": "Legendary Resistance (3/Day)",
+                "desc": "If the dragon fails a saving throw, it can choose to succeed instead."
+            }
+        ],
+        "spell_list": [],
+        "page_no": 281,
+        "environments": [
+            "Swamp"
+        ],
+        "img_main": null,
+        "document__slug": "wotc-srd",
+        "document__title": "5e Core Rules",
+        "document__license_url": "http://open5e.com/legal",
+        "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
+        "attacks": 6,
+        "spellcaster": false,
+        "count": 1
+    },
+    {
+        "slug": "adult-black-dragon",
+        "desc": "",
+        "name": "Adult Black Dragon (menagerie)",
+        "size": "Huge",
+        "type": "Dragon",
+        "subtype": "",
+        "group": "Black Dragon",
+        "alignment": "chaotic evil",
+        "armor_class": 19,
+        "armor_desc": "natural armor",
+        "hit_points": 195,
+        "hit_dice": "17d12+85",
+        "speed": {
+            "walk": 40,
+            "fly": 80,
+            "swim": 40
+        },
+        "strength": 23,
+        "dexterity": 14,
+        "constitution": 21,
+        "intelligence": 14,
+        "wisdom": 13,
+        "charisma": 17,
+        "strength_save": null,
+        "dexterity_save": 7,
+        "constitution_save": 10,
+        "intelligence_save": null,
+        "wisdom_save": 6,
+        "charisma_save": 8,
+        "perception": 11,
+        "skills": {
+            "perception": 11,
+            "stealth": 7
+        },
+        "damage_vulnerabilities": "",
+        "damage_resistances": "",
+        "damage_immunities": "acid",
+        "condition_immunities": "",
+        "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 21",
+        "languages": "Common, Draconic",
+        "challenge_rating": "14",
+        "cr": 14.0,
+        "actions": [
+            {
+                "name": "multiattack",
+                "multiattack": 3,
+                "attacks": [
+                    {
+                        "name": "bite",
+                        "number": 1,
+                        "attack_bonus": 11,
+                        "ave_dmg": 21,
+                        "legendary": false
+                    },
+                    {
+                        "name": "claw",
+                        "number": 2,
+                        "attack_bonus": 11,
+                        "ave_dmg": 13,
+                        "legendary": false
+                    }
+                ],
+                "attack_bonus": null,
+                "ave_dmg": 0
+            },
+            {
+                "name": "tail",
+                "number": 1,
+                "attack_bonus": 11,
+                "ave_dmg": 15,
+                "legendary": true
+            },
+            {
+                "name": "frightful presence",
+                "number": 1,
+                "attack_bonus": null,
+                "ave_dmg": 0,
+                "save": "Wisdom",
+                "save_dc": 16,
+                "save_half": false,
+                "legendary": false
+            },
+            {
+                "name": "acid breath (recharge 5-6)",
+                "number": 1,
+                "attack_bonus": null,
+                "ave_dmg": 54,
+                "save": "Dexterity",
+                "save_dc": 18,
+                "save_half": true,
+                "legendary": false
+            }
+        ],
+        "reactions": null,
+        "legendary_desc": "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
+        "legendary_actions": true,
+        "special_abilities": [
+            {
+                "name": "Amphibious",
+                "desc": "The dragon can breathe air and water."
+            },
+            {
+                "name": "Legendary Resistance (3/Day)",
+                "desc": "If the dragon fails a saving throw, it can choose to succeed instead."
+            }
+        ],
+        "spell_list": [],
+        "page_no": 281,
+        "environments": [
+            "Swamp"
+        ],
+        "img_main": null,
+        "document__slug": "wotc-srd",
+        "document__title": "5e Core Rules",
+        "document__license_url": "http://open5e.com/legal",
+        "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
+        "attacks": 6,
+        "spellcaster": false,
+        "count": 1
+    },
+    {
+        "slug": "acolyte",
+        "desc": "**Acolytes** are junior members of a clergy, usually answerable to a priest. They perform a variety of functions in a temple and are granted minor spellcasting power by their deities.",
+        "name": "Acolyte",
+        "size": "Medium",
+        "type": "Humanoid",
+        "subtype": "any race",
+        "group": "NPCs",
+        "alignment": "any alignment",
+        "armor_class": 10,
+        "armor_desc": null,
+        "hit_points": 9,
+        "hit_dice": "2d8",
+        "speed": {
+            "walk": 30
+        },
+        "strength": 10,
+        "dexterity": 10,
+        "constitution": 10,
+        "intelligence": 10,
+        "wisdom": 14,
+        "charisma": 11,
+        "strength_save": null,
+        "dexterity_save": null,
+        "constitution_save": null,
+        "intelligence_save": null,
+        "wisdom_save": null,
+        "charisma_save": null,
+        "perception": null,
+        "skills": {
+            "medicine": 4,
+            "religion": 2
+        },
+        "damage_vulnerabilities": "",
+        "damage_resistances": "",
+        "damage_immunities": "",
+        "condition_immunities": "",
+        "senses": "passive Perception 12",
+        "languages": "any one language (usually Common)",
+        "challenge_rating": "1/4",
+        "cr": 0.25,
+        "actions": [
+            {
+                "name": "club",
+                "number": 1,
+                "attack_bonus": 2,
+                "ave_dmg": 2
+            }
+        ],
+        "reactions": null,
+        "legendary_desc": "",
+        "legendary_actions": false,
+        "special_abilities": [
+            {
+                "name": "Spellcasting",
+                "desc": "The acolyte is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The acolyte has following cleric spells prepared:\n\n* Cantrips (at will): light, sacred flame, thaumaturgy\n* 1st level (3 slots): bless, cure wounds, sanctuary"
+            }
+        ],
+        "spell_list": [
+            "https://api.open5e.com/v1/spells/light/",
+            "https://api.open5e.com/v1/spells/sacred-flame/",
+            "https://api.open5e.com/v1/spells/thaumaturgy/",
+            "https://api.open5e.com/v1/spells/bless/",
+            "https://api.open5e.com/v1/spells/cure-wounds/",
+            "https://api.open5e.com/v1/spells/sanctuary/"
+        ],
+        "page_no": 395,
+        "environments": [
+            "Temple",
+            "Desert",
+            "Urban",
+            "Hills",
+            "Settlement"
+        ],
+        "img_main": null,
+        "document__slug": "wotc-srd",
+        "document__title": "5e Core Rules",
+        "document__license_url": "http://open5e.com/legal",
+        "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
+        "attacks": 1,
+        "spellcaster": false,
+        "spells": [
+            {
+                "level": "0",
+                "name": "Sacred Flame",
+                "save": "Dexterity",
+                "damage": "1d8",
+                "type": "Radiant",
+                "increase": "TRUE",
+                "aoe": false,
+                "attack": true,
+                "save_half": false
+            }
+        ],
+        "spellcasting": true,
+        "spell_ability": "wisdom",
+        "spell_dc": 12,
+        "spell_attack": 4,
+        "count": 1
+    },
+    {
+        "slug": "dorreq",
+        "desc": "_These twitching balls of tentacles surround an inhuman face dominated by a squid-like beak._  \n**Servants of the Void.** The dorreqi are servants to ancient horrors of the void and realms beyond human understanding. They are guardians and sentries for such creatures, and they swarm and attack any creatures approaching too close to the elder aberrations they serve.  \n**Death from Above.** Dorreq prefer to drop on their victims from above, pinning them in a grapple attack with their many tentacles and biting them with their large chitinous beaks.",
+        "name": "Dorreq",
+        "size": "Medium",
+        "type": "Aberration",
+        "subtype": "",
+        "group": null,
+        "alignment": "neutral evil",
+        "armor_class": 15,
+        "armor_desc": "natural armor",
+        "hit_points": 93,
+        "hit_dice": "17d8+17",
+        "speed": {
+            "walk": 20,
+            "climb": 15
+        },
+        "strength": 19,
+        "dexterity": 19,
+        "constitution": 13,
+        "intelligence": 11,
+        "wisdom": 8,
+        "charisma": 6,
+        "strength_save": null,
+        "dexterity_save": 6,
+        "constitution_save": null,
+        "intelligence_save": null,
+        "wisdom_save": null,
+        "charisma_save": null,
+        "perception": 3,
+        "skills": {
+            "perception": 3,
+            "stealth": 8
+        },
+        "damage_vulnerabilities": "",
+        "damage_resistances": "acid, cold, lightning",
+        "damage_immunities": "",
+        "condition_immunities": "",
+        "senses": "darkvision 60 ft., passive Perception 13",
+        "languages": "Void Speech",
+        "challenge_rating": "4",
+        "cr": 4.0,
+        "actions": [
+            {
+                "name": "multiattack",
+                "multiattack": 2,
+                "attacks": [
+                    {
+                        "name": "bite",
+                        "number": 1,
+                        "attack_bonus": 6,
+                        "ave_dmg": 22
+                    }
+                ],
+                "attack_bonus": null,
+                "ave_dmg": 0
+            },
+            {
+                "name": "tentacle",
+                "number": 1,
+                "attack_bonus": 6,
+                "ave_dmg": 8
+            },
+            {
+                "name": "entanglement",
+                "number": 1,
+                "attack_bonus": null,
+                "ave_dmg": 0,
+                "save": "Dexterity",
+                "save_dc": 14,
+                "save_half": false
+            }
+        ],
+        "reactions": null,
+        "legendary_desc": "",
+        "legendary_actions": false,
+        "special_abilities": [
+            {
+                "name": "Innate Spellcasting",
+                "desc": "The dorreq's innate spellcasting ability is Intelligence (spell save DC 10). It can innately cast the following spells, requiring no material components: 3/day each: blink, dimension door, haste, shatter Wasteland Stride. This ability works like tree stride, but the dorreq can use it to sink into and appear out of any sandy or rocky ground, and the range is only 30 ft. Using this ability replaces the dorreq's usual movement."
+            }
+        ],
+        "spell_list": [],
+        "page_no": 124,
+        "environments": [],
+        "img_main": null,
+        "document__slug": "tob",
+        "document__title": "Tome of Beasts",
+        "document__license_url": "http://open5e.com/legal",
+        "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+        "attacks": 2,
+        "spellcaster": false,
+        "count": 1
+    },
+    {
+        "slug": "gloomflower",
+        "desc": "",
+        "name": "Gloomflower",
+        "size": "Tiny",
+        "type": "Plant",
+        "subtype": "",
+        "group": null,
+        "alignment": "unaligned",
+        "armor_class": 12,
+        "armor_desc": "natural armor",
+        "hit_points": 44,
+        "hit_dice": "8d4+24",
+        "speed": {
+            "walk": 10
+        },
+        "strength": 10,
+        "dexterity": 6,
+        "constitution": 16,
+        "intelligence": 1,
+        "wisdom": 6,
+        "charisma": 18,
+        "strength_save": null,
+        "dexterity_save": null,
+        "constitution_save": null,
+        "intelligence_save": null,
+        "wisdom_save": null,
+        "charisma_save": null,
+        "perception": null,
+        "skills": {},
+        "damage_vulnerabilities": "",
+        "damage_resistances": "",
+        "damage_immunities": "",
+        "condition_immunities": "blinded, deafened, frightened",
+        "senses": "blindsight 120 ft. passive Perception 8",
+        "languages": "understands all languages known by creatures within 120 feet, but can't speak, telepathy 120 ft.",
+        "challenge_rating": "3",
+        "cr": 3.0,
+        "actions": [
+            {
+                "name": "multiattack",
+                "multiattack": 2,
+                "attacks": [
+                    {
+                        "name": "melee",
+                        "number": 2
+                    }
+                ],
+                "attack_bonus": null,
+                "ave_dmg": 0
+            },
+            {
+                "name": "psychic strike",
+                "number": 1,
+                "attack_bonus": 6,
+                "ave_dmg": 10
+            },
+            {
+                "name": "corrupting visions (recharge 5-6)",
+                "number": 1,
+                "attack_bonus": null,
+                "ave_dmg": 7
+            }
+        ],
+        "reactions": null,
+        "legendary_desc": "",
+        "legendary_actions": false,
+        "special_abilities": [
+            {
+                "desc": "Creatures have disadvantage on attack rolls against the gloomflower. An attacker is immune to this effect if it doesn't rely on sight, as with blindsight, or can see through illusions, as with truesight.",
+                "name": "Blur"
+            },
+            {
+                "desc": "Whenever the gloomflower takes damage, each creature within 10 feet of the gloomflower must succeed on a DC 14 Wisdom saving throw or take 7 (2d6) psychic damage.",
+                "name": "Psychic Scream"
+            }
+        ],
+        "spell_list": [],
+        "page_no": 188,
+        "environments": [],
+        "img_main": null,
+        "document__slug": "cc",
+        "document__title": "Creature Codex",
+        "document__license_url": "http://open5e.com/legal",
+        "document__url": "https://koboldpress.com/kpstore/product/creature-codex-for-5th-edition-dnd/",
+        "attacks": 2,
+        "spellcaster": false,
+        "count": 1
+    }
+]

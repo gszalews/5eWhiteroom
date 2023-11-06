@@ -9,9 +9,9 @@
 <div class="title-block">
     <div class="title">The Adventuring Party</div>
 </div>
-    <h1 class="centered" style="color:#041A2E; padding:1rem">Enter Your Characters</h1>
+    <h1 class="level1" style="color:#041A2E; padding:1rem">Enter Your Characters</h1>
 <form class="mainform" action="/party" method="post">
-    <h5>Character Information <span>&#40</span>required<span>&#41</span></h5>
+    <h5 class="level5">Character Information <span>&#40</span>required<span>&#41</span></h5>
     <div class="row gy-2 gx-3 align-items-center">
         <div class="col-auto">
             <input autocomplete="off" autofocus class="form-control" id="name" name="name" placeholder="Character Name" type="text" required>
@@ -54,7 +54,7 @@
             </select>
         </div>
     </div>
-    <h5>Ability Scores</h5>
+    <h5 class="level5">Ability Scores</h5>
     <div class="row gy-2 gx-3 align-items-center">
         <div class="col-auto">
             <select class="form-select" id="str" name="str" aria-label="strength score">
@@ -105,7 +105,7 @@
             </select>
         </div>
     </div>
-    <h5>Primary Weapon</h5>
+    <h5 class="level5">Primary Weapon</h5>
     <div class="row gy-2 gx-3 align-items-center">
         <div class="col-auto">
             <select class="form-select" id="attacks" name="attacks" aria-label="number of attacks">
@@ -164,7 +164,7 @@
         </div>
     </div>
     <div id="xdmg_dice_field1" style="display: none;">
-        <h5>Extra Damage Dice</h5>
+        <h5 class="level5">Extra Damage Dice</h5>
         <div class="row gy-2 gx-3 align-items-center" >
             <div class="col-auto">
                 <input autocomplete="off" class="form-control" id="xdmg_dice1" name="xdmg_dice1" placeholder="1d8 or 2d6 etc." type="text">
@@ -219,7 +219,7 @@
     </div>
     <div id="secondary_weapon_field" style="display: none;">
         <br>
-        <h5>Off-hand or Second Weapon</h5>
+        <h5 class="level5">Off-hand or Second Weapon</h5>
         <div class="row gy-2 gx-3 align-items-center">
             <div class="col-auto">
                 <select class="form-select" id="weapon2" name="weapon2" aria-label="weapon choice">
@@ -256,7 +256,7 @@
             </div>
         </div>
         <div id="xdmg_dice_field2" style="display: none;">
-            <h5>Extra Damage Dice</h5>
+            <h5 class="level5">Extra Damage Dice</h5>
             <div class="row gy-2 gx-3 align-items-center" >
                 <div class="col-auto">
                     <input autocomplete="off" class="form-control" id="xdmg_dice2" name="xdmg_dice2" placeholder="1d8 or 2d6 etc." type="text">
@@ -302,7 +302,7 @@
             </div>
         </div>
     </div>
-    <h5>Spellcasting</h5>
+    <h5 class="level5">Spellcasting</h5>
     <div class="row gy-2 gx-3 align-items-center">
         <div class="col-auto">
             <div class="form-check form-switch">
@@ -334,7 +334,7 @@
         </div>
         <div class="row gy-2 gx-3 align-items-center">
             <div class="col-auto">
-                <h5>Spells:</h5>
+                <h5 class="level5">Spells:</h5>
                 <div>Select combat spells typically used by this character.</div>
                 <div>Please follow the suggested progression that appears in the spell selection boxes based on your own level and use</div>
                 <select class="form-select" id="spell1" name="spell1" aria-label="spell choice one">
@@ -382,7 +382,7 @@
 
 {% if party|length %}
 <div class="row tablecontainer align-items-center">
-    <h1 class="centered" style="color:#450920; padding:1rem">Encounter Stats</h1>
+    <h1 class="level1" style="color:#450920; padding:1rem">Encounter Stats</h1>
     <table class="table">
         <thead>
             <tr>
@@ -404,7 +404,7 @@
         </tbody>
     </table>
 
-    <h1 class="centered" style="color:#041A2E; padding:1rem">Party Members</h1>
+    <h1 class="level1" style="color:#041A2E; padding:1rem">Party Members</h1>
     <div>
         <table class="table table-hover ">
             <thead>
@@ -435,19 +435,19 @@
                                     <div class="modal-dialog">
                                       <div class="modal-content">
                                         <div class="modal-header">
-                                          <h1 class="modal-title fs-5">{{character["name"]}}'s Weapons</h1>
+                                          <h1 class="modal-title fs-5 level1">{{character["name"]}}'s Weapons</h1>
                                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body" style="font-size: 16px;">
-                                            <h4>Base: {{character["dpr"]["base"]}}</h4>
-                                            <h4>Medium: {{character["dpr"]["med"]}} | base x 1.3</h4>
-                                            <h4>High: {{character["dpr"]["high"]}} | base x 1.8</h4>
-                                            <h5>{{character["weapon1"]["name"]}}</h5>
+                                            <h4 class="level4">Base: {{character["dpr"]["base"]}}</h4>
+                                            <h4 class="level4">Medium: {{character["dpr"]["med"]}} | base x 1.3</h4>
+                                            <h4 class="level4">High: {{character["dpr"]["high"]}} | base x 1.8</h4>
+                                            <h5 class="level5">{{character["weapon1"]["name"]}}</h5>
                                             {{character["weapon1"]["dpr_string"]}}
                                             <br>
                                             {% if character["weapon2"]["name"] != "none" %}
                                                 <br>
-                                                <h5>{{character["weapon2"]["name"]}}</h5>
+                                                <h5 class="level5">{{character["weapon2"]["name"]}}</h5>
                                                 {{character["weapon2"]["dpr_string"]}}
                                             {% endif %}
                                         </div>
@@ -463,13 +463,13 @@
                                 <div class="modal-dialog">
                                   <div class="modal-content">
                                     <div class="modal-header">
-                                      <h1 class="modal-title fs-5">{{character["name"]}}'s Spells</h1>
+                                      <h1 class="modal-title fs-5 level1">{{character["name"]}}'s Spells</h1>
                                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body" style="font-size: 16px;">
-                                        <h4>Spell Damage Profiles</h4>
-                                        <h5>Low: {{character["spell_dpr"]["low"]}} | Med: {{character["spell_dpr"]["med"]}} | High: {{character["spell_dpr"]["high"]}}</h5>
-                                        <h4>Individual Spells</h4>
+                                        <h4 class="level4">Spell Damage Profiles</h4>
+                                        <h5 class="level5">Low: {{character["spell_dpr"]["low"]}} | Med: {{character["spell_dpr"]["med"]}} | High: {{character["spell_dpr"]["high"]}}</h5>
+                                        <h4 class="level4">Individual Spells</h4>
                                         {% for spell in character["spells"] %}
                                             {{spell["name"]}}: {{spell["dpr_string"]}} <br>
                                             Odds: {{spell["odds_string"]}} <br>

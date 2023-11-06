@@ -1,5 +1,6 @@
 import csv
 import json
+import re
 import requests
 import string
 import urllib.parse
@@ -141,6 +142,9 @@ def ave_enemy_dmg(enemy, encounter):
         if "ave_dmg" and "attack_bonus" in action.keys():
             if action["name"] != "multiattack":
                 if "recharge" not in action["name"]:
+                    print(enemy["name"])
+                    print(action["name"])
+                    print(action["attack_bonus"])
                     dmg = enemy_attack(ac, action["attack_bonus"], action["ave_dmg"], action["number"])
                     if "save" in action.keys():
                         ability = action["save"].lower()
@@ -461,18 +465,22 @@ def configure_action(full_action, conf_action):
     desc = full_action["desc"]
     # Find attack roll modifier
     hit = get_hit(desc)
-    conf_action["attack_bonus"] = hit
+    if hit is not None:
+        conf_action["attack_bonus"] = hit
     # find average damage
     dmg = get_damage(desc)
     damage = 0
-    for d in dmg:
-        damage += d["dmg"]
-    conf_action["ave_dmg"] = damage
+    if dmg is not None:
+        for d in dmg:
+            damage += d["dmg"]
+        conf_action["ave_dmg"] = damage
     #find the saving throw if needed for a given action
     save = get_save(desc)
-    conf_action["save"] = save["ability"]
-    conf_action["save_dc"] = save["dc"]
-    conf_action["save_half"] = save["half"]
+    if save is not None:
+        conf_action["save"] = save["ability"]
+        conf_action["save_dc"] = save["dc"]
+        conf_action["save_half"] = save["save_half"]
+
     return conf_action
 
 
@@ -571,47 +579,32 @@ def get_save(desc):
         return None
     
 
+# Return modifier for a given score
 def get_mod(score):
-    mod = 0
-    if score == 1:
-        mod = -5
-    elif score < 4:
-        mod = -4
-    elif score < 6:
-        mod = -3
-    elif score < 8:
-        mod = -2
-    elif score < 10:
-        mod = -1
-    elif score < 12:
-        mod = 0
-    elif score < 14:
-        mod = 1
-    elif score < 16:
-        mod = 2
-    elif score < 18:
-        mod = 3
-    elif score < 20:
-        mod = 4
-    elif score < 22:
-        mod = 5
-    elif score < 24:
-        mod = 6
-    elif score < 26:
-        mod = 7
-    elif score < 28:
-        mod = 8
-    elif score < 30:
-        mod = 9
-    else :
-        mod = 10
-    return mod
+    return score // 2 - 5
 
 
-def get_enemy(name):
+def get_xp(cr):
+    crxp = {}
+    with open(PATH + 'static/files/cr_xp.csv', 'r', encoding='utf-8-sig') as csvfile:
+        xpreader = csv.reader(csvfile)
+        for row in xpreader:
+            crxp[str(row[0])] = int(row[1])
+    return crxp[cr]
+
+def get_enemy(name, slug):
     spell_dict = get_spells()
-    enemy = pull_monster(name)
+    enemy = pull_monster(name, slug)
+    process_enemy(enemy)
+    return enemy
+
+def process_enemy(enemy):
     if enemy:
+        if "hit_points" not in enemy.keys():
+            try:
+                enemy["hit_points"] = process_hptext(enemy["hpText"])
+            except KeyError:
+                pass
         processed_enemy = process_actions(enemy)
         enemy["actions"] = processed_enemy["actions"]
         enemy["legendary_actions"] = processed_enemy["legendary_actions"]
@@ -624,6 +617,8 @@ def get_enemy(name):
             hits = hits + 3
         enemy["attacks"] = hits
         enemy["spellcaster"] = False
+        if "spell_list" not in enemy.keys():
+            enemy["spell_list"] = ""
         if len(enemy["spell_list"]) > 0:
             # convert spell api calls into spell data w/ function
             spellbook = process_spell_list(spell_dict, enemy["spell_list"])
@@ -776,7 +771,9 @@ def process_actions(enemy):
     processed_enemy["actions"] = attack_list
     align_actions(enemy["actions"], processed_enemy["actions"])
     # Process any legendary actions
-    if len(enemy["legendary_actions"]) > 0:
+    if "legendary_actions" not in enemy.keys():
+        enemy["legendary_actions"] = None
+    if enemy["legendary_actions"] is not None:
         process_legendary(enemy["legendary_actions"], processed_enemy["actions"])
         processed_enemy["legendary_actions"] = True
     else:
@@ -1019,18 +1016,86 @@ def process_spell_list(spells_dict, spell_list):
 
     return spellbook
 
+def process_statblock(enemy):
+    enemy["speed_str"] = statblock_speed(enemy["speed"])
+    enemy["skills_str"] = statblock_skills(enemy["skills"])
+    enemy["save_str"] = statblock_saves(enemy)
+    enemy["xp"] = get_xp(enemy["challenge_rating"])
+    enemy["int_stats"] = statblock_stats(enemy)
+    for action in enemy["actions"]:
+        action["desc"] = statblock_action(action["desc"])
+    return enemy
 
-def pull_monster(name):
-    url = f"https://api.open5e.com/monsters/?search={urllib.parse.quote(name)}&document__slug=wotc-srd"
+
+def statblock_action(desc):
+    # Add italics to action descriptions
+        results = re.search(r"(\w+:)(\w+)(Hit:)(\w+)", desc)
+        if results:
+            return ("<i>" + results[1] + "</i>" + results[2] + "<i>" + results[3] + "</i>" + results[4])
+        else:
+            return desc
+
+
+def statblock_saves(enemy):
+    # Generate saveing throw string
+    save_list = ["strength_save", "dexterity_save", "constitution_save", "intelligence_save", "wisdom_save", "charisma_save"]
+    save_str = ""
+    counter = 0
+    for save in save_list:
+        if enemy[save] is not None:
+            if counter > 0:
+                comma = ", "
+            else:
+                comma = ""
+            stat = save[:3].capitalize()
+            save_str = save_str + comma + stat + " +" + str(enemy[save])
+            counter += 1
+    return save_str
+
+
+def statblock_skills(skills):
+    #Generate skills string for statblock
+    skills_str = ""
+    counter = 0
+    for key in skills.keys():
+        if counter > 0:
+            comma = ", "
+        else:
+            comma = ""
+        skills_str = skills_str + comma + key.capitalize() + " +" + str(skills[key])
+        counter += 1
+    return skills_str
+
+
+def statblock_speed(speed):
+    # Generate speed string for statblock
+    speed_str = ""
+    counter = 0
+    for key in speed.keys():
+        if counter > 0:
+            comma = ", "
+        else:
+            comma = ""
+        speed_str = speed_str + comma + key.capitalize() + " " + str(speed[key]) + " ft."
+        counter += 1
+    return speed_str
+
+
+def statblock_stats(enemy):
+    int_stats = {"strength":int(enemy["strength"]), "dexterity":int(enemy["dexterity"]), "constitution":int(enemy["constitution"]), 
+                 "intelligence":int(enemy["intelligence"]), "wisdom":int(enemy["wisdom"]), "charisma":int(enemy["charisma"])}
+    return int_stats
+
+
+def pull_monster(name, slug):
+    url = f"https://api.open5e.com/monsters/?search={urllib.parse.quote(name)}&document__slug={urllib.parse.quote(slug)}"
     response = requests.get(url)
     enemy = response.json()
     if enemy["count"] == 1:
         return enemy["results"][0]
     else:
         for i in range(len(enemy["results"])):
-            enemy_name = enemy["results"][i]["slug"]
-            temp = name.lower()
-            name = temp
+            enemy_name = enemy["results"][i]["name"]
             if enemy_name == name:
                 return enemy["results"][i]
     return
@@ -1040,11 +1105,6 @@ def update_enemies(enemies, encounter):
     # read csv to link cr rating to experience points
     damge_types = ["acid", "bludgeoning", "cold", "fire", "force", "lightning", "necrotic", "piercing",
                     "poison", "psychic", "radiant", "slashing", "thunder", "nonmagical", "nonsilvered", "nonadamantine"]
-    crxp = {}
-    with open(PATH + 'static/files/cr_xp.csv', 'r', encoding='utf-8-sig') as csvfile:
-        xpreader = csv.reader(csvfile)
-        for row in xpreader:
-            crxp[str(row[0])] = int(row[1])
     # read csv to link encounter multiplier to enemy count
     enc_multiply = {}
     with open(PATH + 'static/files/encounter_multipliers.csv', 'r', encoding='utf-8-sig') as csvfile:
@@ -1071,6 +1131,8 @@ def update_enemies(enemies, encounter):
             else:
                 types[enemy["type"]] = enemy["count"]
             # handle damage resistance, immunity, and vulnerability
+            if "damage_resistances" not in enemy.keys():
+                enemy["damage_resistances"] = ""
             if len(enemy["damage_resistances"]) > 0:
                 dmg_res = parse_dmg_types(enemy["damage_resistances"])
                 for dmg_type in dmg_res:
@@ -1079,6 +1141,8 @@ def update_enemies(enemies, encounter):
                     else:
                         dmg_resist[dmg_type] = dmg_resist[dmg_type] + (enemy["count"] * enemy["hit_points"])
 
+            if "damage_immunities" not in enemy.keys():
+                enemy["damage_immunities"] = ""
             if len(enemy["damage_immunities"]) > 0:
                 dmg_imm = parse_dmg_types(enemy["damage_immunities"])
                 for dmg_type in dmg_imm:
@@ -1086,7 +1150,9 @@ def update_enemies(enemies, encounter):
                         dmg_immune[dmg_type] = enemy["count"] * enemy["hit_points"]
                     else:
                         dmg_immune[dmg_type] = dmg_immune[dmg_type] + (enemy["count"] * enemy["hit_points"])
-            
+
+            if "damage_vulnerabilities" not in enemy.keys():
+                enemy["damage_vulnerabilities"] = ""            
             if len(enemy["damage_vulnerabilities"]) > 0:
                 dmg_vul = parse_dmg_types(enemy["damage_vulnerabilities"])
                 for dmg_type in dmg_vul:
@@ -1099,7 +1165,7 @@ def update_enemies(enemies, encounter):
             total_hp = total_hp + (enemy["hit_points"] * enemy["count"])
             group_ac = group_ac + (enemy["armor_class"] * enemy["hit_points"] * enemy["count"])
             hits = hits + (enemy["attacks"] * enemy["count"])
-            total_xp = total_xp + (crxp[enemy["challenge_rating"]] * enemy["count"])
+            total_xp = total_xp + (get_xp(enemy["challenge_rating"]) * enemy["count"])
             num = num + enemy["count"]
 
             # handle saving throws

@@ -91,27 +91,28 @@
     background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba(69, 9, 32, 1)'/></svg>");
 }
 
-h1 {
+.level1 {
+    font-family: "NodestoCapsCondensed";
+    color: #041A2E;
+    text-align: center;
+}
+
+.level2 {
     font-family: "NodestoCapsCondensed";
     color: #450920;
 }
 
-h2 {
-    font-family: "NodestoCapsCondensed";
-    color: #450920;
-}
-
-h3 {
+.level3 {
     font-family: "MrEavesSmallCaps";
     color: #450920;
 }
 
-h4 {
+.level4 {
     font-family: "MrEavesSmallCaps";
     color: #450920;
 }
 
-h5 {
+.level5 {
     font-family: "Bookinsanity";
     color: #450920;
 }

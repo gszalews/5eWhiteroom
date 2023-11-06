@@ -9,15 +9,15 @@
 <div class="title-block">
     <div class="title">The Encounter</div>
 </div>
-    <h1 class="centered" style="color:#041A2E; padding:1rem">Visualize the Matchup</h1>
+    <h1 class="level1" style="color:#041A2E; padding:1rem">Visualize the Matchup</h1>
 
     {% if encounter["party"]["count"] > 0 and encounter["enemies"]["count"] > 0 %}
     <!-- Party Data Here -->
     {% if party|length and enemies|length %}
         <div class="row tablecontainer align-items-center">
-            <h1 class="centered" style="color:#450920; padding:1rem;">Encounter Stats</h1>
-            <h3 class="centered" style="color:#041A2E;">XP: {{encounter["enemies"]["xp"]}}</h3>
-            <h3 class="centered" style="color:#041A2E;">Difficulty: {{encounter["enemies"]["difficulty"]}}</h3>
+            <h1 class="level1" style="color:#450920; padding:1rem;">Encounter Stats</h1>
+            <h3 class="centered level3" style="color:#041A2E;">XP: {{encounter["enemies"]["xp"]}}</h3>
+            <h3 class="centered level3" style="color:#041A2E;">Difficulty: {{encounter["enemies"]["difficulty"]}}</h3>
             <table class="table">
                 <thead>
                     <tr>
@@ -57,7 +57,7 @@
             </table>
         </div>
 <div class="container" style="display: flex">
-    <div class="container" style="display:flex; flex-direction: column;">
+    <div class="container" style="display:flex; flex-direction: column; margin-top:auto">
         <div class="container" style="display: flex; align-items: end;">
             <div class="container" id="basedmg" style="display: none; flex-direction: column; padding: 0; max-width: 200px;">
                 {% for pc in party %}
@@ -100,7 +100,7 @@
                 {% endfor %}
             </div>
         </div>
-        <div class="centered"><h1>Party Attacks vs Enemy HP</h1></div>
+        <div class="centered"><h1 class="level1">Party Attacks vs Enemy HP</h1></div>
         <div class="container" style="display: flex; justify-content: space-evenly;">
             <button class="btn" id="base">Base Damage</button>
             <button class="btn" id="med">Medium Damage</button>
@@ -108,7 +108,7 @@
         </div>
 
     </div>
-    <div class="container" style="display:flex; flex-direction: column;">
+    <div class="container" style="display:flex; flex-direction: column; margin-top:auto">
         <div class="container" style="display: flex; align-items: end;">
             <div class="container" style="display: flex; flex-direction: column; padding: 0; max-width: 200px;">
                 {% for pc in party %}
@@ -133,7 +133,8 @@
                 {% endfor %}
             </div>
         </div>
-        <div class="centered"><h1>Party HP vs Enemy Attacks</h1></div>
+        <div class="centered"><h1 class="level1">Party HP vs Enemy Attacks</h1></div>
+        <div class="centered" id="spacerdiv" style="height:40px;"></div>
     </div>
 </div>
 
@@ -142,7 +143,7 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="modal-title fs-5">Party Members</h1>
+                        <h1 class="modal-title fs-5 level1">Party Members</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body" style="font-size: 16px;">
@@ -176,7 +177,7 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="modal-title fs-5">Enemies</h1>
+                        <h1 class="modal-title fs-5 level1">Enemies</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body" style="font-size: 16px;">
@@ -214,7 +215,7 @@
         {% else %}
         <br>
         <br>
-        <h1 class="centered">Add Party Members or Enemies to View Encounter</h1>
+        <h1 class="level1">Add Party Members or Enemies to View Encounter</h1>
         <br>
         <br>
         <br>
@@ -250,6 +251,10 @@
         const basedmg = document.getElementById('basedmg')
         const meddmg = document.getElementById('meddmg')
         const highdmg = document.getElementById('highdmg')
+        const spacerdiv = document.getElementById('spacerdiv' => {
+            spacerdiv.style.height = basedmg.style.height
+        })
+
     
         document.getElementById('base').addEventListener('click', (event) => {
             basedmg.style.display = "flex";

@@ -3,43 +3,37 @@ import requests
 
 
 def get_enemies():
-    url = "https://api.open5e.com/monsters/?document__slug=wotc-srd"
-    enemies = []
-    damage_types = []
+    '''
+    Get enemies from open5e API
+
+    :param slug: Document slug for use in API call
+    :type slug: str
+    :return: A list of enemies in JSON format
+    :rtype: list
+
+    '''
+    url = f"https://api.open5e.com/monsters/"
+    total_results = []
     response = requests.get(url)
-    enemy_section = response.json()
-    while enemy_section["next"]:
-        for enemy in enemy_section["results"]:
-            enemies.append(enemy["name"])
-            if enemy["damage_vulnerabilities"] not in damage_types:
-                damage_types.append(enemy["damage_vulnerabilities"])
-            if enemy["damage_resistances"] not in damage_types:
-                damage_types.append(enemy["damage_resistances"])
-            if enemy["damage_immunities"] not in damage_types:
-                damage_types.append(enemy["damage_immunities"])
+    data = response.json()
+    total_results = total_results + data["results"]
 
-        response = requests.get(enemy_section["next"])
-        enemy_section = response.json()
-
-    for enemy in enemy_section["results"]:
-        enemies.append(enemy["name"])
-        if enemy["damage_vulnerabilities"] not in damage_types:
-            damage_types.append(enemy["damage_vulnerabilities"])
-        if enemy["damage_resistances"] not in damage_types:
-            damage_types.append(enemy["damage_resistances"])
-        if enemy["damage_immunities"] not in damage_types:
-            damage_types.append(enemy["damage_immunities"])
-
-    info = [enemies, damage_types]
-
-    return info
+    # Loop to handle multi-page return from API call
+    while data["next"] is not None:
+        response = requests.get(data["next"])
+        data = response.json()
+        total_results = total_results + data["results"]
+    return total_results
 
 def main():
     info = get_enemies()
-    with open("enemy_names.txt", "w") as output:
-        json.dump(info[0], output, indent = 4)
-    with open("damage_types.txt", "w") as output:
-        json.dump(info[1], output, indent = 4)
+    monsters = []
+    for enemy in info:
+        e = {"name": enemy["name"], "slug": enemy["document__slug"]}
+        monsters.append(e)
+    with open("static/files/all_enemy_names.txt", "w") as output:
+        json.dump(monsters, output, indent = 4)
 
 
-main()
+if __name__ == "__main__":
+    main()

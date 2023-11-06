@@ -1,10 +1,9 @@
 import os
 import json
-
 from flask import Flask, flash, redirect, render_template, request, session, send_file
 from flask_session import Session
-from helpers import get_weapons, get_spells, get_enemy, get_prof, get_mod, update_party, update_enemies, ave_pc_dmg, ave_enemy_dmg, process_pc_spells
-
+from helpers import get_weapons, get_spells, get_enemy, get_prof, get_mod, update_party, update_enemies, ave_pc_dmg, ave_enemy_dmg, process_pc_spells, pull_monster, process_statblock, get_xp
+import re
 from tempfile import mkdtemp
 from werkzeug.utils import secure_filename
 
@@ -177,7 +176,7 @@ def party():
 
 @app.route("/enemies", methods=["GET", "POST"])
 def enemies():
-    with open(PATH + "static/files/enemy_names.txt", "r") as input:
+    with open(PATH + "static/files/all_enemy_names.txt", "r") as input:
         enemy_names = json.load(input)
     #Get enemies session data
     enemies = session.get("enemies")
@@ -193,15 +192,28 @@ def enemies():
 
     #On submit add enemy to enemy session list
     if request.method == "POST":
-        name = request.form.get("enemy")
+        name = request.form.get("monster-select")
+        result = re.search(r"^.* \((\w+|wotc-srd)\)", name)
+        if result:
+            slug = result[1]
+            name = name.replace(f" ({slug})", "")
+        else:
+            return redirect("/enemies")
         count = request.form.get("count")
         found = False
+        samename = False
         for monster in enemies:
-            if monster["name"] == name:
+            if monster["name"] == name and slug == monster["document__slug"]:
                 monster["count"] = monster["count"] + int(count)
                 found = True
+            elif monster["name"] == name and slug != monster["document__slug"]:
+                samename = True
+                monsterslug = monster["document__slug"]
+                monster["name"] = monster["name"] + f" ({monsterslug})"
         if not found:
-            enemy = get_enemy(name)
+            enemy = get_enemy(name, slug)
+            if samename:
+                enemy["name"] = enemy["name"] + f" ({slug})"
             enemy["count"] = int(count)
             session["enemies"].append(enemy)
         #Update encounter variables
@@ -219,6 +231,40 @@ def enemies():
                 dpr_total = round(dpr_total + (enemy["dpr"] * enemy["count"]), 2)
     return render_template("enemies.html", enemy_names=enemy_names, enemies=enemies, encounter=encounter, dpr_total=dpr_total)
 
+
+@app.route("/statblock", methods=["GET", "POST"])
+def statblock():
+    # with open(PATH + "static/files/all_enemy_names.txt", "r") as input:
+    #     enemy_names = json.load(input)
+    # #Get enemies session data
+    # enemies = session.get("enemies")
+    # if enemies == None:
+    #     session["enemies"] = []
+    #     enemies = session.get("enemies")
+    # #Get any encounter session data
+    # encounter = session.get("encounter")
+    # if encounter == None:
+    #     session["encounter"] = {"party": {"count": 0}, "enemies": {"count": 0}}
+    #     encounter = session.get("encounter")
+
+    if request.method == "POST":
+        name = request.form.get("monster-select")
+        result = re.search(r"^.* \((\w+|wotc-srd)\)", name)
+        if result:
+            slug = result[1]
+            name = name.replace(f" ({slug})", "")
+        else:
+            return redirect("/enemies")
+        enemy = pull_monster(name, slug)
+        enemy = process_statblock(enemy)
+    # dpr_total = 0
+    # if encounter["party"]["count"] > 0:
+    #     for enemy in enemies:
+    #         if "dpr" in enemy.keys():
+    #             dpr_total = round(dpr_total + (enemy["dpr"] * enemy["count"]), 2)
+
+        return render_template("statblock.html", enemy=enemy)
+    
 @app.route("/removeenemy", methods=["GET", "POST"])
 def removeenemy():
     if request.method == "POST":
@@ -387,14 +433,14 @@ def load():
                 if append == None:
                     session["enemies"] = []
                     enemies = session.get("enemies")
-                for enemy in data:
+                for monster in data:
                     found = False
-                    for monster in enemies:
-                        if monster["name"] == enemy["name"]:
-                            monster["count"] = monster["count"] + enemy["count"]
+                    for enemy in enemies:
+                        if enemy["name"] == monster["name"]:
+                            enemy["count"] = enemy["count"] + monster["count"]
                             found = True
                     if not found:
-                        enemies.append(enemy)
+                        enemies.append(monster)
                 update_enemies(enemies, encounter)
                 if encounter["party"]["count"] > 0:
                     for enemy in enemies:
